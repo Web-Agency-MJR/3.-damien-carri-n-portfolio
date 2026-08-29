@@ -7,6 +7,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Socials } from "./Socials";
+import { OPEN_COOKIE_PREFS } from "./CookieConsent";
 
 type Legal = { id: string; label: string; intro: string; body: { title: string; text: string }[] };
 
