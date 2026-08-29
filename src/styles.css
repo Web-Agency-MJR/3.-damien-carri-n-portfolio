@@ -21,7 +21,9 @@
 
   --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
   --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-script: "Great Vibes", "Allura", "Cormorant Garamond", cursive;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -234,34 +236,37 @@
 
 /* --- Gallery wall ------------------------------------------------------ */
 
+@utility font-script {
+  font-family: var(--font-script);
+}
+
 @utility brick-wall {
+  position: relative;
   background-color: var(--background);
   background-image:
     linear-gradient(
-      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
-      transparent 2px
+      color-mix(in oklab, var(--background) 78%, transparent),
+      color-mix(in oklab, var(--background) 78%, transparent)
     ),
-    linear-gradient(
-      90deg,
-      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
-      transparent 2px
-    ),
-    linear-gradient(
-      90deg,
-      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
-      transparent 2px
-    );
+    url("/__l5e/assets-v1/e2cf86dd-64de-4244-84e9-5081c44961e1/brick-wall.jpg");
+  background-repeat: no-repeat, repeat;
   background-size:
-    100% 64px,
-    240px 128px,
-    240px 128px;
-  background-position:
-    0 0,
-    0 0,
-    120px 64px;
+    cover,
+    620px 620px;
+  background-attachment: fixed, fixed;
+}
+
+@media (max-width: 767px) {
+  .brick-wall {
+    background-size:
+      cover,
+      340px 340px;
+    background-attachment: scroll, scroll;
+  }
 }
 
 @utility wall-vignette {
+
   background-image: radial-gradient(
     ellipse 90% 70% at 50% 30%,
     transparent,
@@ -331,4 +336,30 @@
   50% {
     opacity: 0;
   }
+}
+
+/* --- Paintbrush cursor -------------------------------------------------- */
+
+@media (hover: hover) and (pointer: fine) {
+  html.brush-cursor,
+  html.brush-cursor body {
+    cursor:
+      url("/__l5e/assets-v1/e8449852-da4d-47b1-9caa-77e35e5ff59b/brush-cursor.png") 2 2,
+      auto;
+  }
+
+  html.brush-cursor a,
+  html.brush-cursor button,
+  html.brush-cursor [role="button"],
+  html.brush-cursor summary,
+  html.brush-cursor label {
+    cursor:
+      url("/__l5e/assets-v1/e8449852-da4d-47b1-9caa-77e35e5ff59b/brush-cursor.png") 2 2,
+      pointer;
+  }
+}
+
+@utility ornate-frame {
+  position: relative;
+  filter: drop-shadow(0 26px 48px color-mix(in oklab, var(--foreground) 45%, transparent));
 }

@@ -1,27 +1,38 @@
 import portrait from "@/assets/artist-portrait.jpg";
+import goldFrame from "@/assets/gold-frame.png.asset.json";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
 export function About() {
   return (
-    <section id="sobre-mi" className="mx-auto max-w-7xl scroll-mt-32 px-6 py-20 sm:py-28">
+    <section id="sobre-mi" className="mx-auto max-w-7xl scroll-mt-32 px-6 py-16 sm:py-28">
       <div className="grid gap-14 lg:grid-cols-[0.85fr_1fr] lg:gap-20">
         <div className="lg:sticky lg:top-32 lg:self-start">
           <Reveal>
             <figure>
-              <div className="museum-frame">
-                <div className="overflow-hidden bg-muted p-[3px] ring-1 ring-foreground/15">
+              {/* Antique baroque frame: transparent PNG laid over the portrait. */}
+              <div className="ornate-frame relative mx-auto aspect-[1024/1280] w-full max-w-md">
+                <div className="absolute top-[17.2%] right-[21%] bottom-[17.2%] left-[20.5%] overflow-hidden bg-muted shadow-[inset_0_0_28px_color-mix(in_oklab,var(--foreground)_38%,transparent)]">
                   <img
                     src={portrait}
                     alt="Damien Carrión trabajando en su estudio"
                     loading="lazy"
                     width={1024}
                     height={1280}
-                    className="w-full object-cover"
+                    className="size-full object-cover"
                   />
                 </div>
+                <img
+                  src={goldFrame.url}
+                  alt=""
+                  aria-hidden
+                  loading="lazy"
+                  width={1024}
+                  height={1280}
+                  className="pointer-events-none relative size-full select-none"
+                />
               </div>
-              <figcaption className="pt-4 text-xs tracking-[0.16em] uppercase text-muted-foreground">
+              <figcaption className="pt-4 text-center text-xs tracking-[0.16em] uppercase text-muted-foreground">
                 Damien Carrión en su estudio
               </figcaption>
             </figure>
@@ -31,7 +42,7 @@ export function About() {
         <div>
           <Reveal>
             <p className="eyebrow">Sobre mí</p>
-            <h2 className="font-display mt-4 text-4xl leading-[1.1] sm:text-6xl">
+            <h2 className="font-script mt-4 text-5xl leading-[1.25] sm:text-7xl">
               Comprometido con la Forma de los Sentimientos en el Espacio…
             </h2>
             <div className="gold-rule mt-8 h-px w-24" />
@@ -39,6 +50,7 @@ export function About() {
               <p>
                 “Comprometido con la Forma de los Sentimientos en el Espacio...”. Esta es la idea.
               </p>
+
               <p>
                 Nacido en el casco antiguo de Burdeos (Francia, 1967) y de ascendencia andaluza, se
                 nos presenta a caballo entre estas dos tierras. Su primera formación vendría del

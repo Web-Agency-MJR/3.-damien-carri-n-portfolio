@@ -74,7 +74,7 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
   return (
     /* The tall track pins the hero: the page cannot advance past it until the
        sculpture has fully reassembled. */
-    <section id="inicio" ref={ref} className="relative h-[320svh]">
+    <section id="inicio" ref={ref} className="relative h-[220svh] sm:h-[320svh]">
       <div className="sticky top-0 flex h-[100svh] items-center justify-center overflow-hidden bg-cream">
         <motion.div style={{ scale }} className="absolute inset-0">
           <motion.img
@@ -113,7 +113,7 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
             Pintor · Escultor · Maestro dorador
           </motion.p>
 
-          <h1 className="font-display mt-6 flex justify-center text-[clamp(2rem,8.4vw,7rem)] leading-[1.05] font-medium tracking-tight whitespace-nowrap">
+          <h1 className="font-script mt-4 flex justify-center pb-4 text-[clamp(2.6rem,11vw,9rem)] leading-[1.15] font-normal tracking-normal whitespace-nowrap">
             <span className="sr-only">{NAME}</span>
             <span aria-hidden className="inline-flex">
               {NAME.split("").map((char, i) => (
@@ -140,7 +140,7 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.7, duration: 0.9 }}
-            className="font-serif mx-auto mt-8 max-w-xl text-xl text-foreground/70 italic sm:text-2xl"
+            className="font-serif mx-auto mt-4 max-w-xl text-lg text-foreground/70 italic sm:mt-8 sm:text-2xl"
           >
             Compartir emociones a través del Arte...
           </motion.p>
