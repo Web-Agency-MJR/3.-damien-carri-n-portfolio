@@ -46,8 +46,8 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
     >
       <nav
         className={cn(
-          "glass-bar mx-auto flex max-w-6xl items-center justify-between rounded-full py-2.5 pl-6 pr-2.5 transition-all duration-500",
-          scrolled ? "max-w-5xl" : "max-w-6xl",
+          "glass-bar mx-auto flex max-w-6xl items-center justify-between gap-4 rounded-full py-2.5 pl-6 pr-2.5 whitespace-nowrap transition-shadow duration-500",
+          scrolled && "shadow-[0_14px_40px_-24px_oklch(0_0_0/0.6)]",
         )}
       >
         <button

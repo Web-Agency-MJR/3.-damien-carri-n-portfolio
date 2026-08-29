@@ -42,6 +42,9 @@ function GalleryCard({ artwork, onOpen, index }: { artwork: Artwork; onOpen: () 
           src={artwork.imageUrl}
           alt={`${artwork.title}, ${artwork.technique}, ${artwork.year}`}
           loading="lazy"
+          ref={(node) => {
+            if (node?.complete) setLoaded(true);
+          }}
           onLoad={() => setLoaded(true)}
           className={cn(
             "w-full object-cover transition-[transform,opacity] duration-300 ease-out group-hover:scale-[1.02]",
