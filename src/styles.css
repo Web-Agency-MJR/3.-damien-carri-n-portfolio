@@ -337,3 +337,29 @@
     opacity: 0;
   }
 }
+
+/* --- Paintbrush cursor -------------------------------------------------- */
+
+@media (hover: hover) and (pointer: fine) {
+  html.brush-cursor,
+  html.brush-cursor body {
+    cursor:
+      url("/__l5e/assets-v1/e8449852-da4d-47b1-9caa-77e35e5ff59b/brush-cursor.png") 2 2,
+      auto;
+  }
+
+  html.brush-cursor a,
+  html.brush-cursor button,
+  html.brush-cursor [role="button"],
+  html.brush-cursor summary,
+  html.brush-cursor label {
+    cursor:
+      url("/__l5e/assets-v1/e8449852-da4d-47b1-9caa-77e35e5ff59b/brush-cursor.png") 2 2,
+      pointer;
+  }
+}
+
+@utility ornate-frame {
+  position: relative;
+  filter: drop-shadow(0 26px 48px color-mix(in oklab, var(--foreground) 45%, transparent));
+}
