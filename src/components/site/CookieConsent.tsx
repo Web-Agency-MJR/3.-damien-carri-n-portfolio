@@ -151,7 +151,7 @@ function Row({
         <p className="text-sm tracking-[0.12em] uppercase">{title}</p>
         <p className="font-serif mt-1 text-base leading-relaxed text-muted-foreground">{text}</p>
       </div>
-      <Switch checked={checked} disabled={disabled} onCheckedChange={onChange} />
+      <Switch checked={checked} disabled={!!disabled} onCheckedChange={onChange ?? (() => {})} />
     </div>
   );
 }
