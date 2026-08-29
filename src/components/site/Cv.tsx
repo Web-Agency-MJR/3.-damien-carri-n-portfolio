@@ -122,7 +122,7 @@ export function Cv() {
       <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
         <Reveal>
           <p className="eyebrow">CV</p>
-          <h2 className="font-display mt-4 text-4xl sm:text-5xl">Damien Carrión</h2>
+          <h2 className="font-script mt-4 text-5xl leading-tight sm:text-7xl">Damien Carrión</h2>
           <p className="font-serif mt-4 text-lg text-muted-foreground">
             Nacido en Burdeos (Francia, 1967). Vive y trabaja en Andalucía, España.
           </p>
@@ -140,7 +140,7 @@ export function Cv() {
           <Accordion type="single" collapsible defaultValue="formacion" className="w-full">
             {groups.map((group) => (
               <AccordionItem key={group.id} value={group.id} className="border-border">
-                <AccordionTrigger className="font-display py-7 text-left text-2xl hover:no-underline sm:text-3xl">
+                <AccordionTrigger className="font-display py-5 text-left text-xl leading-snug hover:no-underline sm:py-7 sm:text-3xl">
                   {group.title}
                 </AccordionTrigger>
                 <AccordionContent>
@@ -148,7 +148,7 @@ export function Cv() {
                     {group.entries.map((entry) => (
                       <li
                         key={entry}
-                        className="font-serif grid gap-2 py-4 text-lg leading-relaxed sm:grid-cols-[1.25rem_1fr] sm:gap-4"
+                        className="font-serif grid gap-1 py-3 text-base leading-relaxed sm:grid-cols-[1.25rem_1fr] sm:gap-4 sm:py-4 sm:text-lg"
                       >
                         <span className="text-xs tracking-[0.16em] text-gold sm:pt-2">—</span>
                         <span>{entry}</span>
