@@ -5,8 +5,7 @@ import { Hero } from "@/components/site/Hero";
 import { Marquee } from "@/components/site/Marquee";
 import { Gallery } from "@/components/site/Gallery";
 import { About } from "@/components/site/About";
-import { Exhibitions } from "@/components/site/Exhibitions";
-import { Projects } from "@/components/site/Projects";
+import { Cv } from "@/components/site/Cv";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import type { Artwork } from "@/data/artworks";
@@ -54,15 +53,14 @@ function Index() {
   );
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="brick-wall min-h-screen">
       <Header onNavigate={handleNavigate} />
       <main>
         <Hero onExplore={() => scrollTo("obra")} />
         <Marquee />
-        <Gallery filter={filter} onFilterChange={setFilter} onInquire={handleInquire} />
         <About />
-        <Exhibitions />
-        <Projects />
+        <Gallery filter={filter} onFilterChange={setFilter} onInquire={handleInquire} />
+        <Cv />
         <Contact subject={subject} onSubjectChange={setSubject} />
       </main>
       <Footer />
