@@ -170,7 +170,16 @@ export function Footer() {
                 </button>
               </li>
             ))}
+            <li>
+              <button
+                onClick={() => window.dispatchEvent(new Event(OPEN_COOKIE_PREFS))}
+                className="text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
+              >
+                Gestionar cookies
+              </button>
+            </li>
           </ul>
+
         </nav>
       </div>
 
