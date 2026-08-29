@@ -72,6 +72,13 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
       </motion.div>
 
       <div className="absolute inset-0 bg-gradient-to-b from-background/55 via-background/15 to-background" />
+      <div
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse 46% 34% at 50% 52%, color-mix(in oklab, var(--background) 72%, transparent), transparent 72%)",
+        }}
+      />
 
       <motion.div
         style={{ y: textY, opacity: textOpacity }}
