@@ -1,24 +1,71 @@
+import { useCallback, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
+import { Header, type NavTarget } from "@/components/site/Header";
+import { Hero } from "@/components/site/Hero";
+import { Marquee } from "@/components/site/Marquee";
+import { Gallery } from "@/components/site/Gallery";
+import { About } from "@/components/site/About";
+import { Exhibitions } from "@/components/site/Exhibitions";
+import { Projects } from "@/components/site/Projects";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
+import type { Artwork } from "@/data/artworks";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+const title = "Damien Carrión — Pintor, Escultor y Maestro Dorador";
+const description =
+  "Obra de Damien Carrión: pintura matérica, escultura en bronce y mármol y dorado al pan de oro. Portfolio, exposiciones y consultas de obra disponible.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
+  const [filter, setFilter] = useState<string>("all");
+  const [subject, setSubject] = useState("");
+
+  const scrollTo = useCallback((id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+
+  const handleNavigate = useCallback(
+    (item: NavTarget) => {
+      if (item.tab) setFilter(item.tab);
+      scrollTo(item.section);
+    },
+    [scrollTo],
+  );
+
+  const handleInquire = useCallback(
+    (artwork: Artwork) => {
+      setSubject(`Consulta sobre: ${artwork.title}`);
+      window.setTimeout(() => scrollTo("contacto"), 120);
+    },
+    [scrollTo],
+  );
+
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Header onNavigate={handleNavigate} />
+      <main>
+        <Hero onExplore={() => scrollTo("obra")} />
+        <Marquee />
+        <Gallery filter={filter} onFilterChange={setFilter} onInquire={handleInquire} />
+        <About />
+        <Exhibitions />
+        <Projects />
+        <Contact subject={subject} onSubjectChange={setSubject} />
+      </main>
+      <Footer />
     </div>
   );
 }
