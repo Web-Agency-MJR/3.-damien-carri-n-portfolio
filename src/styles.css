@@ -236,34 +236,37 @@
 
 /* --- Gallery wall ------------------------------------------------------ */
 
+@utility font-script {
+  font-family: var(--font-script);
+}
+
 @utility brick-wall {
+  position: relative;
   background-color: var(--background);
   background-image:
     linear-gradient(
-      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
-      transparent 2px
+      color-mix(in oklab, var(--background) 78%, transparent),
+      color-mix(in oklab, var(--background) 78%, transparent)
     ),
-    linear-gradient(
-      90deg,
-      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
-      transparent 2px
-    ),
-    linear-gradient(
-      90deg,
-      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
-      transparent 2px
-    );
+    url("/__l5e/assets-v1/e2cf86dd-64de-4244-84e9-5081c44961e1/brick-wall.jpg");
+  background-repeat: no-repeat, repeat;
   background-size:
-    100% 64px,
-    240px 128px,
-    240px 128px;
-  background-position:
-    0 0,
-    0 0,
-    120px 64px;
+    cover,
+    620px 620px;
+  background-attachment: fixed, fixed;
+}
+
+@media (max-width: 767px) {
+  .brick-wall {
+    background-size:
+      cover,
+      340px 340px;
+    background-attachment: scroll, scroll;
+  }
 }
 
 @utility wall-vignette {
+
   background-image: radial-gradient(
     ellipse 90% 70% at 50% 30%,
     transparent,
