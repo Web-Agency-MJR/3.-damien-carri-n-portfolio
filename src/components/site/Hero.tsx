@@ -46,7 +46,7 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
 
-  const baseOpacity = useTransform(scrollYProgress, [0, 0.7], [0.35, 1]);
+  const baseOpacity = useTransform(scrollYProgress, [0, 0.7], [0.6, 1]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, 140]);
   const textOpacity = useTransform(scrollYProgress, [0, 0.55], [1, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [1.04, 1.12]);
@@ -73,7 +73,7 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
         ))}
       </motion.div>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/30 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/55 via-background/15 to-background" />
 
       <motion.div
         style={{ y: textY, opacity: textOpacity }}
