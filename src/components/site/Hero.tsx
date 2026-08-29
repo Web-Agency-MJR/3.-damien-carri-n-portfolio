@@ -1,0 +1,117 @@
+import { useRef } from "react";
+import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
+import { ArrowDown } from "lucide-react";
+import heroSculpture from "@/assets/hero-sculpture.jpg";
+
+/** A fragment is a clipped window onto the same source image, offset while scattered. */
+type Fragment = {
+  clip: string;
+  from: { x: number; y: number; r: number };
+};
+
+const fragments: Fragment[] = [
+  { clip: "polygon(30% 0%, 62% 0%, 60% 30%, 33% 26%)", from: { x: -180, y: -120, r: -14 } },
+  { clip: "polygon(62% 2%, 78% 8%, 74% 30%, 60% 30%)", from: { x: 220, y: -160, r: 18 } },
+  { clip: "polygon(64% 30%, 80% 32%, 78% 60%, 63% 58%)", from: { x: 260, y: 40, r: 12 } },
+  { clip: "polygon(58% 58%, 80% 60%, 82% 96%, 57% 94%)", from: { x: 180, y: 180, r: -10 } },
+  { clip: "polygon(20% 68%, 36% 70%, 34% 98%, 18% 96%)", from: { x: -240, y: 150, r: 16 } },
+  { clip: "polygon(0% 40%, 18% 42%, 16% 78%, 0% 76%)", from: { x: -300, y: -40, r: -20 } },
+  { clip: "polygon(82% 62%, 100% 64%, 100% 98%, 80% 96%)", from: { x: 320, y: 200, r: 22 } },
+];
+
+function FragmentLayer({ fragment, progress }: { fragment: Fragment; progress: MotionValue<number> }) {
+  const x = useTransform(progress, [0, 0.75], [fragment.from.x, 0]);
+  const y = useTransform(progress, [0, 0.75], [fragment.from.y, 0]);
+  const rotate = useTransform(progress, [0, 0.75], [fragment.from.r, 0]);
+  const opacity = useTransform(progress, [0, 0.15], [0.55, 1]);
+
+  return (
+    <motion.div
+      aria-hidden
+      style={{ x, y, rotate, opacity, clipPath: fragment.clip }}
+      className="absolute inset-0"
+    >
+      <img
+        src={heroSculpture}
+        alt=""
+        width={1536}
+        height={1024}
+        className="size-full object-cover"
+      />
+    </motion.div>
+  );
+}
+
+export function Hero({ onExplore }: { onExplore: () => void }) {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+
+  const baseOpacity = useTransform(scrollYProgress, [0, 0.7], [0.35, 1]);
+  const textY = useTransform(scrollYProgress, [0, 1], [0, 140]);
+  const textOpacity = useTransform(scrollYProgress, [0, 0.55], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1.04, 1.12]);
+
+  return (
+    <section
+      id="inicio"
+      ref={ref}
+      className="relative flex min-h-[100svh] items-center justify-center overflow-hidden bg-cream"
+    >
+      <motion.div style={{ scale }} className="absolute inset-0">
+        {/* assembled base, fades in as fragments converge */}
+        <motion.img
+          src={heroSculpture}
+          alt="Escultura fragmentada de Damien Carrión que se recompone al desplazarse"
+          width={1536}
+          height={1024}
+          fetchPriority="high"
+          className="size-full object-cover"
+          style={{ opacity: baseOpacity }}
+        />
+        {fragments.map((fragment, i) => (
+          <FragmentLayer key={i} fragment={fragment} progress={scrollYProgress} />
+        ))}
+      </motion.div>
+
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/30 to-background" />
+
+      <motion.div
+        style={{ y: textY, opacity: textOpacity }}
+        className="relative z-10 mx-auto max-w-4xl px-6 text-center"
+      >
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.1, duration: 0.8 }}
+          className="eyebrow"
+        >
+          Pintor · Escultor · Maestro dorador
+        </motion.p>
+
+        <h1 className="paint-reveal font-display mt-6 text-[clamp(3rem,11vw,8.5rem)] leading-[0.92] font-medium tracking-tight">
+          Damien Carrión
+        </h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.5, duration: 0.9 }}
+          className="font-serif mx-auto mt-8 max-w-xl text-xl text-foreground/70 italic sm:text-2xl"
+        >
+          Compartir emociones a través del Arte...
+        </motion.p>
+
+        <motion.button
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.9, duration: 0.8 }}
+          onClick={onExplore}
+          className="group mt-12 inline-flex items-center gap-3 rounded-full border border-foreground/20 px-7 py-3.5 text-[0.72rem] tracking-[0.22em] uppercase transition-colors hover:bg-foreground hover:text-background"
+        >
+          Ver la obra
+          <ArrowDown className="size-3.5 transition-transform group-hover:translate-y-0.5" strokeWidth={1.5} />
+        </motion.button>
+      </motion.div>
+    </section>
+  );
+}
