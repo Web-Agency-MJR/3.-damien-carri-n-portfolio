@@ -62,7 +62,7 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
             <li key={item.label}>
               <button
                 onClick={() => go(item)}
-                className="relative rounded-full px-3 py-2 text-[0.78rem] tracking-wide text-muted-foreground transition-colors hover:text-foreground"
+                className="relative shrink-0 rounded-full px-2.5 py-2 text-[0.76rem] whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
               >
                 {item.label}
               </button>

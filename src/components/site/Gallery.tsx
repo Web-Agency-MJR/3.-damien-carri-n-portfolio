@@ -37,18 +37,15 @@ function GalleryCard({ artwork, onOpen, index }: { artwork: Artwork; onOpen: () 
       className="group mb-6 block w-full break-inside-avoid overflow-hidden rounded-sm bg-card text-left"
     >
       <div className="relative overflow-hidden">
-        {!loaded && <Skeleton className="absolute inset-0 size-full" />}
+        {!loaded && <Skeleton className="absolute inset-0 z-10 size-full rounded-none" />}
         <img
           src={artwork.imageUrl}
           alt={`${artwork.title}, ${artwork.technique}, ${artwork.year}`}
           loading="lazy"
-          ref={(node) => {
-            if (node?.complete) setLoaded(true);
-          }}
           onLoad={() => setLoaded(true)}
+          onError={() => setLoaded(true)}
           className={cn(
-            "w-full object-cover transition-[transform,opacity] duration-300 ease-out group-hover:scale-[1.02]",
-            loaded ? "opacity-100" : "opacity-0",
+            "relative w-full object-cover transition-transform duration-300 ease-out group-hover:scale-[1.02]",
           )}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
