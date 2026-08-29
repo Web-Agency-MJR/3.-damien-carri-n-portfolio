@@ -11,12 +11,9 @@ type Fragment = {
 
 const fragments: Fragment[] = [
   { clip: "polygon(30% 0%, 62% 0%, 60% 30%, 33% 26%)", from: { x: -180, y: -120, r: -14 } },
-  { clip: "polygon(62% 2%, 78% 8%, 74% 30%, 60% 30%)", from: { x: 220, y: -160, r: 18 } },
-  { clip: "polygon(64% 30%, 80% 32%, 78% 60%, 63% 58%)", from: { x: 260, y: 40, r: 12 } },
-  { clip: "polygon(58% 58%, 80% 60%, 82% 96%, 57% 94%)", from: { x: 180, y: 180, r: -10 } },
-  { clip: "polygon(20% 68%, 36% 70%, 34% 98%, 18% 96%)", from: { x: -240, y: 150, r: 16 } },
-  { clip: "polygon(0% 40%, 18% 42%, 16% 78%, 0% 76%)", from: { x: -300, y: -40, r: -20 } },
-  { clip: "polygon(82% 62%, 100% 64%, 100% 98%, 80% 96%)", from: { x: 320, y: 200, r: 22 } },
+  { clip: "polygon(63% 30%, 80% 32%, 78% 60%, 62% 58%)", from: { x: 190, y: 30, r: 12 } },
+  { clip: "polygon(22% 70%, 38% 72%, 36% 98%, 20% 96%)", from: { x: -170, y: 120, r: 14 } },
+  { clip: "polygon(64% 62%, 82% 64%, 84% 98%, 62% 96%)", from: { x: 200, y: 150, r: -9 } },
 ];
 
 function FragmentLayer({ fragment, progress }: { fragment: Fragment; progress: MotionValue<number> }) {
