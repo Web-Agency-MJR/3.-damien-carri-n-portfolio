@@ -1,13 +1,22 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { Instagram, Mail, Send } from "lucide-react";
+import { motion } from "motion/react";
+import { Mail, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 import { Reveal } from "./Reveal";
+import { Socials } from "./Socials";
 import { cn } from "@/lib/utils";
 
 type Errors = Partial<Record<"nombre" | "email" | "asunto" | "mensaje", string>>;
 
 const fieldClass =
-  "w-full border-0 border-b border-border bg-transparent py-3 text-base outline-none transition-colors placeholder:text-muted-foreground/70 focus:border-foreground";
+  "peer w-full border-0 border-b border-border bg-transparent py-3 text-base outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-gold";
+
+const quickSubjects = [
+  "Obra disponible",
+  "Encargo personalizado",
+  "Restauración y dorado",
+  "Visita al estudio",
+];
 
 export function Contact({ subject, onSubjectChange }: { subject: string; onSubjectChange: (v: string) => void }) {
   const [values, setValues] = useState({ nombre: "", email: "", mensaje: "" });
@@ -47,8 +56,21 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
   };
 
   return (
-    <section id="contacto" className="border-t border-border scroll-mt-32">
-      <div className="mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-2 lg:gap-24 sm:py-28">
+    <section id="contacto" className="relative overflow-hidden border-t border-border scroll-mt-32">
+      <motion.div
+        aria-hidden
+        initial={{ opacity: 0, scale: 0.85 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
+        className="pointer-events-none absolute -top-40 -right-32 size-[34rem] rounded-full opacity-60 blur-3xl"
+        style={{
+          background:
+            "radial-gradient(circle, color-mix(in oklab, var(--gold) 32%, transparent), transparent 70%)",
+        }}
+      />
+
+      <div className="relative mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[0.9fr_1fr] lg:gap-24 sm:py-28">
         <Reveal>
           <p className="eyebrow">Contacto</p>
           <h2 className="font-display mt-4 text-4xl leading-[1.1] sm:text-6xl">
@@ -59,94 +81,119 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
             previa.
           </p>
 
-          <div className="mt-10 space-y-4">
+          <div className="mt-10 space-y-3">
             <a
               href="mailto:damiencarrion13@gmail.com"
-              className="group flex items-center gap-4 border-b border-border py-4 transition-colors hover:border-foreground"
+              className="group flex items-center gap-4 rounded-sm border border-border bg-card/70 px-5 py-4 backdrop-blur transition-all hover:-translate-y-0.5 hover:border-gold hover:shadow-[0_18px_40px_-28px_oklch(0_0_0/0.7)]"
             >
               <Mail className="size-4 text-gold" strokeWidth={1.5} />
               <span className="font-serif text-lg">damiencarrion13@gmail.com</span>
             </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="group flex items-center gap-4 border-b border-border py-4 transition-colors hover:border-foreground"
-            >
-              <Instagram className="size-4 text-gold" strokeWidth={1.5} />
-              <span className="font-serif text-lg">@damiencarrion</span>
-            </a>
+            <div className="flex items-center gap-4 rounded-sm border border-border bg-card/70 px-5 py-4 backdrop-blur">
+              <MapPin className="size-4 text-gold" strokeWidth={1.5} />
+              <span className="font-serif text-lg">Andalucía, España</span>
+            </div>
           </div>
+
+          <Socials className="mt-8" />
         </Reveal>
 
         <Reveal delay={0.1}>
-          <form onSubmit={submit} noValidate className="space-y-8">
-            <div>
-              <label htmlFor="nombre" className="eyebrow">
-                Nombre
-              </label>
-              <input
-                id="nombre"
-                value={values.nombre}
-                onChange={(e) => setValues((v) => ({ ...v, nombre: e.target.value }))}
-                placeholder="Tu nombre"
-                className={fieldClass}
-              />
-              {errors.nombre && <p className="mt-2 text-xs text-destructive">{errors.nombre}</p>}
+          <form
+            onSubmit={submit}
+            noValidate
+            className="rounded-sm border border-border bg-card/80 p-7 backdrop-blur sm:p-10"
+          >
+            <div className="flex flex-wrap gap-2">
+              {quickSubjects.map((q) => (
+                <button
+                  key={q}
+                  type="button"
+                  onClick={() => onSubjectChange(q)}
+                  className={cn(
+                    "rounded-full border px-4 py-2 text-[0.7rem] tracking-[0.14em] uppercase transition-all hover:-translate-y-0.5",
+                    subject === q
+                      ? "border-transparent bg-primary text-primary-foreground"
+                      : "border-border text-muted-foreground hover:border-gold hover:text-foreground",
+                  )}
+                >
+                  {q}
+                </button>
+              ))}
             </div>
 
-            <div>
-              <label htmlFor="email" className="eyebrow">
-                Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                value={values.email}
-                onChange={(e) => setValues((v) => ({ ...v, email: e.target.value }))}
-                placeholder="tu@email.com"
-                className={fieldClass}
-              />
-              {errors.email && <p className="mt-2 text-xs text-destructive">{errors.email}</p>}
+            <div className="mt-8 space-y-7">
+              <div className="grid gap-7 sm:grid-cols-2">
+                <div>
+                  <label htmlFor="nombre" className="eyebrow">
+                    Nombre
+                  </label>
+                  <input
+                    id="nombre"
+                    value={values.nombre}
+                    onChange={(e) => setValues((v) => ({ ...v, nombre: e.target.value }))}
+                    placeholder="Tu nombre"
+                    className={fieldClass}
+                  />
+                  {errors.nombre && <p className="mt-2 text-xs text-destructive">{errors.nombre}</p>}
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="eyebrow">
+                    Email
+                  </label>
+                  <input
+                    id="email"
+                    type="email"
+                    value={values.email}
+                    onChange={(e) => setValues((v) => ({ ...v, email: e.target.value }))}
+                    placeholder="tu@email.com"
+                    className={fieldClass}
+                  />
+                  {errors.email && <p className="mt-2 text-xs text-destructive">{errors.email}</p>}
+                </div>
+              </div>
+
+              <div>
+                <label htmlFor="asunto" className="eyebrow">
+                  Asunto
+                </label>
+                <input
+                  id="asunto"
+                  value={subject}
+                  onChange={(e) => onSubjectChange(e.target.value)}
+                  placeholder="Motivo de tu consulta"
+                  className={cn(fieldClass, highlight && "border-gold")}
+                />
+                {errors.asunto && <p className="mt-2 text-xs text-destructive">{errors.asunto}</p>}
+              </div>
+
+              <div>
+                <label htmlFor="mensaje" className="eyebrow">
+                  Mensaje
+                </label>
+                <textarea
+                  id="mensaje"
+                  rows={4}
+                  value={values.mensaje}
+                  onChange={(e) => setValues((v) => ({ ...v, mensaje: e.target.value }))}
+                  placeholder="Cuéntame en qué puedo ayudarte"
+                  className={cn(fieldClass, "resize-none")}
+                />
+                {errors.mensaje && <p className="mt-2 text-xs text-destructive">{errors.mensaje}</p>}
+              </div>
             </div>
 
-            <div>
-              <label htmlFor="asunto" className="eyebrow">
-                Asunto
-              </label>
-              <input
-                id="asunto"
-                value={subject}
-                onChange={(e) => onSubjectChange(e.target.value)}
-                placeholder="Motivo de tu consulta"
-                className={cn(fieldClass, highlight && "border-gold")}
-              />
-              {errors.asunto && <p className="mt-2 text-xs text-destructive">{errors.asunto}</p>}
-            </div>
-
-            <div>
-              <label htmlFor="mensaje" className="eyebrow">
-                Mensaje
-              </label>
-              <textarea
-                id="mensaje"
-                rows={4}
-                value={values.mensaje}
-                onChange={(e) => setValues((v) => ({ ...v, mensaje: e.target.value }))}
-                placeholder="Cuéntame en qué puedo ayudarte"
-                className={cn(fieldClass, "resize-none")}
-              />
-              {errors.mensaje && <p className="mt-2 text-xs text-destructive">{errors.mensaje}</p>}
-            </div>
-
-            <button
+            <motion.button
               type="submit"
               disabled={sending}
-              className="group inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-[0.72rem] tracking-[0.2em] uppercase text-primary-foreground transition-opacity hover:opacity-85 disabled:opacity-50"
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.98 }}
+              className="group mt-9 inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-[0.72rem] tracking-[0.2em] uppercase text-primary-foreground transition-opacity hover:opacity-85 disabled:opacity-50"
             >
               {sending ? "Enviando..." : "Enviar mensaje"}
               <Send className="size-3.5 transition-transform group-hover:translate-x-1" strokeWidth={1.5} />
-            </button>
+            </motion.button>
           </form>
         </Reveal>
       </div>
