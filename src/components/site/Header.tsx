@@ -12,13 +12,12 @@ export type NavTarget = {
 
 export const navItems: NavTarget[] = [
   { label: "Home", section: "inicio" },
-  { label: "About me", section: "sobre-mi" },
+  { label: "Sobre mí", section: "sobre-mi" },
   { label: "Gallery (2D)", section: "obra", tab: "2D" },
   { label: "Gallery V (GOLD)", section: "obra", tab: "GOLD" },
   { label: "Gallery (3D)", section: "obra", tab: "3D" },
   { label: "Vídeos", section: "obra", tab: "Videos" },
   { label: "CV", section: "curriculum" },
-  { label: "Proyectos", section: "proyectos" },
 ];
 
 export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }) {

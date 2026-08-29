@@ -231,3 +231,104 @@
     transform: translate3d(-50%, 0, 0);
   }
 }
+
+/* --- Gallery wall ------------------------------------------------------ */
+
+@utility brick-wall {
+  background-color: var(--background);
+  background-image:
+    linear-gradient(
+      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in oklab, var(--foreground) 4%, transparent) 2px,
+      transparent 2px
+    );
+  background-size:
+    100% 64px,
+    240px 128px,
+    240px 128px;
+  background-position:
+    0 0,
+    0 0,
+    120px 64px;
+}
+
+@utility wall-vignette {
+  background-image: radial-gradient(
+    ellipse 90% 70% at 50% 30%,
+    transparent,
+    color-mix(in oklab, var(--foreground) 7%, transparent)
+  );
+}
+
+@utility museum-frame {
+  padding: 0.9rem;
+  border-radius: 2px;
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in oklab, var(--gold) 72%, white),
+      var(--gold) 28%,
+      color-mix(in oklab, var(--gold) 60%, black) 52%,
+      var(--gold) 74%,
+      color-mix(in oklab, var(--gold) 78%, white)
+    );
+  box-shadow:
+    0 24px 60px -28px color-mix(in oklab, var(--foreground) 70%, transparent),
+    inset 0 0 0 1px color-mix(in oklab, var(--foreground) 22%, transparent);
+}
+
+@utility paint-icon {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    color 0.4s ease,
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(
+      135deg,
+      color-mix(in oklab, var(--gold) 85%, white),
+      var(--gold)
+    );
+    transform: scale(0.2) rotate(-12deg);
+    opacity: 0;
+    transition:
+      transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 0.35s ease;
+  }
+
+  &:hover {
+    color: var(--primary-foreground);
+    transform: translateY(-2px);
+  }
+
+  &:hover::before {
+    transform: scale(1.15) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@utility caret-blink {
+  animation: caret-pulse 0.9s steps(1) infinite;
+}
+
+@keyframes caret-pulse {
+  50% {
+    opacity: 0;
+  }
+}

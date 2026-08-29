@@ -1,14 +1,6 @@
 import portrait from "@/assets/artist-portrait.jpg";
 import { Reveal } from "./Reveal";
-
-const milestones = [
-  { year: "1998", text: "Primeros años de formación en talla de madera y policromía en un taller de imaginería." },
-  { year: "2004", text: "Licenciatura en Bellas Artes. Se especializa en escultura y técnicas de fundición." },
-  { year: "2009", text: "Aprende el dorado al agua tradicional con bol armenio junto a maestros doradores." },
-  { year: "2014", text: "Abre estudio propio: pintura, escultura y taller de dorado bajo un mismo techo." },
-  { year: "2019", text: "Primera gran individual dedicada íntegramente a la serie de obra dorada." },
-  { year: "2024", text: "Obra en colecciones privadas de España, Francia y México." },
-];
+import { Socials } from "./Socials";
 
 export function About() {
   return (
@@ -16,15 +8,19 @@ export function About() {
       <div className="grid gap-14 lg:grid-cols-[0.85fr_1fr] lg:gap-20">
         <div className="lg:sticky lg:top-32 lg:self-start">
           <Reveal>
-            <figure className="overflow-hidden rounded-sm bg-muted">
-              <img
-                src={portrait}
-                alt="Damien Carrión trabajando en su estudio"
-                loading="lazy"
-                width={1024}
-                height={1280}
-                className="w-full object-cover"
-              />
+            <figure>
+              <div className="museum-frame">
+                <div className="overflow-hidden bg-muted p-[3px] ring-1 ring-foreground/15">
+                  <img
+                    src={portrait}
+                    alt="Damien Carrión trabajando en su estudio"
+                    loading="lazy"
+                    width={1024}
+                    height={1280}
+                    className="w-full object-cover"
+                  />
+                </div>
+              </div>
               <figcaption className="pt-4 text-xs tracking-[0.16em] uppercase text-muted-foreground">
                 Damien Carrión en su estudio
               </figcaption>
@@ -34,41 +30,42 @@ export function About() {
 
         <div>
           <Reveal>
-            <p className="eyebrow">Manifiesto</p>
+            <p className="eyebrow">Sobre mí</p>
             <h2 className="font-display mt-4 text-4xl leading-[1.1] sm:text-6xl">
-              Manipulador de material artístico
+              Comprometido con la Forma de los Sentimientos en el Espacio…
             </h2>
             <div className="gold-rule mt-8 h-px w-24" />
             <div className="font-serif mt-8 space-y-6 text-lg leading-relaxed text-foreground/80 sm:text-xl">
               <p>
-                “Manipulador de material artístico... un paseo por las calles de mis adentros.” No
-                busco representar el mundo: busco que la materia recuerde lo que yo he sentido al
-                tocarla.
+                “Comprometido con la Forma de los Sentimientos en el Espacio...”. Esta es la idea.
               </p>
               <p>
-                Trabajo la pintura como si fuera relieve, la escultura como si fuera dibujo y el oro
-                como si fuera luz detenida. El barro se agrieta, el bronce se enfría, el pan de oro se
-                rompe: cada material impone su carácter y mi oficio consiste en escucharlo antes de
-                imponerle una forma.
+                Nacido en el casco antiguo de Burdeos (Francia, 1967) y de ascendencia andaluza, se
+                nos presenta a caballo entre estas dos tierras. Su primera formación vendría del
+                propio atelier de Pintura de su padre, pintor artístico de profesión. Más tarde,
+                pasaría por las Escuelas de Arte y Oficios de Almería, Málaga y Sevilla.
               </p>
               <p>
-                Lo que queda al final no es un objeto, es una emoción compartida entre quien la hizo y
-                quien la mira.
+                En Pintura (2D) como en Escultura (3D), trabaja sobre una manufactura de Obras con
+                carácter eminentemente único y original, alejado de corrientes y aires efímeros
+                propios de corrientes temporales. En esta última disciplina, en la Escultura, es
+                donde más simbólica se ve su obra a la par que desarrolla su Proyecto artístico
+                personal “los Adoquines del Pensamiento”.
               </p>
+              <p>Ayer, Hoy y Mañana, veraz, sigue buscando...</p>
             </div>
-          </Reveal>
 
-          <Reveal delay={0.1} className="mt-16">
-            <p className="eyebrow">Trayectoria</p>
-            <ol className="mt-8 border-l border-border">
-              {milestones.map((m) => (
-                <li key={m.year} className="relative pb-9 pl-8 last:pb-0">
-                  <span className="absolute top-1.5 -left-[4.5px] size-2 rounded-full bg-gold" />
-                  <p className="font-display text-xl">{m.year}</p>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{m.text}</p>
-                </li>
-              ))}
-            </ol>
+            <div className="mt-10 border-t border-border pt-8">
+              <p className="font-display text-xl">Damien Carrión</p>
+              <p className="mt-1 text-sm text-muted-foreground">Andalucía, España</p>
+              <a
+                href="mailto:damiencarrion13@gmail.com"
+                className="mt-1 inline-block text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
+              >
+                damiencarrion13@gmail.com
+              </a>
+              <Socials className="mt-6" />
+            </div>
           </Reveal>
         </div>
       </div>
