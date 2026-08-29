@@ -52,7 +52,7 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
       >
         <button
           onClick={() => go({ label: "Home", section: "inicio" })}
-          className="font-display text-sm tracking-[0.32em] uppercase transition-opacity hover:opacity-60"
+          className="font-display shrink-0 text-sm tracking-[0.28em] whitespace-nowrap uppercase transition-opacity hover:opacity-60"
         >
           Damien Carrión
         </button>
