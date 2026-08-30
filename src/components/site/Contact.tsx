@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Mail, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 import { Reveal } from "./Reveal";
-import { Socials } from "./Socials";
+
 import { cn } from "@/lib/utils";
 
 type Errors = Partial<Record<"nombre" | "email" | "asunto" | "mensaje", string>>;

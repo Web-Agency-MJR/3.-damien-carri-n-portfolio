@@ -14,7 +14,7 @@ export const galleryFilters = [
   { value: "3D", label: "Escultura (3D)" },
   { value: "GOLD", label: "Dorado (Gallery V)" },
   { value: "Videos", label: "Vídeos" },
-  { value: "available", label: "Obra Disponible" },
+  
 ] as const;
 
 function statusClass(status: Artwork["status"]) {
