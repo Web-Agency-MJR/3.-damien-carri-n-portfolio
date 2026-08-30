@@ -94,8 +94,6 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
               <span className="font-serif text-lg">Andalucía, España</span>
             </div>
           </div>
-
-          <Socials className="mt-8" />
         </Reveal>
 
         <Reveal delay={0.1}>
