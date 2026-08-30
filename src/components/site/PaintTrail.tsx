@@ -1,12 +1,16 @@
 import { useEffect, useRef } from "react";
 
-type Point = { x: number; y: number; t: number; w: number };
+type Point = { x: number; y: number; t: number };
 
 const LIFE = 5000; // ms until a stroke fully fades out
+const INK = { r: 0, g: 0, b: 0, a: 0.6 } as const;
+const WIDTH = 1.5;
 
 /**
- * Full-screen canvas that paints a delicate brush trail following the pointer.
- * Every segment fades smoothly to opacity 0 exactly 5s after being drawn.
+ * Full-screen canvas that paints a fine ink trail following the pointer.
+ * Strokes are smoothed with quadratic bézier curves through point midpoints
+ * (never raw lineTo between raw coordinates, which looks dotted/jagged),
+ * and every segment fades smoothly to opacity 0 exactly 5s after being drawn.
  * Disabled on touch/coarse pointers and when reduced motion is requested.
  */
 export function PaintTrail() {
@@ -40,15 +44,17 @@ export function PaintTrail() {
 
     const onMove = (e: PointerEvent) => {
       const now = performance.now();
-      const dx = last ? e.clientX - last.x : 0;
-      const dy = last ? e.clientY - last.y : 0;
-      const speed = Math.hypot(dx, dy);
-      const w = Math.max(1.2, Math.min(5.5, 5.5 - speed * 0.09));
-      const p: Point = { x: e.clientX, y: e.clientY, t: now, w };
-      if (last && now - last.t > 220) points.push({ ...p, t: -1 }); // pen-up break
+      const p: Point = { x: e.clientX, y: e.clientY, t: now };
+      // Pen-up break when the pointer resumes after a pause.
+      if (last && now - last.t > 220) points.push({ ...p, t: -1 });
       points.push(p);
       last = p;
       if (points.length > 900) points = points.slice(-900);
+    };
+
+    const alphaFor = (t: number, now: number) => {
+      const life = 1 - (now - t) / LIFE;
+      return life <= 0 ? 0 : life * life * INK.a;
     };
 
     const draw = () => {
@@ -64,34 +70,33 @@ export function PaintTrail() {
 
       ctx.lineCap = "round";
       ctx.lineJoin = "round";
+      ctx.lineWidth = WIDTH;
+      // Crisp fine-ink line: no shadows, no glow, no secondary bleed.
 
-      let alive: Point[] = [];
+      // Draw the polyline as bézier segments through the midpoints of
+      // consecutive points: each curve runs from mid(prev,a) to mid(a,b)
+      // with `a` as control point, giving one continuous organic stroke.
+      let alive = 0;
       for (let i = 1; i < points.length; i++) {
         const a = points[i - 1]!;
         const b = points[i]!;
-        if (b.t < 0 || a.t < 0) continue;
-        const age = now - b.t;
-        if (age > LIFE) continue;
-        alive.push(b);
+        if (a.t < 0 || b.t < 0) continue;
+        const alpha = alphaFor(b.t, now);
+        if (alpha <= 0) continue;
+        alive++;
 
-        const life = 1 - age / LIFE;
-        const alpha = life * life * 0.55;
-        ctx.strokeStyle = `rgba(28, 26, 24, ${alpha})`;
-        ctx.lineWidth = b.w * (0.4 + life * 0.6);
+        const midAx = i > 1 && points[i - 2]!.t >= 0 ? (points[i - 2]!.x + a.x) / 2 : a.x;
+        const midAy = i > 1 && points[i - 2]!.t >= 0 ? (points[i - 2]!.y + a.y) / 2 : a.y;
+        const midBx = (a.x + b.x) / 2;
+        const midBy = (a.y + b.y) / 2;
+
+        ctx.strokeStyle = `rgba(${INK.r}, ${INK.g}, ${INK.b}, ${alpha})`;
         ctx.beginPath();
-        ctx.moveTo(a.x, a.y);
-        const mx = (a.x + b.x) / 2;
-        const my = (a.y + b.y) / 2;
-        ctx.quadraticCurveTo(a.x, a.y, mx, my);
-        ctx.lineTo(b.x, b.y);
-        ctx.stroke();
-
-        // faint gilded bleed for a painted feel
-        ctx.strokeStyle = `rgba(186, 148, 74, ${alpha * 0.45})`;
-        ctx.lineWidth = b.w * (1.6 + life);
+        ctx.moveTo(midAx, midAy);
+        ctx.quadraticCurveTo(a.x, a.y, midBx, midBy);
         ctx.stroke();
       }
-      if (alive.length + 4 < points.length) points = points.slice(-(alive.length + 4));
+      if (alive + 8 < points.length) points = points.slice(-(alive + 8));
     };
 
     window.addEventListener("pointermove", onMove, { passive: true });
