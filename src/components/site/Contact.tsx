@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Mail, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 import { Reveal } from "./Reveal";
-import { Socials } from "./Socials";
+
 import { cn } from "@/lib/utils";
 
 type Errors = Partial<Record<"nombre" | "email" | "asunto" | "mensaje", string>>;
@@ -94,8 +94,6 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
               <span className="font-serif text-lg">Andalucía, España</span>
             </div>
           </div>
-
-          <Socials className="mt-8" />
         </Reveal>
 
         <Reveal delay={0.1}>

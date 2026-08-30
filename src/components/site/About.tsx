@@ -32,9 +32,6 @@ export function About() {
                   className="pointer-events-none relative size-full select-none"
                 />
               </div>
-              <figcaption className="pt-4 text-center text-xs tracking-[0.16em] uppercase text-muted-foreground">
-                Damien Carrión en su estudio
-              </figcaption>
             </figure>
           </Reveal>
         </div>
