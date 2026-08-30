@@ -127,12 +127,6 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
                   {char === " " ? "\u00a0" : char}
                 </motion.span>
               ))}
-              <motion.span
-                initial={{ opacity: 0 }}
-                animate={{ opacity: [0, 1, 1, 0] }}
-                transition={{ times: [0, 0.02, 0.95, 1], duration: 0.35 + NAME.length * 0.07 + 0.8 }}
-                className="ml-1 inline-block w-[0.06em] self-stretch bg-foreground"
-              />
             </span>
           </h1>
 
