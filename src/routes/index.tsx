@@ -10,7 +10,7 @@ import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { PaintTrail } from "@/components/site/PaintTrail";
 import { CookieConsent } from "@/components/site/CookieConsent";
-import type { Artwork } from "@/data/artworks";
+import { galleries, type GalleryWork } from "@/data/galleries";
 
 const title = "Damien Carrión — Pintor, Escultor y Maestro Dorador";
 const description =
@@ -40,15 +40,15 @@ function Index() {
 
   const handleNavigate = useCallback(
     (item: NavTarget) => {
-      if (item.tab) setFilter(item.tab);
+      if (item.tab) setFilter(galleries.some((g) => g.id === item.tab) ? item.tab : "all");
       scrollTo(item.section);
     },
     [scrollTo],
   );
 
   const handleInquire = useCallback(
-    (artwork: Artwork) => {
-      setSubject(`Consulta sobre: ${artwork.title}`);
+    (work: GalleryWork) => {
+      setSubject(`Consulta sobre: ${work.title}`);
       window.setTimeout(() => scrollTo("contacto"), 120);
     },
     [scrollTo],
