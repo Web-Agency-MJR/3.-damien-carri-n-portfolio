@@ -57,10 +57,10 @@ export function WorkLightbox({
           <div className="grid lg:grid-cols-[1.4fr_1fr]">
             <div
               className="relative flex items-center justify-center overflow-hidden bg-secondary p-4 sm:p-8"
-              onTouchStart={(e) => (touchX.current = e.touches[0].clientX)}
+              onTouchStart={(e) => (touchX.current = e.touches[0]?.clientX ?? null)}
               onTouchEnd={(e) => {
                 if (touchX.current === null) return;
-                const dx = e.changedTouches[0].clientX - touchX.current;
+                const dx = (e.changedTouches[0]?.clientX ?? 0) - touchX.current;
                 if (Math.abs(dx) > 48) step(dx < 0 ? 1 : -1);
                 touchX.current = null;
               }}

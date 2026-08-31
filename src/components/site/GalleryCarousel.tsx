@@ -43,11 +43,11 @@ export function GalleryCarousel({
       onMouseLeave={() => setPaused(false)}
       onTouchStart={(e) => {
         setPaused(true);
-        touchX.current = e.touches[0].clientX;
+        touchX.current = e.touches[0]?.clientX ?? null;
       }}
       onTouchEnd={(e) => {
         if (touchX.current !== null) {
-          const dx = e.changedTouches[0].clientX - touchX.current;
+          const dx = (e.changedTouches[0]?.clientX ?? 0) - touchX.current;
           if (Math.abs(dx) > 40) step(dx < 0 ? 1 : -1);
           touchX.current = null;
         }
