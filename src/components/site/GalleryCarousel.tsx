@@ -31,8 +31,8 @@ export function GalleryCarousel({
     };
   }, [paused, works.length, delay, index === -1]);
 
-  if (works.length === 0) return null;
-  const work = works[index];
+  const work = works[index] ?? works[0];
+  if (!work) return null;
 
   const step = (d: number) => setIndex((i) => (i + d + works.length) % works.length);
 

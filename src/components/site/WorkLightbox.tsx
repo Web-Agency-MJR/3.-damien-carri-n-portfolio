@@ -19,7 +19,7 @@ export function WorkLightbox({
   onIndexChange: (index: number) => void;
   onInquire: (work: GalleryWork) => void;
 }) {
-  const work = context ? context.works[context.index] : null;
+  const work = context ? (context.works[context.index] ?? null) : null;
   const total = context?.works.length ?? 0;
   const touchX = useRef<number | null>(null);
   const [zoomed, setZoomed] = useState(false);
@@ -28,9 +28,10 @@ export function WorkLightbox({
 
   useEffect(() => {
     if (!context) return;
+    const { index } = context;
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "ArrowRight") onIndexChange((context.index + 1) % total);
-      if (e.key === "ArrowLeft") onIndexChange((context.index - 1 + total) % total);
+      if (e.key === "ArrowRight") onIndexChange((index + 1) % total);
+      if (e.key === "ArrowLeft") onIndexChange((index - 1 + total) % total);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);

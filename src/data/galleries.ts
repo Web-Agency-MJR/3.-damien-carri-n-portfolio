@@ -14,8 +14,8 @@ export interface RawGalleryItem {
   description?: string;
   imageUrl: string;
   wixFile?: string;
-  width?: number;
-  height?: number;
+  width?: number | undefined;
+  height?: number | undefined;
 }
 
 /** A single artwork as displayed by the site. Fields are only filled when the
@@ -25,16 +25,16 @@ export interface GalleryWork {
   /** Original title, minus the trailing dimension parenthesis when present. */
   title: string;
   /** Verbatim description string from the source, when present. */
-  info?: string;
+  info?: string | undefined;
   /** Technique / support tokens from the description, verbatim. */
-  technique?: string;
+  technique?: string | undefined;
   /** Dimensions found between parentheses in the original title. */
-  dimensions?: string;
+  dimensions?: string | undefined;
   /** Four-digit year found in the description. */
-  year?: string;
+  year?: string | undefined;
   imageUrl: string;
-  width?: number;
-  height?: number;
+  width?: number | undefined;
+  height?: number | undefined;
 }
 
 export interface GalleryGroup {
@@ -61,7 +61,7 @@ function isExcluded(item: RawGalleryItem) {
 function parseWork(item: RawGalleryItem, key: string): GalleryWork {
   const rawTitle = (item.title ?? "").trim();
   const dimMatch = rawTitle.match(DIMENSIONS_RE);
-  const dimensions = dimMatch ? dimMatch[1].trim() : undefined;
+  const dimensions = dimMatch?.[1]?.trim() || undefined;
 
   let title = rawTitle;
   if (dimMatch) title = rawTitle.replace(dimMatch[0], "").trim();
