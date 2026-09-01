@@ -8,7 +8,6 @@ import { About } from "@/components/site/About";
 import { Cv } from "@/components/site/Cv";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
-import { PaintTrail } from "@/components/site/PaintTrail";
 import { CookieConsent } from "@/components/site/CookieConsent";
 import { galleries, type GalleryWork } from "@/data/galleries";
 
@@ -66,7 +65,6 @@ function Index() {
         <Contact subject={subject} onSubjectChange={setSubject} />
       </main>
       <Footer />
-      <PaintTrail />
       <CookieConsent />
     </div>
   );

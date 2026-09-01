@@ -151,11 +151,8 @@ export function Footer() {
           <Socials className="mt-6" size="sm" />
         </div>
 
-        <div className="md:text-center">
-          <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} · Estudio de pintura, escultura y dorado
-          </p>
-        </div>
+        <div className="md:text-center" />
+
 
         <nav className="md:text-right">
           <p className="eyebrow">Legal</p>
