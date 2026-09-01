@@ -183,6 +183,10 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
           </form>
         </Reveal>
       </div>
+
+      <p className="relative mx-auto max-w-7xl px-6 pb-14 text-center text-xs text-muted-foreground">
+        © {new Date().getFullYear()} · Estudio de pintura, escultura y dorado
+      </p>
     </section>
   );
 }
