@@ -1,4 +1,7 @@
 import galleryOneRaw from "./galleries/gallery-1.json";
+import galleryTwoRaw from "./galleries/gallery-2.json";
+import galleryThreeRaw from "./galleries/gallery-3.json";
+import galleryFourRaw from "./galleries/gallery-4.json";
 
 /** Raw shape of the extracted Wix JSON files. */
 export interface RawGalleryFile {
@@ -128,7 +131,7 @@ function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
   const id = `gallery-${index}`;
   return {
     id,
-    label: `GALLERY ${index}`,
+    label: `Gallery ${index}`,
     groups: raw ? buildGroups(raw, id) : [],
   };
 }
@@ -136,9 +139,9 @@ function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
 /** Registry — drop a new extracted JSON here to activate Gallery 2–8. */
 export const galleries: GalleryDefinition[] = [
   defineGallery(1, galleryOneRaw as RawGalleryFile),
-  defineGallery(2),
-  defineGallery(3),
-  defineGallery(4),
+  defineGallery(2, galleryTwoRaw as RawGalleryFile),
+  defineGallery(3, galleryThreeRaw as RawGalleryFile),
+  defineGallery(4, galleryFourRaw as RawGalleryFile),
   defineGallery(5),
   defineGallery(6),
   defineGallery(7),

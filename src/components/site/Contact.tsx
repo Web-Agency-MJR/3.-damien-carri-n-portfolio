@@ -57,18 +57,6 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
 
   return (
     <section id="contacto" className="relative overflow-hidden border-t border-border scroll-mt-32">
-      <motion.div
-        aria-hidden
-        initial={{ opacity: 0, scale: 0.85 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-        className="pointer-events-none absolute -top-40 -right-32 size-[34rem] rounded-full opacity-60 blur-3xl"
-        style={{
-          background:
-            "radial-gradient(circle, color-mix(in oklab, var(--gold) 32%, transparent), transparent 70%)",
-        }}
-      />
 
       <div className="relative mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[0.9fr_1fr] lg:gap-24 sm:py-28">
         <Reveal>
