@@ -1,5 +1,5 @@
-import portrait from "@/assets/artist-portrait.jpg";
-import goldFrame from "@/assets/gold-frame.png.asset.json";
+const portrait = "/images/artist-portrait.jpg";
+const goldFrame = "/images/gold-frame.png";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
