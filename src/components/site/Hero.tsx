@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
 import { ArrowDown } from "lucide-react";
-import heroSculpture from "@/assets/hero-sculpture.jpg";
+const heroSculpture = "/images/hero-sculpture.jpg";
 
 /** A fragment is a clipped window onto the same source image, offset while scattered. */
 type Fragment = {

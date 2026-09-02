@@ -155,7 +155,7 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-    cursor: url("/__l5e/assets-v1/e8449852-da4d-47b1-9caa-77e35e5ff59b/brush-cursor.png") 2 28, auto;
+    cursor: url("/images/brush-cursor.png") 2 28, auto;
   }
 
   /* Keep pointer feedback on interactive elements while staying on theme */
@@ -167,7 +167,7 @@
   select,
   input,
   textarea {
-    cursor: url("/__l5e/assets-v1/e8449852-da4d-47b1-9caa-77e35e5ff59b/brush-cursor.png") 2 28, pointer;
+    cursor: url("/images/brush-cursor.png") 2 28, pointer;
   }
 
   ::selection {
@@ -261,7 +261,7 @@
       color-mix(in oklab, var(--background) 78%, transparent),
       color-mix(in oklab, var(--background) 78%, transparent)
     ),
-    url("/__l5e/assets-v1/e2cf86dd-64de-4244-84e9-5081c44961e1/brick-wall.jpg");
+    url("/images/brick-wall.jpg");
   background-repeat: no-repeat, repeat;
   background-size:
     cover,
