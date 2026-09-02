@@ -1,17 +1,17 @@
-import portrait from "@/assets/artist-portrait.jpg";
-import goldFrame from "@/assets/gold-frame.png.asset.json";
+const portrait = "/images/artist-portrait.jpg";
+const goldFrame = "/images/gold-frame.png";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
 export function About() {
   return (
     <section id="sobre-mi" className="mx-auto max-w-7xl scroll-mt-32 px-6 py-16 sm:py-28">
-      <div className="grid gap-14 lg:grid-cols-[0.85fr_1fr] lg:gap-20">
+      <div className="grid gap-14 lg:grid-cols-[1.15fr_1fr] lg:gap-20">
         <div className="lg:sticky lg:top-32 lg:self-start">
           <Reveal>
             <figure>
               {/* Antique baroque frame: transparent PNG laid over the portrait. */}
-              <div className="ornate-frame relative mx-auto aspect-[1024/1280] w-full max-w-md">
+              <div className="ornate-frame relative mx-auto aspect-[1024/1280] w-full max-w-2xl">
                 <div className="absolute top-[17.2%] right-[21%] bottom-[17.2%] left-[20.5%] overflow-hidden bg-muted shadow-[inset_0_0_28px_color-mix(in_oklab,var(--foreground)_38%,transparent)]">
                   <img
                     src={portrait}
@@ -23,7 +23,7 @@ export function About() {
                   />
                 </div>
                 <img
-                  src={goldFrame.url}
+                  src={goldFrame}
                   alt=""
                   aria-hidden
                   loading="lazy"
