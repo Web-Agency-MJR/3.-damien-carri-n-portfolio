@@ -23,7 +23,7 @@ export function About() {
                   />
                 </div>
                 <img
-                  src={goldFrame.url}
+                  src={goldFrame}
                   alt=""
                   aria-hidden
                   loading="lazy"
