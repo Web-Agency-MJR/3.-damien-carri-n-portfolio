@@ -35,7 +35,7 @@ export function Gallery({
     <section id="obra" className="mx-auto max-w-7xl scroll-mt-32 px-6 py-20 sm:py-28">
       <Reveal>
         <p className="eyebrow">Portfolio</p>
-        <h2 className="mt-4 font-sans text-4xl font-light tracking-[0.04em] sm:text-5xl">
+        <h2 className="font-gallery mt-4 text-4xl leading-[1.2] font-semibold tracking-[-0.02em] sm:text-5xl">
           Todas las obras
         </h2>
         <p className="font-serif mt-4 max-w-xl text-lg text-muted-foreground">

@@ -61,7 +61,7 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
       <div className="relative mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[0.9fr_1fr] lg:gap-24 sm:py-28">
         <Reveal>
           <p className="eyebrow">Contacto</p>
-          <h2 className="mt-4 font-sans text-4xl leading-[1.1] font-light tracking-[0.04em] sm:text-6xl">
+          <h2 className="font-gallery mt-4 text-4xl leading-[1.2] font-semibold tracking-[-0.02em] sm:text-6xl">
             ¿Hablamos de una pieza?
           </h2>
           <p className="font-serif mt-6 max-w-md text-lg text-muted-foreground">
