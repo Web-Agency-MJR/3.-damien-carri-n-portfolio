@@ -198,6 +198,12 @@ export function Footer() {
           </div>
         </DialogContent>
       </Dialog>
+
+      <div className="border-t border-gray-400/20 px-6 pt-6 mt-12">
+        <p className="mx-auto max-w-7xl text-center text-xs text-muted-foreground">
+          © 2026 - Estudio de pintura, escultura y dorado
+        </p>
+      </div>
     </footer>
   );
 }
