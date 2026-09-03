@@ -139,7 +139,7 @@ export function Footer() {
   const [open, setOpen] = useState<Legal | null>(null);
 
   return (
-    <footer className="border-t border-border">
+    <footer className="flex flex-col border-t border-border">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-3 md:items-start">
         <div>
           <p className="font-display text-sm tracking-[0.28em] uppercase">Damien Carrión</p>
@@ -198,6 +198,12 @@ export function Footer() {
           </div>
         </DialogContent>
       </Dialog>
+
+      <div className="border-t border-gray-400/20 px-6 pt-6 mt-12">
+        <p className="mx-auto max-w-7xl text-center text-xs text-muted-foreground">
+          © 2026 - Estudio de pintura, escultura y dorado
+        </p>
+      </div>
     </footer>
   );
 }
