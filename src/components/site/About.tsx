@@ -39,7 +39,7 @@ export function About() {
         <div>
           <Reveal>
             <p className="eyebrow">Sobre mí</p>
-            <h2 className="font-script mt-4 text-5xl leading-[1.25] sm:text-7xl">
+            <h2 className="mt-4 font-sans text-5xl leading-[1.25] font-light tracking-[0.04em] sm:text-7xl">
               Comprometido con la Forma de los Sentimientos en el Espacio…
             </h2>
             <div className="gold-rule mt-8 h-px w-24" />
