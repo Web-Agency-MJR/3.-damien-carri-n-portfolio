@@ -139,7 +139,7 @@ export function Footer() {
   const [open, setOpen] = useState<Legal | null>(null);
 
   return (
-    <footer className="border-t border-border">
+    <footer className="flex flex-col border-t border-border">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-3 md:items-start">
         <div>
           <p className="font-display text-sm tracking-[0.28em] uppercase">Damien Carrión</p>
