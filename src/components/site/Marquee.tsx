@@ -162,7 +162,7 @@ export function Marquee() {
   return (
     <section className="overflow-hidden border-y border-border bg-secondary/40 py-20 sm:py-28">
       <Reveal className="mx-auto mb-14 max-w-6xl px-6">
-        <h2 className="mt-4 max-w-2xl font-sans text-4xl leading-tight font-light tracking-[0.04em] sm:text-5xl">
+        <h2 className="font-gallery mt-4 max-w-2xl text-4xl leading-[1.2] font-semibold tracking-[-0.02em] sm:text-5xl">
           La materia se trabaja con las manos, nunca con prisa
         </h2>
       </Reveal>

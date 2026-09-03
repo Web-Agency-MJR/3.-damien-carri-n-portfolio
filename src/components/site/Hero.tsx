@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
 import { ArrowDown } from "lucide-react";
-const heroSculpture = "/images/portada-web-damien-carrion.png";
+const heroSculpture = "/images/hero-sculpture.jpg";
 
 /** A fragment is a clipped window onto the same source image, offset while scattered. */
 type Fragment = {
@@ -53,8 +53,8 @@ function FragmentLayer({
       <img
         src={heroSculpture}
         alt=""
-        width={1672}
-        height={941}
+        width={1536}
+        height={1024}
         className="size-full object-cover"
       />
     </motion.div>
@@ -80,8 +80,8 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
           <motion.img
             src={heroSculpture}
             alt="Escultura fragmentada de Damien Carrión que se recompone al desplazarse"
-            width={1672}
-            height={941}
+            width={1536}
+            height={1024}
             fetchPriority="high"
             className="size-full object-cover"
             style={{ opacity: baseOpacity }}

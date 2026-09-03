@@ -23,6 +23,7 @@
   --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
   --font-script: "Great Vibes", "Allura", "Cormorant Garamond", cursive;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-gallery: "Montserrat", "Inter", ui-sans-serif, system-ui, sans-serif;
 
 
   --color-background: var(--background);
