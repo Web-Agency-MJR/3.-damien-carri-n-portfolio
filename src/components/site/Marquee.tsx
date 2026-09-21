@@ -17,9 +17,72 @@ interface HomeImage {
   height: number;
 }
 
+interface OverlayText {
+  title: string;
+  subtitle: string;
+}
+
 const images = [...homeMarquee.images].sort(
   (a, b) => a.position - b.position,
 ) as HomeImage[];
+
+/** Strict left-to-right, top-to-bottom mapping for the 21 oval images. */
+const overlayText: Record<number, OverlayText> = {
+  1: { title: "DibujO", subtitle: "Tintas Secas / Retratos (since 1996)" },
+  2: { title: "DibujO", subtitle: "Tintas Secas / Carboncillo y Sanguinas" },
+  3: { title: "RestaurO (Dorados)", subtitle: "Patrimonio Nacional (2004)" },
+  4: { title: "PinturA", subtitle: "ÓleoS" },
+  5: {
+    title: "''Autorretrato'' (50x40x5)",
+    subtitle: "EsculturA / Relieve / Barro (2006)",
+  },
+  6: {
+    title: "Figuras de gran Formato",
+    subtitle: "Escultura / Escenografía / Trabajos para TEIÓN S.L (2007)",
+  },
+  7: { title: "PinturA", subtitle: "AcrílicoS" },
+  8: {
+    title: "MuraleS",
+    subtitle: "Decoración artística. Reinventando tu Espacio (since 1998)",
+  },
+  9: {
+    title: "EsculturA",
+    subtitle: "EsculturA / Moldes / Vaciados / Piedra Artificial (2006)",
+  },
+  10: {
+    title: '"el Origen" (31x32x15)',
+    subtitle:
+      "EsculturA / Piedra / Talla directa / Mármol rosa de Portugal (2007)",
+  },
+  11: { title: "ExposicioneS", subtitle: "Pintura / Escultura (since 1983)" },
+  12: {
+    title: '"Venus"',
+    subtitle:
+      "EsculturA / Talla directa / Piedra Arenisca, Caliza, Granito (2006)",
+  },
+  13: { title: "ImagineríA", subtitle: "Escultura Religiosa (2008)" },
+  14: { title: "EsculturA", subtitle: "Moldeados / Escayolas / Vaciados (2006)" },
+  15: {
+    title: "RetratoS",
+    subtitle: "Acrílicos / Acuarelas / Óleos (since 1996)",
+  },
+  16: {
+    title: '"...Pensamiento" (57x34x22)',
+    subtitle: "EsculturA / Forja / Hierro batido y soldaduras (2008)",
+  },
+  17: { title: "EsculturA", subtitle: "Vaciados / Yesos / Resinas / Bronces" },
+  18: { title: "''El Puente''", subtitle: "Action Painting Show (2014)" },
+  19: { title: "Trofeos & Maquetas", subtitle: "Desarrollos en distintos Materiales" },
+  20: {
+    title: "PublicidaD",
+    subtitle:
+      "Cartelería / Camisetas / Logos Corporativos / Marcapáginas (since 1993)",
+  },
+  21: {
+    title: "...ProyectoS",
+    subtitle: "Próximos Eventos (Work in Progress...)",
+  },
+};
 
 function OvalImage({
   image,
@@ -28,6 +91,7 @@ function OvalImage({
   image: HomeImage;
   onSelect: (image: HomeImage) => void;
 }) {
+  const overlay = overlayText[image.position];
   return (
     <figure className="group relative aspect-[2/1] w-full overflow-hidden rounded-[50%] bg-muted shadow-[0_10px_40px_-18px_oklch(0_0_0/0.45)] ring-1 ring-inset ring-foreground/10">
       <button
@@ -40,8 +104,18 @@ function OvalImage({
           src={image.imageUrl}
           alt={image.alt}
           loading="lazy"
-          className="size-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+          className="size-full w-full object-cover transition-all duration-500 ease-out group-hover:scale-[1.04] group-hover:blur-[3px]"
         />
+        {overlay && (
+          <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-[50%] bg-black/40 px-4 text-center opacity-0 backdrop-blur-[6px] transition-all duration-300 group-hover:opacity-100">
+            <span className="font-gallery text-balance text-base font-semibold leading-tight text-white sm:text-lg">
+              {overlay.title}
+            </span>
+            <span className="font-sans text-[0.6875rem] font-medium leading-snug text-gray-200">
+              {overlay.subtitle}
+            </span>
+          </div>
+        )}
       </button>
     </figure>
   );
