@@ -49,7 +49,7 @@ function VideoPage() {
           {[...textureImages, ...textureImages].map((image, index) => (
             <motion.div
               key={`${image}-${index}`}
-              animate={reduceMotion ? undefined : { y: index % 2 === 0 ? [0, -18, 0] : [0, 18, 0] }}
+              animate={reduceMotion ? {} : { y: index % 2 === 0 ? [0, -18, 0] : [0, 18, 0] }}
               transition={{ duration: 12 + (index % 4) * 2, repeat: Infinity, ease: "easeInOut" }}
               className="min-h-44 overflow-hidden border border-cinema-foreground/10 sm:min-h-56"
             >
