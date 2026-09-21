@@ -8,9 +8,43 @@ import {
   summaryWorks,
   type GalleryWork,
 } from "@/data/galleries";
-import { GalleryCarousel } from "./GalleryCarousel";
 import { WorkLightbox, type LightboxContext } from "./WorkLightbox";
 import { Reveal } from "./Reveal";
+
+function OvalGrid({
+  works,
+  onOpen,
+}: {
+  works: GalleryWork[];
+  onOpen: (index: number) => void;
+}) {
+  return (
+    <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-12">
+      {works.map((work, i) => (
+        <motion.button
+          key={work.id}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.6, delay: (i % 3) * 0.06, ease: [0.22, 1, 0.36, 1] }}
+          onClick={() => onOpen(i)}
+          className="group text-left"
+        >
+          <div className="aspect-[2/1] w-full overflow-hidden rounded-[50%] bg-secondary/60">
+            <img
+              src={work.imageUrl}
+              alt={work.title}
+              loading="lazy"
+              decoding="async"
+              className="h-full w-full object-cover transition-transform duration-300 ease-out group-hover:scale-[1.04]"
+            />
+          </div>
+          <p className="font-serif mt-4 truncate text-center text-base">{work.title}</p>
+        </motion.button>
+      ))}
+    </div>
+  );
+}
 
 export function Gallery({
   filter,
@@ -28,6 +62,10 @@ export function Gallery({
     [filter],
   );
   const summary = useMemo(() => summaryWorks(5), []);
+  const activeWorks = useMemo(
+    () => (active ? active.groups.flatMap((group) => group.works) : []),
+    [active],
+  );
 
   const tabs = [{ value: ALL_WORKS_ID, label: "TODAS LAS OBRAS" }, ...galleries.map((g) => ({ value: g.id, label: g.label }))];
 
@@ -58,56 +96,15 @@ export function Gallery({
       </Tabs>
 
       {active ? (
-        active.groups.length > 0 ? (
-          <div className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2">
-            {active.groups.map((group, i) => (
-              <motion.div
-                key={group.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.6, delay: (i % 2) * 0.08, ease: [0.22, 1, 0.36, 1] }}
-              >
-                <GalleryCarousel
-                  works={group.works}
-                  delay={i * 550}
-                  onOpen={(index) => setLightbox({ works: group.works, index })}
-                />
-              </motion.div>
-            ))}
-          </div>
+        activeWorks.length > 0 ? (
+          <OvalGrid works={activeWorks} onOpen={(index) => setLightbox({ works: activeWorks, index })} />
         ) : (
           <p className="font-serif py-20 text-center text-lg text-muted-foreground">
             Esta galería estará disponible próximamente.
           </p>
         )
       ) : (
-        <div className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {summary.map((work, i) => (
-            <motion.button
-              key={work.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.6, delay: (i % 3) * 0.06, ease: [0.22, 1, 0.36, 1] }}
-              onClick={() => setLightbox({ works: summary, index: i })}
-              className="group text-left"
-            >
-              <div className="relative flex aspect-[4/3] w-full items-center justify-center overflow-hidden rounded-sm bg-secondary/60 p-4 sm:p-6">
-                <img
-                  src={work.imageUrl}
-                  alt={work.title}
-                  width={work.width}
-                  height={work.height}
-                  loading="lazy"
-                  decoding="async"
-                  className="max-h-full max-w-full object-contain transition-transform duration-300 ease-out group-hover:scale-[1.02]"
-                />
-              </div>
-              <p className="font-serif mt-3 truncate text-center text-base">{work.title}</p>
-            </motion.button>
-          ))}
-        </div>
+        <OvalGrid works={summary} onOpen={(index) => setLightbox({ works: summary, index })} />
       )}
 
       <WorkLightbox
