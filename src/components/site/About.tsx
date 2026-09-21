@@ -1,5 +1,4 @@
 const portrait = "/images/artist-portrait.jpg";
-const goldFrame = "/images/gold-frame.png";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
@@ -10,26 +9,14 @@ export function About() {
         <div className="lg:sticky lg:top-32 lg:self-start">
           <Reveal>
             <figure>
-              {/* Antique baroque frame: transparent PNG laid over the portrait. */}
-              <div className="ornate-frame relative mx-auto aspect-[1024/1280] w-full max-w-2xl">
-                <div className="absolute top-[17.2%] right-[21%] bottom-[17.2%] left-[20.5%] overflow-hidden bg-muted shadow-[inset_0_0_28px_color-mix(in_oklab,var(--foreground)_38%,transparent)]">
-                  <img
-                    src={portrait}
-                    alt="Damien Carrión trabajando en su atelier"
-                    loading="lazy"
-                    width={1024}
-                    height={1280}
-                    className="size-full object-cover"
-                  />
-                </div>
+              <div className="relative mx-auto aspect-[1024/1280] w-full max-w-3xl overflow-hidden shadow-[0_24px_60px_-28px_color-mix(in_oklab,var(--foreground)_70%,transparent)]">
                 <img
-                  src={goldFrame}
-                  alt=""
-                  aria-hidden
+                  src={portrait}
+                  alt="Damien Carrión trabajando en su atelier"
                   loading="lazy"
                   width={1024}
                   height={1280}
-                  className="pointer-events-none relative size-full select-none"
+                  className="size-full object-cover"
                 />
               </div>
             </figure>
