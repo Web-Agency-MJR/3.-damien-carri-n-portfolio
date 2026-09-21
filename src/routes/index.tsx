@@ -63,7 +63,6 @@ function Index() {
         <Cv />
         <Contact subject={subject} onSubjectChange={setSubject} />
       </main>
-      <Footer />
       <CookieConsent />
     </div>
   );
