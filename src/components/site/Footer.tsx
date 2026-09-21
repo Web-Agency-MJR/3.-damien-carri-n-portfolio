@@ -201,7 +201,7 @@ export function Footer() {
 
       <div className="border-t border-gray-400/20 px-6 pt-6 mt-12 pb-10">
         <p className="mx-auto max-w-7xl text-center text-xs text-muted-foreground">
-          © 2026 - Atelier de pintura, escultura y dorado
+          2026 by PUNTO-ART
         </p>
       </div>
     </footer>
