@@ -8,6 +8,7 @@ export type NavTarget = {
   label: string;
   section: string;
   tab?: string;
+  href?: string;
 };
 
 export const navItems: NavTarget[] = [
@@ -16,7 +17,7 @@ export const navItems: NavTarget[] = [
   { label: "Gallery (2D)", section: "obra", tab: "2D" },
   { label: "Gallery V (GOLD)", section: "obra", tab: "GOLD" },
   { label: "Gallery (3D)", section: "obra", tab: "3D" },
-  { label: "Vídeos", section: "obra", tab: "Videos" },
+  { label: "Vídeos", section: "obra", href: "/video" },
   { label: "CV", section: "curriculum" },
 ];
 
@@ -59,12 +60,23 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
         <ul className="hidden items-center gap-1 lg:flex">
           {navItems.map((item) => (
             <li key={item.label}>
-              <button
-                onClick={() => go(item)}
-                className="relative shrink-0 rounded-full px-2.5 py-2 text-[0.76rem] whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
-              >
-                {item.label}
-              </button>
+              {item.href ? (
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative block shrink-0 rounded-full px-2.5 py-2 text-[0.76rem] whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <button
+                  onClick={() => go(item)}
+                  className="relative shrink-0 rounded-full px-2.5 py-2 text-[0.76rem] whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  {item.label}
+                </button>
+              )}
             </li>
           ))}
         </ul>
@@ -92,16 +104,32 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
               <SheetTitle className="sr-only">Navegación</SheetTitle>
               <div className="relative z-10 flex h-full flex-col justify-center gap-2 px-10">
                 {navItems.map((item, i) => (
-                  <motion.button
-                    key={item.label}
-                    initial={{ opacity: 0, x: 24 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.05 * i, duration: 0.4 }}
-                    onClick={() => go(item)}
-                    className="font-display text-left text-3xl text-background/90 transition-colors hover:text-background"
-                  >
-                    {item.label}
-                  </motion.button>
+                  item.href ? (
+                    <motion.a
+                      key={item.label}
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      initial={{ opacity: 0, x: 24 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.05 * i, duration: 0.4 }}
+                      onClick={() => setOpen(false)}
+                      className="font-display text-left text-3xl text-background/90 transition-colors hover:text-background"
+                    >
+                      {item.label}
+                    </motion.a>
+                  ) : (
+                    <motion.button
+                      key={item.label}
+                      initial={{ opacity: 0, x: 24 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: 0.05 * i, duration: 0.4 }}
+                      onClick={() => go(item)}
+                      className="font-display text-left text-3xl text-background/90 transition-colors hover:text-background"
+                    >
+                      {item.label}
+                    </motion.button>
+                  )
                 ))}
                 <motion.button
                   initial={{ opacity: 0, x: 24 }}
