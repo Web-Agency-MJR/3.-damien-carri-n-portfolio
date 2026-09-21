@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import { motion } from "motion/react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  ALL_WORKS_ID,
   galleries,
   galleryWorks,
   summaryWorks,
