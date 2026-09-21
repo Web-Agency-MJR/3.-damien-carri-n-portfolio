@@ -129,9 +129,19 @@ export function buildGroups(raw: RawGalleryFile, galleryId: string): GalleryGrou
 
 function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
   const id = `gallery-${index}`;
+  const labels = [
+    "GALLERY I (2D)",
+    "GALLERY II (2D)",
+    "GALLERY III (3D)",
+    "GALLERY IV (2D)",
+    "GALLERY V (GOLD)",
+    "GALLERY VI (3D)",
+    "GALLERY VII (3D)",
+    "GALLERY VIII (3D)",
+  ];
   return {
     id,
-    label: `Gallery ${index}`,
+    label: labels[index - 1] ?? `Gallery ${index}`,
     groups: raw ? buildGroups(raw, id) : [],
   };
 }
