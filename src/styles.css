@@ -156,7 +156,7 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-    cursor: url("/images/brush-cursor.png") 2 28, auto;
+    cursor: url("/images/brush-fine.png") 4 15, auto;
   }
 
   /* Keep pointer feedback on interactive elements while staying on theme */
@@ -168,7 +168,7 @@
   select,
   input,
   textarea {
-    cursor: url("/images/brush-cursor.png") 2 28, pointer;
+    cursor: url("/images/brush-fine.png") 4 15, pointer;
   }
 
   ::selection {
