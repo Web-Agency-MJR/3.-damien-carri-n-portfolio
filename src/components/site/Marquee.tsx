@@ -102,31 +102,66 @@ function OvalImage({
   onSelect: (image: HomeImage) => void;
 }) {
   const overlay = overlayText[image.position];
+  const href = externalLinks[image.position];
+
+  const trigger = href ? (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Abrir enlace externo: ${image.alt}`}
+      className="group/link block size-full cursor-pointer"
+    >
+      <img
+        src={image.imageUrl}
+        alt={image.alt}
+        loading="lazy"
+        className="size-full w-full object-cover transition-all duration-500 ease-out group-hover:scale-[1.04] group-hover:blur-[3px]"
+      />
+      {overlay && (
+        <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-[50%] bg-black/40 px-4 text-center opacity-0 backdrop-blur-[6px] transition-all duration-300 group-hover:opacity-100">
+          <span
+            className={`font-gallery text-balance text-base font-semibold leading-tight text-white sm:text-lg ${LINK_CLASS}`}
+          >
+            {overlay.title}
+          </span>
+          <span
+            className={`font-sans text-[0.6875rem] font-medium leading-snug text-gray-200 ${LINK_CLASS}`}
+          >
+            {overlay.subtitle}
+          </span>
+        </div>
+      )}
+    </a>
+  ) : (
+    <button
+      type="button"
+      onClick={() => onSelect(image)}
+      aria-label={`Ampliar imagen: ${image.alt}`}
+      className="block size-full cursor-pointer"
+    >
+      <img
+        src={image.imageUrl}
+        alt={image.alt}
+        loading="lazy"
+        className="size-full w-full object-cover transition-all duration-500 ease-out group-hover:scale-[1.04] group-hover:blur-[3px]"
+      />
+      {overlay && (
+        <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-[50%] bg-black/40 px-4 text-center opacity-0 backdrop-blur-[6px] transition-all duration-300 group-hover:opacity-100">
+          <span className="font-gallery text-balance text-base font-semibold leading-tight text-white sm:text-lg">
+            {overlay.title}
+          </span>
+          <span className="font-sans text-[0.6875rem] font-medium leading-snug text-gray-200">
+            {overlay.subtitle}
+          </span>
+        </div>
+      )}
+    </button>
+  );
+
   return (
     <figure className="group relative aspect-[2/1] w-full overflow-hidden rounded-[50%] bg-muted shadow-[0_10px_40px_-18px_oklch(0_0_0/0.45)] ring-1 ring-inset ring-foreground/10">
-      <button
-        type="button"
-        onClick={() => onSelect(image)}
-        aria-label={`Ampliar imagen: ${image.alt}`}
-        className="block size-full cursor-pointer"
-      >
-        <img
-          src={image.imageUrl}
-          alt={image.alt}
-          loading="lazy"
-          className="size-full w-full object-cover transition-all duration-500 ease-out group-hover:scale-[1.04] group-hover:blur-[3px]"
-        />
-        {overlay && (
-          <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-[50%] bg-black/40 px-4 text-center opacity-0 backdrop-blur-[6px] transition-all duration-300 group-hover:opacity-100">
-            <span className="font-gallery text-balance text-base font-semibold leading-tight text-white sm:text-lg">
-              {overlay.title}
-            </span>
-            <span className="font-sans text-[0.6875rem] font-medium leading-snug text-gray-200">
-              {overlay.subtitle}
-            </span>
-          </div>
-        )}
-      </button>
+      {trigger}
     </figure>
   );
 }
