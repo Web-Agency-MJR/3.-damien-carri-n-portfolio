@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import { motion } from "motion/react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  ALL_WORKS_ID,
   galleries,
   galleryWorks,
   summaryWorks,
@@ -29,7 +28,7 @@ export function Gallery({
   );
   const summary = useMemo(() => summaryWorks(5), []);
 
-  const tabs = [{ value: ALL_WORKS_ID, label: "TODAS LAS OBRAS" }, ...galleries.map((g) => ({ value: g.id, label: g.label }))];
+  const tabs = galleries.map((g) => ({ value: g.id, label: g.label }));
 
   return (
     <section id="obra" className="mx-auto max-w-7xl scroll-mt-32 px-6 py-20 sm:py-28">

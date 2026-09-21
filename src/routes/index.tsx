@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const [filter, setFilter] = useState<string>("all");
+  const [filter, setFilter] = useState<string>("gallery-1");
   const [subject, setSubject] = useState("");
 
   const scrollTo = useCallback((id: string) => {
@@ -38,7 +38,7 @@ function Index() {
 
   const handleNavigate = useCallback(
     (item: NavTarget) => {
-      if (item.tab) setFilter(galleries.some((g) => g.id === item.tab) ? item.tab : "all");
+      if (item.tab) setFilter(galleries.some((g) => g.id === item.tab) ? item.tab : "gallery-1");
       scrollTo(item.section);
     },
     [scrollTo],
