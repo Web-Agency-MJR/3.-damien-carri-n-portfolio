@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { Toaster } from "../components/ui/sonner";
+import { Footer } from "../components/site/Footer";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -82,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Estudio de Damien Carrión: pintura matérica, escultura y dorado al pan de oro.",
+          "Atelier de Damien Carrión: pintura matérica, escultura y dorado al pan de oro.",
       },
       { name: "author", content: "Damien Carrión" },
       { property: "og:type", content: "website" },
@@ -129,6 +130,7 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+      <Footer />
       <Toaster position="bottom-right" />
     </QueryClientProvider>
   );

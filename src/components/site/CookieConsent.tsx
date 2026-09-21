@@ -67,7 +67,7 @@ export function CookieConsent() {
                 <p className="eyebrow">Cookies</p>
               </div>
               <p className="font-serif mt-3 text-base leading-relaxed text-foreground/80">
-                Este estudio utiliza cookies técnicas necesarias para la navegación y, con tu
+                Este atelier utiliza cookies técnicas necesarias para la navegación y, con tu
                 permiso, cookies de medición y de contenido embebido (YouTube, Instagram).
               </p>
               <div className="mt-5 flex flex-wrap gap-2">

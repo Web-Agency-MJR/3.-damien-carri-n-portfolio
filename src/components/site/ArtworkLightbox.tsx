@@ -68,7 +68,7 @@ export function ArtworkLightbox({
                   {artwork.title}
                 </DialogTitle>
                 <DialogDescription className="font-serif mt-4 text-base leading-relaxed text-muted-foreground">
-                  {artwork.description ?? "Obra del estudio de Damien Carrión."}
+                  {artwork.description ?? "Obra del atelier de Damien Carrión."}
                 </DialogDescription>
 
                 <dl className="mt-8 divide-y divide-border border-y border-border">

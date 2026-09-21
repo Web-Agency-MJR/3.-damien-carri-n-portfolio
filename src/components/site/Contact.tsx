@@ -15,7 +15,7 @@ const quickSubjects = [
   "Obra disponible",
   "Encargo personalizado",
   "Restauración y dorado",
-  "Visita al estudio",
+  "Visita al atelier",
 ];
 
 export function Contact({ subject, onSubjectChange }: { subject: string; onSubjectChange: (v: string) => void }) {
@@ -65,7 +65,7 @@ export function Contact({ subject, onSubjectChange }: { subject: string; onSubje
             ¿Hablamos de una pieza?
           </h2>
           <p className="font-serif mt-6 max-w-md text-lg text-muted-foreground">
-            Consultas sobre obra disponible, encargos, restauración o visitas al estudio con cita
+            Consultas sobre obra disponible, encargos, restauración o visitas al atelier con cita
             previa.
           </p>
 

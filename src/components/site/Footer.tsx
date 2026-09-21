@@ -68,7 +68,7 @@ const legals: Legal[] = [
       },
       {
         title: "3. Finalidades del tratamiento",
-        text: "Atender consultas sobre obra disponible, encargos, restauración, dorado, colaboraciones, exposiciones o visitas al estudio; enviar presupuestos y documentación técnica de las piezas; y conservar el histórico de comunicaciones asociado a un eventual encargo.",
+        text: "Atender consultas sobre obra disponible, encargos, restauración, dorado, colaboraciones, exposiciones o visitas al atelier; enviar presupuestos y documentación técnica de las piezas; y conservar el histórico de comunicaciones asociado a un eventual encargo.",
       },
       {
         title: "4. Base jurídica",
@@ -144,7 +144,7 @@ export function Footer() {
         <div>
           <p className="font-display text-sm tracking-[0.28em] uppercase">Damien Carrión</p>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-            Estudio y portfolio del artista Damien Carrión (Burdeos, 1967): pintura matérica,
+            Atelier y portfolio del artista Damien Carrión (Burdeos, 1967): pintura matérica,
             escultura simbólica y dorado tradicional. Obra, currículum y consultas desde Andalucía,
             España.
           </p>
@@ -201,7 +201,7 @@ export function Footer() {
 
       <div className="border-t border-gray-400/20 px-6 pt-6 mt-12 pb-10">
         <p className="mx-auto max-w-7xl text-center text-xs text-muted-foreground">
-          © 2026 - Estudio de pintura, escultura y dorado
+          2026 by PUNTO-ART
         </p>
       </div>
     </footer>

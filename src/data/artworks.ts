@@ -99,7 +99,7 @@ export const artworks: Artwork[] = [
   },
   {
     id: "obr-07",
-    title: "Estudio de materia n.º 4",
+    title: "Atelier de materia n.º 4",
     year: 2020,
     technique: "Óleo y arena sobre tabla",
     dimensions: "80 x 80 cm",
@@ -128,7 +128,7 @@ export const artworks: Artwork[] = [
     imageUrl: process6,
     category: "Videos",
     status: "gallery",
-    description: "Recorrido filmado por el estudio del artista durante un ciclo completo de trabajo.",
+    description: "Recorrido filmado por el atelier del artista durante un ciclo completo de trabajo.",
   },
   {
     id: "obr-10",
@@ -150,7 +150,7 @@ export const artworks: Artwork[] = [
     imageUrl: process1,
     category: "3D",
     status: "gallery",
-    description: "Modelo original previo al vaciado en bronce, conservado en el estudio.",
+    description: "Modelo original previo al vaciado en bronce, conservado en el atelier.",
   },
   {
     id: "obr-12",

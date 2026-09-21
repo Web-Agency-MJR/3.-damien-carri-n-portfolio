@@ -15,7 +15,7 @@ export function About() {
                 <div className="absolute top-[17.2%] right-[21%] bottom-[17.2%] left-[20.5%] overflow-hidden bg-muted shadow-[inset_0_0_28px_color-mix(in_oklab,var(--foreground)_38%,transparent)]">
                   <img
                     src={portrait}
-                    alt="Damien Carrión trabajando en su estudio"
+                    alt="Damien Carrión trabajando en su atelier"
                     loading="lazy"
                     width={1024}
                     height={1280}
