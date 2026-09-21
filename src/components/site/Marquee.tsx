@@ -138,25 +138,14 @@ export function Marquee() {
         </h2>
       </Reveal>
 
-      <div className="flex flex-col gap-4 sm:gap-6">
-        <MarqueeRow
-          images={rows[0]!}
-          direction="left"
-          duration={58}
-          onSelect={(img) => setViewerIndex(img.position - 1)}
-        />
-        <MarqueeRow
-          images={rows[1]!}
-          direction="right"
-          duration={68}
-          onSelect={(img) => setViewerIndex(img.position - 1)}
-        />
-        <MarqueeRow
-          images={rows[2]!}
-          direction="left"
-          duration={50}
-          onSelect={(img) => setViewerIndex(img.position - 1)}
-        />
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-8">
+        {images.map((img) => (
+          <OvalImage
+            key={img.position}
+            image={img}
+            onSelect={(image) => setViewerIndex(image.position - 1)}
+          />
+        ))}
       </div>
 
       <HomeImageViewer
