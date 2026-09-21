@@ -39,7 +39,7 @@ export function Gallery({
           Todas las obras
         </h2>
         <p className="font-serif mt-4 max-w-xl text-lg text-muted-foreground">
-          Un recorrido por las galerías del estudio. Selecciona una galería para ver sus obras.
+          Un recorrido por las galerías del atelier. Selecciona una galería para ver sus obras.
         </p>
       </Reveal>
 

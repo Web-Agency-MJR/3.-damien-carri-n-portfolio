@@ -46,7 +46,7 @@ const groups: Group[] = [
     id: "exposiciones",
     title: "Exposiciones (Exhibitions & Grants)",
     entries: [
-      "Exposición de Pintura “Colectiva Arte Contemporáneo”. Galería & Estudio ABARTIUM. Barcelona, 2022.",
+      "Exposición de Pintura “Colectiva Arte Contemporáneo”. Galería & Atelier ABARTIUM. Barcelona, 2022.",
       "Seleccionado, LXIX Exposición Internacional de Otoño de la Real Academia de Sta. Isabel de Hungría (Secc. Escultura). Sevilla, 2020.",
       "Exposición Individual “Momentos”. De Pintura y una sola Escultura. Sala “la Revuelta”. Sevilla, 2018.",
       "Seleccionado, LIX Exposición Internacional de Otoño de la Real Academia de Sta. Isabel de Hungría (Secc. Escultura). Sevilla, 2016.",

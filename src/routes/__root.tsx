@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Estudio de Damien Carrión: pintura matérica, escultura y dorado al pan de oro.",
+          "Atelier de Damien Carrión: pintura matérica, escultura y dorado al pan de oro.",
       },
       { name: "author", content: "Damien Carrión" },
       { property: "og:type", content: "website" },
