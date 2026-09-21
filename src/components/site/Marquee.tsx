@@ -21,58 +21,29 @@ const images = [...homeMarquee.images].sort(
   (a, b) => a.position - b.position,
 ) as HomeImage[];
 
-// Distribución intercalada: fila 1 → 1,4,7… · fila 2 → 2,5,8… · fila 3 → 3,6,9…
-const rows: HomeImage[][] = [0, 1, 2].map((offset) =>
-  images.filter((_, i) => i % 3 === offset),
-);
-
-function MarqueeRow({
-  images: rowImages,
-  direction,
-  duration,
+function OvalImage({
+  image,
   onSelect,
 }: {
-  images: HomeImage[];
-  direction: "left" | "right";
-  duration: number;
+  image: HomeImage;
   onSelect: (image: HomeImage) => void;
 }) {
-  const loop = [...rowImages, ...rowImages];
-
   return (
-    <div className="marquee-mask group/row overflow-hidden">
-      <div
-        className="marquee-track flex w-max gap-4 group-hover/row:[animation-play-state:paused] sm:gap-6"
-        style={{
-          animationDuration: `${duration}s`,
-          animationDirection: direction === "right" ? "reverse" : "normal",
-        }}
+    <figure className="group relative aspect-[2/1] w-full overflow-hidden rounded-[50%] bg-muted shadow-[0_10px_40px_-18px_oklch(0_0_0/0.45)] ring-1 ring-inset ring-foreground/10">
+      <button
+        type="button"
+        onClick={() => onSelect(image)}
+        aria-label={`Ampliar imagen: ${image.alt}`}
+        className="block size-full cursor-pointer"
       >
-        {loop.map((img, i) => (
-          <figure
-            key={`${img.position}-${i}`}
-            className="relative size-40 shrink-0 overflow-hidden rounded-2xl bg-muted shadow-[inset_0_0_40px_-14px_oklch(0_0_0/0.5)] sm:size-52 lg:size-60"
-          >
-            <button
-              type="button"
-              onClick={() => onSelect(img)}
-              aria-label={`Ampliar imagen: ${img.alt}`}
-              className="block size-full cursor-pointer"
-              tabIndex={i < rowImages.length ? 0 : -1}
-              aria-hidden={i >= rowImages.length}
-            >
-              <img
-                src={img.imageUrl}
-                alt={img.alt}
-                loading="lazy"
-                className="size-full object-cover transition-transform duration-500 ease-out hover:scale-[1.04]"
-              />
-            </button>
-            <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-foreground/10" />
-          </figure>
-        ))}
-      </div>
-    </div>
+        <img
+          src={image.imageUrl}
+          alt={image.alt}
+          loading="lazy"
+          className="size-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+        />
+      </button>
+    </figure>
   );
 }
 
