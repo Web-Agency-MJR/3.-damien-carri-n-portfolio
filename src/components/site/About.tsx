@@ -44,9 +44,7 @@ export function About() {
               <p>
                 En Pintura (2D) como en Escultura (3D), trabaja sobre una manufactura de Obras con
                 carácter eminentemente único y original, alejado de corrientes y aires efímeros
-                propios de corrientes temporales. En esta última disciplina, en la Escultura, es
-                donde más simbólica se ve su obra a la par que desarrolla su Proyecto artístico
-                personal “los Adoquines del Pensamiento”.
+                buscando una línea más atemporal.&nbsp;
               </p>
               <p>Ayer, Hoy y Mañana, veraz, sigue buscando...</p>
             </div>
