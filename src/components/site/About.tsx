@@ -1,5 +1,4 @@
 const portrait = "/images/artist-portrait.jpg";
-const goldFrame = "/images/gold-frame.png";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
