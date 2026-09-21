@@ -141,7 +141,7 @@ function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
   ];
   return {
     id,
-    label: labels[index - 1],
+    label: labels[index - 1] ?? `Gallery ${index}`,
     groups: raw ? buildGroups(raw, id) : [],
   };
 }
