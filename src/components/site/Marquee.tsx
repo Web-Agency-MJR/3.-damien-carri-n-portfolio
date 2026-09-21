@@ -84,6 +84,16 @@ const overlayText: Record<number, OverlayText> = {
   },
 };
 
+/** External link overrides for specific oval images (position → URL). */
+const externalLinks: Record<number, string> = {
+  10: "https://www.realacademiabellasartessevilla.com/?page_id=760",
+  16: "https://www.realacademiabellasartessevilla.com/?page_id=760",
+  18: "https://www.realacademiabellasartessevilla.com/?page_id=760",
+};
+
+const LINK_CLASS =
+  "transition-transform duration-300 group-hover/link:scale-105";
+
 function OvalImage({
   image,
   onSelect,
