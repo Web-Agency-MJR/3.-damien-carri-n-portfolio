@@ -1,6 +1,8 @@
-const portrait = "/images/artist-portrait.jpg";
+import portraitAsset from "@/assets/Foto Perfil Damien Carrion Abour Me.webp.asset.json";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
+
+const portrait = portraitAsset.url;
 
 export function About() {
   return (
@@ -12,7 +14,7 @@ export function About() {
               <div className="relative mx-auto aspect-[1024/1280] w-full max-w-3xl overflow-hidden shadow-[0_24px_60px_-28px_color-mix(in_oklab,var(--foreground)_70%,transparent)]">
                 <img
                   src={portrait}
-                  alt="Damien Carrión trabajando en su atelier"
+                  alt="Foto Perfil Damien Carrion Abour Me"
                   loading="lazy"
                   width={1024}
                   height={1280}
