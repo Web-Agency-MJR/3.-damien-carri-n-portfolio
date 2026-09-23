@@ -152,6 +152,25 @@ export function buildGroups(raw: RawGalleryFile, galleryId: string): GalleryGrou
     }));
 }
 
+/** Builds one group per original carousel, verbatim: no dedupe, no filtering,
+ * no reordering, titles and descriptions exactly as provided. */
+export function buildCarouselGroups(
+  raw: CarouselGalleryFile,
+  galleryId: string,
+): GalleryGroup[] {
+  return raw.carousels.map((carousel) => ({
+    id: `${galleryId}-c${carousel.carousel}`,
+    works: carousel.items.map((item, i) => ({
+      id: `${galleryId}-c${carousel.carousel}-${item.posicion ?? i}-${i}`,
+      title: item.titulo,
+      info: item.descripcion,
+      imageUrl: item.imageUrl,
+      width: item.width,
+      height: item.height,
+    })),
+  }));
+}
+
 function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
   const id = `gallery-${index}`;
   const labels = [
