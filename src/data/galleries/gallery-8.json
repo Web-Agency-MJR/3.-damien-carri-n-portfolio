@@ -1,0 +1,1223 @@
+{
+  "gallery": 8,
+  "totalCarousels": 8,
+  "totalItems": 146,
+  "carousels": [
+    {
+      "carousel": 1,
+      "totalItems": 24,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© BronceS (Pequeño Formato).",
+          "descripcion": "Escultura / Bronces / 2006.",
+          "width": 1566,
+          "height": 2338,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c96f85719a7f49479df64df863ba474b~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''el Hada de la Esperanza'' (29x12'5x12'5).",
+          "descripcion": "Escultura / Boceto / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 3008,
+          "height": 2000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_642ed6a67f144290a3409f0cf50b613c~mv2_d_3008_2000_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "Microfusión en Bronce (US).",
+          "descripcion": "Escultura / Boceto / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 3008,
+          "height": 2211,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_82b57e01ec0f43ea807ec59fa21e1f65~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''el Hada de la Esperanza'' (29x12'5x12'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e9d6a2d829aa473fa72fce174d3decfb~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''el Hada de la Esperanza'' (29x12'5x12'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e5bb7ad8ab6b4f65ab510f2a5afaaa43~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''el Hada de la Esperanza'' (29x12'5x12'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7d6dcc7d26214cdeb81403f12073f9db~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Papillion'' (21x8'5x6'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d9b6351ebc204dfb816d730ad4151728~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Papillion'' (21x8'5x6'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 730,
+          "height": 985,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3cefc28852814f82b263c92938312f2f~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Papillion'' (21x8'5x6'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a3e25cf926b04b42b60e3532be79e091~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''Papillion'' (21x8'5x6'5).",
+          "descripcion": "Escultura / Modelo en Cera / Microfusión / Bronces / 2006.",
+          "width": 710,
+          "height": 991,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6f9b968452434820869a9637db926c61~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Odalisca IV'' (19x12x9).",
+          "descripcion": "Escultura / Bronces / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8eeb789acab4417aab095d65d43fa2e9~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Odalisca IV'' (19x12x9+PEANA=35).",
+          "descripcion": "Escultura / Bronces / 2011.",
+          "width": 720,
+          "height": 1016,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_65521792c06843059401540c6d4b22dc~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Odalisca IV'' (19x12x9+PEANA=35).",
+          "descripcion": "Escultura / Bronces / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3263fecc108b4e9ab6162b2f33937b34~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Odalisca IV'' (35x12x9).",
+          "descripcion": "Escultura / Bronces / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c4535e33f95b46839500acdb2cf72415~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Odalisca IV'' (19x12x9+PEANA=35).",
+          "descripcion": "Escultura / Bronces / 2011.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4b523fa8c59b4c68927f11dde9b10d73~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Abuelas...'' (22x8x10).",
+          "descripcion": "Escultura / Bronces / Alegoría / 2012.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3ad08ee439314be29ff611d00a6308d8~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "''Abuelas...'' (22x8x10).",
+          "descripcion": "Escultura / Bronces / Alegoría / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dce81615a51c4c81b1c63981f89bffa7~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "''Abuelas...'' (22x8x10).",
+          "descripcion": "Escultura / Bronces / Alegoría / 2012.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b14416252c3d4dc1a56413a9f2122351~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "''Abuelas...'' (22x8x10).",
+          "descripcion": "Escultura / Bronces / Alegoría / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_278aa163cc894da7b71fbeff171d316b~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "''Venus'' (8x6x6).",
+          "descripcion": "Escultura / Bronces / 2012.",
+          "width": 768,
+          "height": 994,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ae90f0282f754490809cba2912652d50~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "''Venus'' (8x6x6).",
+          "descripcion": "Escultura / Bronces / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a087f99b3b3e474b9b0436275ddbd872~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "''Venus'' (8x6x6).",
+          "descripcion": "Escultura / Bronces / 2012.",
+          "width": 764,
+          "height": 969,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fcc9bda70b504be182c501c7cd3a5c62~mv2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "''Venus'' (8x6x6).",
+          "descripcion": "Escultura / Bronces / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1b27539b7ab9491fbd98730421d0404f~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 2,
+      "totalItems": 16,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "LXV EXPOSICIÓN INTERNACIONAL SALÓN DE OTOÑO.",
+          "descripcion": "Real Academia de Santa Isabel de Hungría / Sevilla / 2016.",
+          "width": 492,
+          "height": 483,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ef8db5b8f42b46e58b33580480e69865~mv2.gif"
+        },
+        {
+          "posicion": 2,
+          "titulo": "Modelo (Deseo I-II)",
+          "descripcion": "Escultura / Barro / Relieve / Bronce / 2009-2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f6838af4ab704d43861709d158340190~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''Deseo I'' (57'5x25x5).",
+          "descripcion": "Escultura / Barro / Relieve / 2009.",
+          "width": 1536,
+          "height": 1131,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_967c39e9e1184a01af973c39cd392583~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''Deseo I'' (57'5x25x5).",
+          "descripcion": "Escultura / Barro / Relieve / 2009.",
+          "width": 873,
+          "height": 1742,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d515d042b8994c7aa828df1ceffc9fb2~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Deseo I'' (57'5x25x5).",
+          "descripcion": "Escultura / Molde / Vaciado / Cera / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_26cb39651a904523856ec9106c786824~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Deseo I'' (57'5x25x5).",
+          "descripcion": "Escultura / Molde / Vaciado / Cera / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4ddb1b76555643a4a9d8157dd399d686~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Deseo I'' (57'5x25x5).",
+          "descripcion": "Escultura / Molde / Vaciado / Bronce / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ba955f9cd5c64b159d4799ef5097c1d5~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Deseo I'' (57'5x25x5).",
+          "descripcion": "El Deseo, tan claro y sencillamente humano, postrado. Al alcance de cualquier mano... / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_322b273b56fc41359130385cb886066b~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Deseo I-II'' (PÁTINA).",
+          "descripcion": "Escultura / Molde / Vaciado / Bronces / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b73bcb033be944adb9a90c6884d6462e~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "\"Deseo II\" (27x25x5).",
+          "descripcion": "Escultura / Barro / Relieve / 2009.",
+          "width": 1536,
+          "height": 1131,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0f5986cfbf3042e490dfc56d14dd2c68~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "\"Deseo II\" (27x25x5).",
+          "descripcion": "Escultura / Barro / Relieve / 2009.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4b6bd4ac011d4bf0a6d43d727f0cf18f~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "\"Deseo II\" (27x25x5).",
+          "descripcion": "Escultura / Molde / Vaciado / Cera / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_04350930411945cb9fcf88f4bd3f9ca9~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "\"Deseo II\" (27x25x5).",
+          "descripcion": "Escultura / Molde / Vaciado / Cera / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fe22af27c6ee40829462ffca83c34dc5~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "\"Deseo II\" (27x25x5).",
+          "descripcion": "Escultura / Molde / Vaciado / Bronce / 2012.",
+          "width": 1472,
+          "height": 1635,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6ee037e58066400e9f0e1bb859afea7f~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "\"Deseo II\" (50x47x8'5).",
+          "descripcion": "Escultura / Molde / Vaciado / Bronce / 2012.",
+          "width": 893,
+          "height": 738,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_efee530254844fadb27b2ddd350b574c~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Deseo I'' (74x42x8'5).",
+          "descripcion": "Seleccionado / Escultura / Bronce / 2016.",
+          "width": 832,
+          "height": 1485,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_be4e05147a6645acbbab4826c4a0da4c~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 3,
+      "totalItems": 26,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "''Otoño\" (desde París...)",
+          "descripcion": "Special Sculpture / \"Sensual Still Life\" / Project / 2015-2018.",
+          "width": 5184,
+          "height": 3456,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_92de31a9026c4ef485c315c1904138e4~mv2_d_5184_3456_s_4_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Composición / Dibujo / Escultura / Relieve / Mallado / 2016.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7daa81a8f9e447ed9a906031fcf255d6~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / 2016.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_27001688e286462195604ec7fefddf0d~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / 2016.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_25fdc70135a14e938747442357b23338~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / 2016.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8ceb5af726e04ef5b9b0ab32caf37cd7~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / 2016.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e93417135515486ca20c4dae5cc26787~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / 2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_390b632c17da4932bb9b4a8ff02c7431~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_55ffd0a78069405ea8b4a587dc661064~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Escayola tallada / Modelado en Plastilina / 2018.",
+          "width": 3456,
+          "height": 5184,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3353e9dcbe45487596c6acd7c18feda7~mv2_d_3456_5184_s_4_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde Silicona / Resina de Poliéster / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b0df46b9fb3e457bb1f738105cc3c162~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde Silicona / Resina de Poliéster / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3419a6b1e69b4a43b146431d0c568586~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde Silicona / Resina de Poliéster / 2018.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e47f18de9c4a4f5f9f9220d000084bc1~mv2_d_2560_1920_s_2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde Silicona / Resina de Poliéster / Vaciado en Cera / 2018.",
+          "width": 1600,
+          "height": 1051,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d4558036f910406dab3a70e0256845b6~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde Silicona / Resina de Poliéster / Vaciado en Cera / 2018.",
+          "width": 1600,
+          "height": 1212,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4ae53d1ada6e49fa907922d2377a980d~mv2_d_1600_1212_s_2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde Silicona / Resina de Poliéster / Vaciado en Cera / 2018.",
+          "width": 5184,
+          "height": 3456,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_822ce4c3da30402184884cd89b367818~mv2_d_5184_3456_s_4_2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Baño de Grafito / 2018.",
+          "width": 5184,
+          "height": 3456,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8a12510c20ec4c35a5c1604dc82080b5~mv2_d_5184_3456_s_4_2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde a la Arena / 2018.",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1c873d235c8548c69de03483d8ea61ec~mv2_d_1200_1600_s_2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Molde a la Arena / 2018.",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_acbbacd8af7d4cee8b9881abb2347dd5~mv2_d_1200_1600_s_2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Fundido a la Arena / Bronce / 2018.",
+          "width": 1600,
+          "height": 900,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f3e00bec3876435ebfc71b81319e1bbb~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Fundido a la Arena / Bronce / 2018.",
+          "width": 900,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b981dc27f9224bd98f39e890c8e8f56f~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Fundido a la Arena / Bronce / 2018.",
+          "width": 900,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e6e558fa0cac48cdad90cbe9bfde566a~mv2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Fundido a la Arena / Bronce / 2018.",
+          "width": 3456,
+          "height": 5184,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5d026461c0bf41d3a3745f97ba1e5bf5~mv2_d_3456_5184_s_4_2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Fundido a la Arena / Pátina Telúrica / Bronce / 2018.",
+          "width": 3456,
+          "height": 5184,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9389e91d44214a598499932765c88605~mv2_d_3456_5184_s_4_2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Escultura / Relieve / Vaciado en Cera / Fundido a la Arena / Pátina Telúrica / Bronce / 2018.",
+          "width": 3445,
+          "height": 4611,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4f6fa7389d4243ecb3e6cfb423d0d8aa~mv2_d_3445_4611_s_4_2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "''Otoño'' (Tondo-45r).",
+          "descripcion": "Special sculpture / \"Sensual Still Life\" / Exhibition 2018 Moments.",
+          "width": 3342,
+          "height": 3345,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a8d8b2ef4ffd4615959344f7b554e277~mv2_d_3342_3345_s_4_2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 4,
+      "totalItems": 25,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "Composición (Modelo 1:1)",
+          "descripcion": "Fotografía / Encargo / 2016-2018.",
+          "width": 3456,
+          "height": 5184,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0edd1357e06f46f6801ce9a33c50a2cc~mv2_d_3456_5184_s_4_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde / Vaciado / Modelado en Cera de fundir / 2016.",
+          "width": 1080,
+          "height": 1080,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c1f6052567c140a98ef60d530d2ebac1~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde / Vaciado / Modelado en Cera de fundir / 2016.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0ed95a7e83cd47f08e23223a7e3dfcd6~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde / Vaciado / Modelado en Cera de fundir / 2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fe17ab2d576e4a4f8701817d8950ca7e~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde / Vaciado / Modelado en Cera de fundir / 2017.",
+          "width": 1080,
+          "height": 1080,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c68b54dd25f3439cbe7a0c31047c1103~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde / Vaciado / Modelado en Cera de fundir / 2017.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a150bd6befa24697969e740b8b7236ae~mv2_d_2560_1920_s_2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde / Vaciado / Modelado en Cera de fundir / 2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_86a3e401846947f4b9f2304352891a79~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Molde silicona / Vaciado / Resina de Poliéster / 2018.",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_14e8a31578ce4661b86cd88e9c6836fb~mv2_d_1600_1200_s_2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Molde silicona / Vaciado / Resina de Poliéster / 2018.",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_71465eb00f074daaacd1327d78c31f79~mv2_d_1600_1200_s_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Molde silicona / Vaciado / Resina de Poliéster / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_188edda0898643579d52c76cb6e633f9~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Molde silicona / Vaciado / Resina de Poliéster / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6295fabfe9734d668ebcfc07c29e62ba~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Baño Cerámico / 2018.",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_193e5d68c6a44bb5ab16bce14ecb1482~mv2_d_1200_1600_s_2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Fundido a la Cera perdida / Cascarilla Cerámica / 2018.",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6a1dcbd0a9674e6499fbcea1cd01640c~mv2_d_1200_1600_s_2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Fundido a la Cera perdida / Bronce / 2018.",
+          "width": 900,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_674262717a9f4ab08d3cc8f36f1e4813~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Fundido a la Cera perdida / Bronce / 2018.",
+          "width": 5184,
+          "height": 3456,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f8d250f97d1e44e78dc56e0002441c59~mv2_d_5184_3456_s_4_2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Fundido a la Cera perdida / Bronce / 2018.",
+          "width": 5184,
+          "height": 3456,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8b0ccaae5e2649e5ad5cefcd8c9a4236~mv2_d_5184_3456_s_4_2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "\"Bendición\" (1:1).",
+          "descripcion": "Composición / Bronce / Firma / 2018.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_335771c73ba34b5489df4f9659436080~mv2_d_2560_1920_s_2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "\"Bendición\" (22x33'5x12).",
+          "descripcion": "Composición / Bronce / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b7ce1b0bea2a4e849b029ac0aeaa5882~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "\"Bendición\" (22x33'5x12).",
+          "descripcion": "Composición / Bronce /\nPresentación / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_20b52505ae8b416c8cea06b85c593874~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "\"Bendición\" (22x33'5x12).",
+          "descripcion": "Composición / Bronce /\nPresentación / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_99ed8b69f29b4456b1f6cea9d65e07d7~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "\"Bendición\" (22x33'5x12).",
+          "descripcion": "Composición / Bronce /\nPresentación / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_77ec98d142ba4547a30c40f91d167ef3~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "\"Bendición\" (22x33'5x12).",
+          "descripcion": "Composición / Bronce /\nPresentación / 2018.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e9915a2eb20a497ea21b3203f0abc223~mv2_d_1920_2560_s_2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "''Bendición'' (22x33'5x12).",
+          "descripcion": "Alegoría a las manos de una madre que han dado la Vida.../ Colecc.Privada / 2018.",
+          "width": 1920,
+          "height": 3516,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fa9b38e8f1cf4f1a87557ae4cc30a6dd~mv2_d_1920_3516_s_2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "''Bendición'' (22x33'5x12).",
+          "descripcion": "Alegoría a las manos de una madre que han dado la Vida.../ Colecc.Privada / 2018.",
+          "width": 1202,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f2cd5d9661a94ba097b4ad8f92fcbc18~mv2_d_1202_1920_s_2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 5,
+      "totalItems": 21,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "LXIX EXPOSICIÓN INTERNACIONAL SALÓN DE OTOÑO.",
+          "descripcion": "Real Academia de Santa Isabel de Hungría / Sevilla / 2020.",
+          "width": 492,
+          "height": 483,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f14aa70a600040d88d84e20f68f70c1b~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "In Progress (Modelo).",
+          "descripcion": "Escultura / Modelo natural / Bronce / Proceso de abocetado / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8172a2a9251345eeba38091efae5ed9d~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "In Progress (Manos).",
+          "descripcion": "Escultura / Modelado directo / Cera.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2263d77bcec4465fbd9a49a917374919~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "In Progress (Bronce-1)",
+          "descripcion": "Escultura / Fundición / Bronce / 2020.",
+          "width": 1488,
+          "height": 1984,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d15a6c58532b4d68853a3ad367745cfe~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "In Progress (Bronce-2) (1)",
+          "descripcion": "Escultura / Fundición / Bronce / 2020.",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7d629e99ad9442f2838d63607b37a0f9~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "In Progress (Bronce-2) (2)",
+          "descripcion": "Escultura / Fundición / Bronce / 2020.",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4cfbc722754f46c3ace6c2752eb88e28~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "In Progress (Bronce-3) (3)",
+          "descripcion": "Escultura / Fundición / Bronce / Composición / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9b3e31fc159d4f9da4afbed6cb6ac7f7~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "In Progress (Bronce-3) (4)",
+          "descripcion": "Escultura / Fundición / Bronce / Composición / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b015fcb75f1944199c5f0ed6bec851e7~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "In Progress (Montaje) (1)",
+          "descripcion": "Escultura / Fundición / Bronce / Montaje / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dabc1f9cadfc4021af1f13f0f626b156~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "In Progress (Montaje) (2)",
+          "descripcion": "Escultura / Fundición / Bronce / Soldaduras / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e23acea960794b0fa69c3ab31418ba27~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "In Progress (Montaje) (4)",
+          "descripcion": "Escultura / Fundición / Bronce / Soldaduras / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_217fe7c7d5a7454ab45fa3ca9bc06f8f~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "In Progress (Policromía1) (1)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromado Telúrico / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0f17c85a7759433e9d6c36e130d36ab1~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "In Progress (Policromía1) (2)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromado Telúrico / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0458235597904f16b425005a99068e4b~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "In Progress (Policromía1) (3)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromado Telúrico / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_878efe0776a34f6e965353dd7895f363~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "In Progress (Policromía1) (4)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromado Telúrico / 2020.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9cce89192b0f4efe836d4d9e7fa30456~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "In Progress (Policromía2) (7)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromía al óleo / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ee59e4f185e742fa998ef4b28bdf646e~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "In Progress (Policromía2) (8)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromía al óleo / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_29a320815b2c4f279b7f825e798700fc~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "In Progress (Policromía2) (9)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromía al óleo / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a94dabc9b08e49feb9537683b567d7ad~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "In Progress (Policromía2) (10)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromía al óleo / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_333f02e298ed406fb56aac1f1107d313~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "In Progress (Policromía2) (11)",
+          "descripcion": "Escultura / Fundición / Bronce / Policromía al óleo / 2020.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c6a800896be547a89d8694969597f81e~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "''Oda VII 32'' (46x21'5x12).",
+          "descripcion": "Seleccionado / Escultura / Bronce / 2020.",
+          "width": 2933,
+          "height": 3909,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9e16cfbdc8244e02bb8394e9ccddea7d~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 6,
+      "totalItems": 6,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "Flores de Cala (Modelo).",
+          "descripcion": "Referente.",
+          "width": 600,
+          "height": 900,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ff667e2e7a8c4fd7b1dd54fbbd51de7b~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "\"Oda XII 12\" (CERA) (1)",
+          "descripcion": "Escultura / Modelado directo en Cera de Fundir / 2023.",
+          "width": 3136,
+          "height": 4224,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d551f57923e94c5d8f82cf39dbc07268~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "\"Oda XII 12\" (CERA) (2)",
+          "descripcion": "Escultura / Modelado directo en Cera de Fundir / 2023.",
+          "width": 3136,
+          "height": 4224,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_91a756de72b74fce8edf0f5bb085b400~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "\"Oda XII 12\" (CERA) (3)",
+          "descripcion": "Escultura / Modelado directo en Cera de Fundir / 2023.",
+          "width": 3136,
+          "height": 4224,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_780fcbd898ad461f9eb7e8cf020812be~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 6,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 7,
+      "totalItems": 10,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© BronceS...",
+          "descripcion": "Escultura / Boceto / Barro / Molde / Resina / Proyecto / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_914234d005324991aefdaf931d167030~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "\"In Progress\" (40x30).",
+          "descripcion": "Escultura / Boceto / Modelo / Lápiz / Proyecto /  Bronces / 2005.",
+          "width": 7015,
+          "height": 9921,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_529c9f3c0c8342fea3184f944b50af96~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "\" In Progress\" (15x5x7).",
+          "descripcion": "Escultura / Boceto / Modelo en Cera / Microfusión / Bronces / US / 2006.",
+          "width": 3008,
+          "height": 2211,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d15506aba2774c459691ae76e361efa0~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "\" In Progress\" (15x5x7).",
+          "descripcion": "Escultura / Boceto / Modelo en Cera / Microfusión / Bronces / US / 2006.",
+          "width": 3008,
+          "height": 2211,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_26fc558dfe5d4c729698a95762975624~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "\" In Progress\" (15x5x7).",
+          "descripcion": "Escultura / Boceto / Modelo en Cera / Microfusión / Bronces / US / 2006.",
+          "width": 3008,
+          "height": 2211,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3333bf62e74d4b0ba1e418b7c1b58225~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "\" In Progress\" (41x43x36) (1:1).",
+          "descripcion": "Escultura / Modelo / Barro / Bulto Redondo / Molde / Resina / Proyecto / 2007.",
+          "width": 1536,
+          "height": 1131,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_95cae584d38a4f47b8e82d8922b09c20~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "\" In Progress\" (41x43x36) (1:1).",
+          "descripcion": "Escultura / Modelo / Barro / Bulto Redondo / Molde / Resina / Proyecto / 2007.",
+          "width": 1536,
+          "height": 1131,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4ea23b7884df46e09f5df5c5e9392ada~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "\" In Progress\" (80x...x...).",
+          "descripcion": "Escultura / Boceto / Barro / Molde / Bronce / Proyecto / 2024.",
+          "width": 1175,
+          "height": 1566,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_acc2cc5eb4b7431f943333e8e4809796~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 10,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 8,
+      "totalItems": 18,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "''Complicidad'' (MOLDE 1).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4a4099904fa6495bb6f4cd19c35bd833~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''Complicidad\" (Vistas).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2008.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_08cd7920f01e4071857bb52333446ef9~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''Complicidad'' (MODELO 1).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e8384569aacf4157b08f57be95242ec4~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''Complicidad'' (RESINA 1).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 937,
+          "height": 1393,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_40515021d5f2473e8d9715454b0f74b1~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Complicidad'' (MOLDE 1) (1)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7b28db729b584585af76640ab9c4bd00~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Complicidad'' (MOLDE 1) (2)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 3000,
+          "height": 2909,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a56dd00d678240acafd93f77c385c8dc~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Complicidad'' (MOLDE 1) (3)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 2999,
+          "height": 2796,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_11ae8f4bc0af4a5d99add0b8d29d3000~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Complicidad'' (MOLDE 2).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2011.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ec3eec16a04e4d128f419948aaae0a9e~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Complicidad'' (MODELO 2).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f5d2fcea8c0b4ef08acd1fe092ebd6c7~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''Complicidad'' (MODELO 2).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_869cfbceec6d40d5b48e2e08581e416d~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Complicidad'' (RESINA 2).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_44f638ccd7ee438a81d0709487ea33ca~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Complicidad'' (MOLDE 2) (1)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 2048,
+          "height": 1152,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ae3dad9e0f4042c89ff2c0b13a5fcdf0~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Complicidad'' (MOLDE 2) (2)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_02521bdc49d6499a9e1e73629d02a456~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Complicidad'' (MOLDE 2) (3)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 2936,
+          "height": 2697,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9351602506634b41a9d8f3c3400b1a9c~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Complicidad'' (MOLDE 2) (4)",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 3000,
+          "height": 2222,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1114b5ee259f4c358ae69c34bf4b04c2~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Complicidad'' (MOLDE 1-2).",
+          "descripcion": "Composición rescatada de otros trabajos / Guiño a ese llamado \"Pecado Original\" / 2023.",
+          "width": 2942,
+          "height": 3034,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d94f3e3c48d84871bb94975e2b7ab9db~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 18,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    }
+  ]
+}

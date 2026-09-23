@@ -1,0 +1,1790 @@
+{
+  "gallery": 5,
+  "name": "GOLD",
+  "totalCarousels": 9,
+  "totalItems": 216,
+  "carousels": [
+    {
+      "carousel": 1,
+      "totalItems": 30,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "Oro Bajo / Técnicas Modernas / Policromía al Óleo (Colores Primarios)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "BooK I (ORO BAJO)",
+          "descripcion": "Técnicas Modernas / Policromía al Óleo / Colores Primarios / 2001-2002",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c200b5872b7146c79036f23210761fac~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "Book (Gold-1)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5135650a8ff4464cb6775815ae50b44a~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "Book (Gold-2)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d73618c0a3d347f182a91f25771324b8~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "Book (Gold-3)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_94d94cf5dafa47ad9499da41a158ff8d~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "Book (Gold-4)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bdd9e9ff139649118dd6835d85bcba71~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "Book (Gold-5)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_612500b681534c05a78aa1216be9982d~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Estilo Nazarí'' (30x21)",
+          "descripcion": "Reproducción / Dorado sobre Acetato con Oro Bajo / Crisol 3 Culturas (Original en uno de los techos de ''La Sala de los Reyes'' de la Alhambra-GR) (h.1380)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8ffba70105044a4898f80572974b9c0a~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "Book (Gold-6)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_52328cf1659b4c938fac7dbd19ae17ac~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "Book (Gold-7)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b7481be263144fe4b9685c5ad1dc5622~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Estilo Hebraico'' (30x21)",
+          "descripcion": "Reproducción / Dorado sobre Cartulina con Oro Bajo / Crisol 3 Culturas / Página de una Biblia hebraica",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5fb6e338172f47c18564a738b3f0d56f~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "Book (Gold-8)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_387d575864234c318cf825be2ec6b8dd~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "Book (Gold-9)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e679c35aa74c4bff9674a35e65bfda15~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Estilo Bizantino'' (30x21)",
+          "descripcion": "Reproducción / Dorado sobre Cartón con Oro Bajo / Crisol 3 Culturas / Original en semicilindro absidal de ''La Anunciación'', Navasa. M.Diocesano de Huesca (h. 1º tercio s.Xlll)",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_576704dc3b904a0eae1d0a90d4cecf51~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "Book (Gold-10)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_24ac5e31ca724de9a4619809ca40a166~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "Book (Gold-12)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_97d56503cab24a448aef4cd32c848eda~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "Book (Gold-13)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ab62739754f74bee8ce8823837055182~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "''Estilo Románico'' (21x30)",
+          "descripcion": "Reproducción / Tallado y Dorado sobre Escayola con Oro Bajo / Original en el M.Burgos procedente del Monasterio de S.Domingo de Silos (Panel original de la urna del Santo) (h.1165-70)",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4fc6afe091f94c0090e65cd4e70461a6~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "Book (Gold-14)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_927d9a24139648e2b5a5dbceed674e59~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "Book (Gold-16)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_de475fb3b8364241aa75cf5c8dd523f4~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "Book (Gold-17)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_75ba572daf3443568cb6bcb9d864dd8f~mv2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "''Est. Gótico-Lineal'' (30x21)",
+          "descripcion": "Reproducción / Dorado sobre Mármol con Oro Bajo / Original en la Capilla de S.Agueda del Palacio Real Mayor, Barcelona (h.1464-65)",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1f000856330a459a89ad4b0428ae989e~mv2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "Book (Gold-18)",
+          "descripcion": "Fuentes de Documentación Histórico-Gráfica...\"Historia del Arte\". Editorial-Editores Planeta y Lunwerg. © Plawerg 1995.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f1566c8defad409285f7b1061b38e905~mv2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "''libro del Desamor'' (30x30)",
+          "descripcion": "Dorado sobre Chapón. Oro Bajo / Óleo y Latón / Flores secas y cristal / 2002",
+          "width": 2388,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_701b334002d5436a9545026cbea62127~mv2_d_2388_1920_s_2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "''Aries, según Picasso'' (110x10)",
+          "descripcion": "Chapón Dorado sobre falso Pergamino / Plumilla / 2003",
+          "width": 1301,
+          "height": 1998,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_aae8af040f6f44de85bf300ba601751d~mv2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "''a Picasso'' (30x20)",
+          "descripcion": "Dorado sobre falso Pergamino / Plumilla / 2003",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_048c399e0cf94fe1ad40bdb92ffeda24~mv2_d_1200_1600_s_2.jpg"
+        },
+        {
+          "posicion": 27,
+          "titulo": "''Marco'' (sin dorar)",
+          "descripcion": "Dorado \"al Aceite\" / Decoración a base de Ácidos / 2004",
+          "width": 213,
+          "height": 283,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_002f0d8231d9491f8cbec8bf13da5045~mv2.jpg"
+        },
+        {
+          "posicion": 28,
+          "titulo": "''Marco'' (dorado)",
+          "descripcion": "Dorado \"al Aceite\" / Decoración a base de Ácidos / 2004",
+          "width": 480,
+          "height": 640,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_35957574636f4a168797332037578715~mv2.jpg"
+        },
+        {
+          "posicion": 29,
+          "titulo": "Maletas",
+          "descripcion": "Materiales para Dorar / 2020",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d4f53a29b79943879719e7344c29c40c~mv2.jpg"
+        },
+        {
+          "posicion": 30,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 2,
+      "totalItems": 60,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "Expo 2003 \"Grandes Maestros\"",
+          "descripcion": "\"Grandes Maestros\" / \nBocetos del Renacimiento / Museo Etnológico / Mijas / Málaga",
+          "width": 859,
+          "height": 1660,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0d58931a93d949cd8aaafd8055b067cd~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "Expo 2003 \"Grandes Maestros\"",
+          "descripcion": "\"Grandes Maestros\" / Bocetos (110x10) / Museo Etnológico / Mijas / Málaga",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_40684d40b6914c25b676f8d8925735d3~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "Expo 2003 \"Grandes Maestros\"",
+          "descripcion": "\"Grandes Maestros\" / Bocetos (110x10) / Museo Etnológico / Mijas / Málaga",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_44445fad65c24ea3b46aa938c3404b47~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "da Vinci...",
+          "descripcion": "Bocetos inspirados en diversos temas / Museo Etnológico / Mijas / 2003",
+          "width": 1144,
+          "height": 796,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3470a6a081f449548f7bdf65d7918fbc~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 276,
+          "height": 1006,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b97a48c3e5754b2e9f98a4c1765d14c9~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 356,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4fd0cce0ce5f4446851f22e110b08504~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 328,
+          "height": 1006,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8adbbfe9dabb41f9a4ca22069f48788f~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 268,
+          "height": 962,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9806c283c9bd411c94e144dba30517ed~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 344,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ffce0b9b57734676a81aa1930392e4b5~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 328,
+          "height": 1004,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c37eabb4dbb449db8a3bf6dc90459a74~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 342,
+          "height": 1008,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_18d49c922556452587706bb3fb40bdf8~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 390,
+          "height": 974,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_89e37268d01242048de33c611dafc933~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 333,
+          "height": 983,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_27e6714d1f6444ffb17c695aaf286e28~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 323,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d3100241007247758e5261244c93b618~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "da Vinci...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 372,
+          "height": 937,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8f308f25030e46b9af47a14106248f04~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "Durero...",
+          "descripcion": "Bocetos inspirados en diversos temas / Museo Etnológico / Mijas / 2003",
+          "width": 1144,
+          "height": 796,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2f762d8c6ff64145a7cf407a89dbe630~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 359,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d109102df4e84318ae7bd8a4687bc3fe~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 309,
+          "height": 949,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_07e436f5c1d348da9d356f97a9d73ca8~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 283,
+          "height": 992,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f65dc9f7b6a04a67800b816eb1845dfe~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 325,
+          "height": 1005,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bc3111a481094cfbb1686a93961c2784~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 321,
+          "height": 971,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ec4d2b8347d444c4bf3aac48b3d4ca5d~mv2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 419,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_64a0e33894884ac6a2a1f84b0eff6d53~mv2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 367,
+          "height": 1011,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_abd70a51383145cf94666708484e2037~mv2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 393,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_316a3494985b4eb3867227bd4e86cfdd~mv2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 425,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2c6a4bb8050141e585f3e3f3b94fd7d2~mv2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 440,
+          "height": 996,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_77ef59a13eb84709bb185a72c6de1cc9~mv2.jpg"
+        },
+        {
+          "posicion": 27,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 258,
+          "height": 1001,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_867d154fbfbb462a94e3ce0f0a36aa70~mv2.jpg"
+        },
+        {
+          "posicion": 28,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 376,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f6d198331fc54a6698f2203d859e6391~mv2.jpg"
+        },
+        {
+          "posicion": 29,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 585,
+          "height": 981,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_61c72e432042498696eb3080f39f5075~mv2.jpg"
+        },
+        {
+          "posicion": 30,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 363,
+          "height": 978,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b320c9e5361f45b28e38e21ace8f55b6~mv2.jpg"
+        },
+        {
+          "posicion": 31,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 387,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6fe5607b7a084f36a3aaa8bf0ae1e0f0~mv2.jpg"
+        },
+        {
+          "posicion": 32,
+          "titulo": "Durero...",
+          "descripcion": "\"Grandes Maestros\" / Sanguinas / Tintas / Óleo / Dorado / Plateados / 2003",
+          "width": 544,
+          "height": 945,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1722f28472a94ddca4445227f55cadd9~mv2.jpg"
+        },
+        {
+          "posicion": 33,
+          "titulo": "Buonarroti...",
+          "descripcion": "Bocetos inspirados en diversos temas / Museo Etnológico / Mijas / 2003",
+          "width": 1260,
+          "height": 796,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_18bec5aeb3244fa9b780ca9185f301b6~mv2.jpg"
+        },
+        {
+          "posicion": 34,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 417,
+          "height": 995,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_34730d8f8d724795870d6066ea034c7d~mv2.jpg"
+        },
+        {
+          "posicion": 35,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 304,
+          "height": 987,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_857ae86c223847daa4bc7dea57d8010f~mv2.jpg"
+        },
+        {
+          "posicion": 36,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 352,
+          "height": 987,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_362b7e1969c14d2b874800f936e35a27~mv2.jpg"
+        },
+        {
+          "posicion": 37,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 268,
+          "height": 932,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b0e1a9a4603a4a989aa0116378121e5f~mv2.jpg"
+        },
+        {
+          "posicion": 38,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 295,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_60d0c2f0f08b447ba4780c3e92a5aaa5~mv2.jpg"
+        },
+        {
+          "posicion": 39,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 374,
+          "height": 951,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6025bf374f0a47818fc989e3f49252e7~mv2.jpg"
+        },
+        {
+          "posicion": 40,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 296,
+          "height": 978,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_33682e0fea7d44f09c81d86c343b9411~mv2.jpg"
+        },
+        {
+          "posicion": 41,
+          "titulo": "Buonarroti...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 398,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_80aeb78989c04f93858deeaa21e3e3c1~mv2.jpg"
+        },
+        {
+          "posicion": 42,
+          "titulo": "di Sanzio...",
+          "descripcion": "Bocetos inspirados en diversos temas / Museo Etnológico / Mijas / 2003",
+          "width": 1144,
+          "height": 796,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_64909a0818bf438e9435cd27cacfc0ea~mv2.jpg"
+        },
+        {
+          "posicion": 43,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 305,
+          "height": 501,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f4976acc18984bddbc428b82e73f8362~mv2.jpg"
+        },
+        {
+          "posicion": 44,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 341,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_cddfff6de1b148c3843f8b2c54bd463b~mv2.jpg"
+        },
+        {
+          "posicion": 45,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 402,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_59dd09ca5bbf47a4ba3198343fb08e32~mv2.jpg"
+        },
+        {
+          "posicion": 46,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 419,
+          "height": 987,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_07dcf3c2daae47c2a5224d149bed6fa3~mv2.jpg"
+        },
+        {
+          "posicion": 47,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 268,
+          "height": 978,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_882a01b59d74405388886940ca32f54b~mv2.jpg"
+        },
+        {
+          "posicion": 48,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 410,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_82243cf7f2f34cb9beb2ae655e3dfa82~mv2.jpg"
+        },
+        {
+          "posicion": 49,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 491,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9cd76c15403847798fc83b40e9df2285~mv2.jpg"
+        },
+        {
+          "posicion": 50,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 368,
+          "height": 979,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b88e8c85f8f74350a7abc5e077e358c4~mv2.jpg"
+        },
+        {
+          "posicion": 51,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 342,
+          "height": 995,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dffd570be7cd442cb1bb2e1e8c22e882~mv2.jpg"
+        },
+        {
+          "posicion": 52,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 378,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b32e3097cc264730a282e637dfcc7033~mv2.jpg"
+        },
+        {
+          "posicion": 53,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 459,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5c992d76d0554290ae52b1689c3f9b44~mv2.jpg"
+        },
+        {
+          "posicion": 54,
+          "titulo": "di Sanzio...",
+          "descripcion": "\"Grandes Maestros\" / Lápices / Sanguinas / Tintas / Cafetada / Óleo / Dorado / 2003",
+          "width": 483,
+          "height": 977,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4cf83db0dbb9493cb8f7dbcd1ed9f58b~mv2.jpg"
+        },
+        {
+          "posicion": 55,
+          "titulo": "Expo 2003 \"Grandes Maestros\"",
+          "descripcion": "CLAUSURA",
+          "width": 720,
+          "height": 540,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5dc72805b8a94e8fb1e62f450eb3acdb~mv2.jpg"
+        },
+        {
+          "posicion": 56,
+          "titulo": "Expo 2003 \"Grandes Maestros\"",
+          "descripcion": "PALETA / \"Grandes Maestros\" / Materiales / Lápices / Barras Secas / Tintas / Cafetadas / Dorado / Plateado / Óleos / 2003",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3ec1fe43659e404bbe27d439da98a1c7~mv2.jpg"
+        },
+        {
+          "posicion": 57,
+          "titulo": "Expo 2004-06' \"Grandes Maestros\"",
+          "descripcion": "\"Grandes Maestros\" / \nBocetos del Renacimiento / MaBstab Gallery / Hamburgo / Alemania/ 2004-2005",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3ea4c8f00d0942cd974492b92d946341~mv2.jpg"
+        },
+        {
+          "posicion": 58,
+          "titulo": "Expo 2004-06' \"Grandes Maestros\"",
+          "descripcion": "\"Grandes Maestros\" / \nBocetos del Renacimiento / MaBstab Gallery / Hamburgo / Alemania/ 2004-2005",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b04352e847fb412db123b09c596feb86~mv2.jpg"
+        },
+        {
+          "posicion": 59,
+          "titulo": "Expo 2004-06' \"Grandes Maestros\"",
+          "descripcion": "\"Grandes Maestros\" / \nBocetos del Renacimiento / MaBstab Gallery / Hamburgo / Alemania/ 2004-2005",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4897eb59854148b9b89000bef495bd10~mv2.jpg"
+        },
+        {
+          "posicion": 60,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 3,
+      "totalItems": 11,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "Oro Fino / Técnicas Antíguas / Policromía con pigmentos hechos a mano.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "BooK II (ORO FINO)",
+          "descripcion": "Técnicas Antíguas / Policromía con pigmentos hechos a mano / 2002-2003.",
+          "width": 3000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c200b5872b7146c79036f23210761fac~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''Esplendor-Gótico'' (30x21).",
+          "descripcion": "Reproducción / Dorado sobre Madera con Oro fino / Volúmenes con Pastillaje / Original en M.A.Cataluña / Detalle Retablo de S.Jerónimo-S.Martín repartiendo su capa (h.1457).",
+          "width": 1798,
+          "height": 2565,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6c49f24b6e8d4205b83f39459e0cedfc~mv2_d_1798_2565_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "\"Arquilla Amatoria\" (21x30).",
+          "descripcion": "Reproducción / Dorado sobre Madera con Oro fino / Volúmenes con Pastillaje / Original ubicado en el M.N.Cataluña (h.1400).",
+          "width": 2380,
+          "height": 1688,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8473e5b5036e4fde92afc9b480e251bf~mv2_d_2380_1688_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "\"Arquilla Amatoria\" (21x30).",
+          "descripcion": "Reproducción / Dorado sobre Madera con Oro fino / Volúmenes con Pastillaje / Original ubicado en el M.N.Cataluña (h.1400).",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_37ac5afa310e4f088ba15a4f6c2959cc~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Esplendor-Gótico'' (30x21).",
+          "descripcion": "Reproducción / Dorado sobre Madera con Oro fino / Volúmenes con Pastillaje / Original ubicado en el M.N.Cataluña-S.Jerónimo como Cardenal (h.1440-50).",
+          "width": 1264,
+          "height": 1832,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_29d0090dc9aa4ca59e177dc91faf5c2b~mv2_d_1264_1832_s_2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "\"Página Miniada\" (30x21) (1).",
+          "descripcion": "Reproducción / Dorado sobre Vellum con Oro fino / Policromía con Acuarelas hechas a mano / Original lámina del Duque de Borgoña, Felipe el Bueno (M.Hermitage).",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4a0fbaa7a614499cbf0da3c29adf36ee~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "En Proceso (1)",
+          "descripcion": "Dorado y Estucado sobre Trapo / Estofado según ropaje de Sta.Catalina de F.Zurbarán / Colecc.Massevo.",
+          "width": 886,
+          "height": 1181,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_31a385b2191f425e93896fe3db2e832a~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "En Proceso (2)",
+          "descripcion": "Dorado y Estucado sobre Trapo / Estofado según ropaje de Sta.Catalina de F.Zurbarán / Colecc.Massevo.",
+          "width": 213,
+          "height": 283,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9736ea7923ed4f47a91eb06ce1acc5d0~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "\"Santa Catalina\" (F.Zurbarán).",
+          "descripcion": "Ropaje de Sta.Catalina de F.Zurbarán / Colecc.Massevo / Detalle para el \"estofado\".",
+          "width": 912,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c26c114ae33a4d6495caca2ae472d345~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 4,
+      "totalItems": 19,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Grandes Maestros XIX",
+          "descripcion": "Dorado / Retratos / Técnicas Modernas / Oro Bajo / Tintas.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "© ''Gnds.Maestros s.XIX'' (Retratos)",
+          "descripcion": "Dorado / Retratos / Técnicas Modernas / Oro Bajo / Tintas / 2005.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7f04cf67ff334fe8bbb947318f83ba11~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "\"Jean August Dominique Ingres\" (1780-1867).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1857,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_91eaaf196ce14d34b708092b3f12062e~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "\"Eugene Delacroix\" (1798-1863).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1875,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b7803b778b0c4fe7bcd24ee19fcc9049~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "\"Camille Jacob Pissarro\" (1830-1903).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1844,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b418ac187cf247d5b09b40333acfbb2b~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "\"Edouard Manet\" (1832-1883).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1854,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8f504b924e154b04a59fb6aaf85a5288~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "\"Edgar Degas\" (1834-1917).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1829,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5288f0f579e54bb0b4d061dbd5ede962~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "\"Paul Cézanne\" (1839-1906).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1834,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3096cf742f7540ed919daecb02067eaf~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "\"Claude Monet\" (1840-1926).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1828,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e994702a9c194c9bb47fcb491ff599d9~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "\"Berthe Morisot\" (1841-1895).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9beacfb8e5564276974ec008df50398a~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "\"Pierre-August Renoir\" (1841-1919).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1864,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ac35c598e65d4f978d59b5ae6ae14949~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "\"Paul Gauguin\" (1848-1903).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1846,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8ad0a34ce8cb4c989e4f885acd4dc412~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "\"Vincent Van Goght\" (1853-1890).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1861,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9c64963f2e104288b4b16e4f20f8f294~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "\"Joaquín Sorolla\" (1863-1923).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1896,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b039ea701f4642bdb0e5a07b226799c6~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "\"Joaquín Sorolla\" (1863-1923).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1908,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5fbe93a80f8d45ccb05a395fe3b50702~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "\"Paul Signac\" (1863-1935).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1871,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b9413dc5be04461a92a92ac896241c46~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "\"Henri de Toulouse Lautrec\" (1864-1901).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas  / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1887,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e725627ba4824c1eaaf9cf076a2d0e2e~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "\"Pablo Ruíz Picasso\" (1881-1972).",
+          "descripcion": "Dorado sobre Acetato / Retratos en Tintas / Oro Bajo / Técnicas Modernas / (6'5x5'5 cm) / 2005.",
+          "width": 1177,
+          "height": 1902,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3c4c9b2ab5084ceaabb4e5e30bbd4ea7~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 5,
+      "totalItems": 18,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Iconos / Eikôn.",
+          "descripcion": "Oro Fino / Técnicas Antíguas / Volumen con Pastillaje (Estuco).",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "Maleta de Materiales.",
+          "descripcion": "Materiales / Herramientas / Dorado / Plateado / Policromía.",
+          "width": 4000,
+          "height": 3000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d4f53a29b79943879719e7344c29c40c~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "EIKÔN 1 (Materiales).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Cola de Conejo (Estuco) / 2004.",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_11001e7b08094bddaa9c392befdc1bb4~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "EIKÔN 1 (Materiales).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Preparación de Estuco / 2004.",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dd05ee368f2e41bdb4f7301c06b21998~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "EIKÔN 1 (Superficie).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Lijado de Superficie / Estuco sobre Lino / 2004.",
+          "width": 792,
+          "height": 992,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b44e61364aba4b45bfca568b92e7f482~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "EIKÔN 1 (Materiales).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Tratamiento de la Madera / 2004.",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_79e5f0aea78a480b90b6816052e30742~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "EIKÔN 1 (Encolado).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Tratamiento de la Madera / 2004.",
+          "width": 1192,
+          "height": 792,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_90dc43612e0241db80c636e78a2b9d1f~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "EIKÔN 1 (Pastillaje).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / 2004.",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f0129cd3a50c4bdf98fffa9864e03d39~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "EIKÔN 1 (Pastillaje).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / 2004.",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4d26976562e648d28f1478505ab5732e~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "EIKÔN 1 (Embolado).",
+          "descripcion": "Reproducción / Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / 2004.",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_44520ac0dbda47c4b791269cf28044bc~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "EIKÔN 1  (Dorado ''al Agua'').",
+          "descripcion": "Reproducción / Dorado \"al agua\" con Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Policromía (Colores primarios) / Icono Ortodoxo, mitad s.XVlll (Ucrania) / 2004.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6ed70dad6aef46dc8c267b9576b4c1b7~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "EIKÔN 1 (''Aggelos Ort-Land'') (22K).",
+          "descripcion": "Reproducción / Dorado \"al Agua\" con Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Policromía (Colores Primarios) / Icono Ortodoxo, mitad s.XVlll (Ucrania) / 2004.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e5e036abd78e4c59a4651c697f594e0d~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "EIKÔN 1 (''Aggelos Ort-Land'') (22K).",
+          "descripcion": "Reproducción / Dorado \"al agua\" / Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Policromía (Colores Primarios) / Icono Ortodoxo, mitad s.XVlll (Ucrania) / 2004.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_da69e827ed344f52b45fa9ae2d64b08d~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "EIKÔN 2 (22K) (Madera+Estuco).",
+          "descripcion": "Interpretación / Dorado \"al agua\" con Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Fresco en Riminni (Italia) (s.XV) / 2005.",
+          "width": 886,
+          "height": 1181,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_25cafebcec9640d2befeab3a44683e61~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "EIKÔN 2 (Pastillaje-Dorado) (22k) (25'5x15).",
+          "descripcion": "Interpretación / Dorado \"al agua\" con Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Fresco original d la Madonna di Bonora (Riminni, Italia) (s.XV) / 2005.",
+          "width": 886,
+          "height": 1181,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a2265f397df64865988236710f372cd6~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "EIKÔN 2 (In Progress).",
+          "descripcion": "Interpretación / Dorado \"al agua\" con Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Policromía (Colores Primarios) / Fresco original de la Madonna di Bonora (Riminni, Italia) (s.XV) / 2005.",
+          "width": 295,
+          "height": 394,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_789afcdf3bca4245a4ed27024f875539~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "EIKÔN 2 (In Progress).",
+          "descripcion": "Interpretación / Dorado \"al agua\" con Oro Fino / Técnicas Antíguas Rusas / Volumen con Pastillaje (Estuco) / Policromía (Colores Primarios) / Fresco original de la Madonna di Bonora (Riminni, Italia) (s.XV) / 2005.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_04e611cc8e184427874733da79ba7f57~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 6,
+      "totalItems": 46,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "Restaur@ / Limpieza / Dorados / Tallas / Marcos / Pinturas",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "COMPOSICIÓN",
+          "descripcion": "Restaur@ / Tanteo y Valoración / Limpieza / Reposición / Dorado.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7386537d3f2a4fbea6b748d5975e29c2~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (1)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_11e1696aa5994acc863b8962f71629b7~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (2)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_81f6b67907b447ebad7c10349aafdd0f~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (3)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_80f4d5c9d92d465f9a043efd29221251~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (4)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ac327d6d2922440fa2d56586d06278bc~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (5)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e1012b47f29e4dd89e41f3f3519030d7~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (6)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b7a48cd8bd6f4da0935d67baadc34fa4~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (7)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4f8a74193e554657ab8379011a3a3b19~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (8)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7d5ad30fc57b4991b544e679f513255c~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (9)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0f1f4a67c92c4c0583cf3c25b0f2836f~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (10)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6733f27a93b244cca1d48763ae8be691~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "1-ESTUDIO PREVIO (11)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8acdf867d75d4f228f4027b66b0a0607~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "2-VALORACIÓN (Daños) (1)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_65f0e0d8eb064eefa62cb19292f169c6~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "2-VALORACIÓN (Daños) (2)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5520eb4ffb46413abcf995e8d9dad7de~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "3-DESPIECE (1)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ea01b7115d654fcc94dc46d1f60df563~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "3-DESPIECE (2)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_354e595a69c24ede83294e9dedcc32b1~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "3-DESPIECE (3)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bab1e4d4a98a48a9906393c0d2e12da2~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (1)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ebb03385bf764c41bc0bd2e180efd796~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (2)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_15d54a4ec19a4e26ac54d824707a4eff~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (3)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_34834893b4dd44f4999dd4115c7c98d5~mv2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (4)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_22f5822bb01d4112871d5a7a9344063a~mv2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (5)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7e1983a5e2254639beb77eae4b4a6de0~mv2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (6)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bc2011c123bd4bc4b2b905786c83f5df~mv2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (7)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2f7a809ce7a346029e1aa77a897eb265~mv2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (8)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6b5011c0587548e68df3813eda983462~mv2.jpg"
+        },
+        {
+          "posicion": 27,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "4-REPOSICIÓN Y CONSOLIDACIÓN (9)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_101601e6d2a24e00a128d0583405c0c0~mv2.jpg"
+        },
+        {
+          "posicion": 28,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (1)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9df7f6af3b574fbbade6b9bd87957bfd~mv2.jpg"
+        },
+        {
+          "posicion": 29,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (2)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7670b972faa54011908a7dacc28543c3~mv2.jpg"
+        },
+        {
+          "posicion": 30,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (3)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_720e16a1e52d43a1af38d66d4f910b32~mv2.jpg"
+        },
+        {
+          "posicion": 31,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (4)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b057018667cd43319d2a9de197c2cfce~mv2.jpg"
+        },
+        {
+          "posicion": 32,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (5)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6ce246fbefac4634a73f7a40cccbcea8~mv2.jpg"
+        },
+        {
+          "posicion": 33,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (6)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4ff574a38d0a4b53aa9b1eb00ed114bb~mv2.jpg"
+        },
+        {
+          "posicion": 34,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (7)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9e7f6adafca249719f3c74e4900436e6~mv2.jpg"
+        },
+        {
+          "posicion": 35,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (8)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c4b7d05d93534e7d8af67c53fad0f0c4~mv2.jpg"
+        },
+        {
+          "posicion": 36,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (9)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_456c757516474babb189b2e468a160e2~mv2.jpg"
+        },
+        {
+          "posicion": 37,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (10)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_877c58aca971450b9272d98b3211a9a4~mv2.jpg"
+        },
+        {
+          "posicion": 38,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (11)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a71a8670455246fda31ebda8923abd68~mv2.jpg"
+        },
+        {
+          "posicion": 39,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (12)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_aa95df095dc146548adb8856e2f6bdf3~mv2.jpg"
+        },
+        {
+          "posicion": 40,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (13)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b34cd8e6897c43b983336c90226b7930~mv2.jpg"
+        },
+        {
+          "posicion": 41,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (14)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_143ff1f27f5b488ab0e6f5647966be16~mv2.jpg"
+        },
+        {
+          "posicion": 42,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "5-DORADO (15)",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f1e4f9a1097e4f5691c1c9533c60c377~mv2.jpg"
+        },
+        {
+          "posicion": 43,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "6-RESULTADO FINAL (1)",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ad25474b3ede41c4890c14db7fa1c430~mv2.jpg"
+        },
+        {
+          "posicion": 44,
+          "titulo": "ANTES (L.Rivers) (1850-1905).",
+          "descripcion": "Restaur@ / Tanteo y Valoración / Limpieza / Reposición / Dorado / 2006.",
+          "width": 1951,
+          "height": 1406,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9c0beb475ef34b7683287ebc298ca9e9~mv2.jpg"
+        },
+        {
+          "posicion": 45,
+          "titulo": "DESPUÉS (L.Rivers) (1850-1905).",
+          "descripcion": "Restaur@ / Tanteo y Valoración / Limpieza / Reposición / Dorado / 2006.",
+          "width": 1948,
+          "height": 1413,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c121e425b3eb40698bf4a59b1a7ceba5~mv2.jpg"
+        },
+        {
+          "posicion": 46,
+          "titulo": "PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 7,
+      "totalItems": 21,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "PATRIMONIO NACIONAL",
+          "descripcion": "",
+          "width": 508,
+          "height": 507,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b47ea40f140247ebbc2fd017a657e74c~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "Escuela AA.PP.Diseño (Málaga)",
+          "descripcion": "Vista aérea del Patio",
+          "width": 792,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0ff3f900baf045429b18c20153b44de3~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c254acb88d3e4836a71f97be06072251~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 2048,
+          "height": 3072,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_676d6b7758ef49609019539a3583ecf9~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_845d3fbb62c54253b3cab2a648aa771a~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 2048,
+          "height": 3072,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ab450aaf07f74b43b99d89e2d6dfbd66~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 3072,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bcdbfefa89234b76adcc480e38ea941f~mv2_d_3072_2048_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_712dd1b6e8bf4580a1788c3af6c2d771~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 3072,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e9fd1a859497478c90a676e04e785dd3~mv2_d_3072_2048_s_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas / Desde 1942",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5a8ceece2f4142579003b7d587e3c48d~mv2_d_1600_1200_s_2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_54e1967a7376449392980c47e6c06882~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1024,
+          "height": 768,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4fe1e4a6a41a4fd8a0275807a3d8b071~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1200,
+          "height": 1600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_adca9c9541c2477eb3be0d4eaa60f38e~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 2048,
+          "height": 3072,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c71bfdeb04fe42aba8c69aac7c3aae31~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_406d50d39e4649c58e80fc6867e5ca2c~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 3072,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1992465d20444787babcfdca40beec2b~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas / Desde 1942",
+          "width": 1024,
+          "height": 768,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f76bcba06fc6425c8c83f08bc46d07cc~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 3072,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7492ac2a833f40d19b221166bb14f060~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 2048,
+          "height": 3072,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7111cdb01d8e452d933e081f1b0459ef~mv2_d_2048_3072_s_2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "Catedral de Málaga",
+          "descripcion": "PATRIMONIO NACIONAL / Restaur@ / Limpieza / Dorados / Tallas / Pinturas",
+          "width": 1600,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f139b52e0bb84dfaba9b0badd03ed0e6~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 8,
+      "totalItems": 7,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Punto-Art (since 2002).",
+          "descripcion": "Restaur@ / Decoración / Nobleza y elegancia en diversos elementos.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "Deco-Dorados (16x13'5x3).",
+          "descripcion": "Talla en madera de Tilo / Elemento decorativo para mobiliario / 2016.",
+          "width": 720,
+          "height": 960,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6c3b4c7457f84c47966cbbe540a76d29~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "Deco-Dorados (16x13'5x3).",
+          "descripcion": "Dorado sobre talla en madera de Tilo / Oro Bajo / Elemento decorativo para mobiliario / 2016.",
+          "width": 720,
+          "height": 960,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b72659f3801e4fd7bbfdbae6cba5d76e~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "Deco-Dorados (16x13'5x3).",
+          "descripcion": "Dorado sobre talla en madera de Tilo / Oro Bajo / Elemento decorativo para mobiliario / 2016.",
+          "width": 720,
+          "height": 960,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5d0756465c7740ab9c1e0c5901bdfede~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "Deco-Dorados (16x13'5x3).",
+          "descripcion": "Dorado sobre talla en madera de Tilo / Oro Bajo / Elemento decorativo para mobiliario / 2016.",
+          "width": 720,
+          "height": 960,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_648eb9a3745b493a88aa2360e24924de~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "Deco-Dorados (16x13'5x3).",
+          "descripcion": "Dorado sobre talla en madera de Tilo / Oro Bajo / Elemento decorativo para mobiliario / 2016.",
+          "width": 720,
+          "height": 960,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_de092d075f6a43b084f137e18bfd83a8~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 9,
+      "totalItems": 4,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© Punto-Art (since 2002)",
+          "descripcion": "Restaur@ / Limpieza / Dorados / Tallas / Marcos / Pinturas",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a5de16079bbd4ad2940ea829bcac6756~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "© PUNTO-ART",
+          "descripcion": "Punto-Art Restaur@ / Art World Company / Since 2004.",
+          "width": 1228,
+          "height": 600,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_787ab0c2695b44518a74fc022c9a3289~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "Desde nuestro Taller",
+          "descripcion": "Técnicas aplicadas al \"Arte del Dorado\", y sus variantes (desde las más Antiguas a las más Modernas).",
+          "width": 3071,
+          "height": 1807,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_772dd8c005124936892fc77093a4afdb~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        }
+      ]
+    }
+  ]
+}

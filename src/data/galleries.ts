@@ -2,6 +2,31 @@ import galleryOneRaw from "./galleries/gallery-1.json";
 import galleryTwoRaw from "./galleries/gallery-2.json";
 import galleryThreeRaw from "./galleries/gallery-3.json";
 import galleryFourRaw from "./galleries/gallery-4.json";
+import galleryFiveRaw from "./galleries/gallery-5.json";
+import gallerySixRaw from "./galleries/gallery-6.json";
+import gallerySevenRaw from "./galleries/gallery-7.json";
+import galleryEightRaw from "./galleries/gallery-8.json";
+
+/** Shape of the "completa" export files (galleries 5-8): one entry per
+ * original Wix carousel, items verbatim. */
+export interface CarouselGalleryFile {
+  gallery: number;
+  name?: string;
+  totalCarousels?: number;
+  totalItems?: number;
+  carousels: {
+    carousel: number;
+    totalItems?: number;
+    items: {
+      posicion: number;
+      titulo: string;
+      descripcion?: string;
+      width?: number;
+      height?: number;
+      imageUrl: string;
+    }[];
+  }[];
+}
 
 /** Raw shape of the extracted Wix JSON files. */
 export interface RawGalleryFile {
@@ -127,6 +152,48 @@ export function buildGroups(raw: RawGalleryFile, galleryId: string): GalleryGrou
     }));
 }
 
+/** Builds one group per original carousel, verbatim: no dedupe, no filtering,
+ * no reordering, titles and descriptions exactly as provided. */
+export function buildCarouselGroups(
+  raw: CarouselGalleryFile,
+  galleryId: string,
+): GalleryGroup[] {
+  return raw.carousels.map((carousel) => ({
+    id: `${galleryId}-c${carousel.carousel}`,
+    works: carousel.items.map((item, i) => ({
+      id: `${galleryId}-c${carousel.carousel}-${item.posicion ?? i}-${i}`,
+      title: item.titulo,
+      info: item.descripcion,
+      imageUrl: item.imageUrl,
+      width: item.width,
+      height: item.height,
+    })),
+  }));
+}
+
+const GALLERY_LABELS = [
+  "GALLERY I (2D)",
+  "GALLERY II (2D)",
+  "GALLERY III (3D)",
+  "GALLERY IV (2D)",
+  "GALLERY V (GOLD)",
+  "GALLERY VI (3D)",
+  "GALLERY VII (3D)",
+  "GALLERY VIII (3D)",
+];
+
+function defineCarouselGallery(
+  index: number,
+  raw: CarouselGalleryFile,
+): GalleryDefinition {
+  const id = `gallery-${index}`;
+  return {
+    id,
+    label: GALLERY_LABELS[index - 1] ?? `Gallery ${index}`,
+    groups: buildCarouselGroups(raw, id),
+  };
+}
+
 function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
   const id = `gallery-${index}`;
   const labels = [
@@ -152,10 +219,10 @@ export const galleries: GalleryDefinition[] = [
   defineGallery(2, galleryTwoRaw as RawGalleryFile),
   defineGallery(3, galleryThreeRaw as RawGalleryFile),
   defineGallery(4, galleryFourRaw as RawGalleryFile),
-  defineGallery(5),
-  defineGallery(6),
-  defineGallery(7),
-  defineGallery(8),
+  defineCarouselGallery(5, galleryFiveRaw as CarouselGalleryFile),
+  defineCarouselGallery(6, gallerySixRaw as CarouselGalleryFile),
+  defineCarouselGallery(7, gallerySevenRaw as CarouselGalleryFile),
+  defineCarouselGallery(8, galleryEightRaw as CarouselGalleryFile),
 ];
 
 export const ALL_WORKS_ID = "all";
