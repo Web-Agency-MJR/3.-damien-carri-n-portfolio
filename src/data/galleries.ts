@@ -171,6 +171,29 @@ export function buildCarouselGroups(
   }));
 }
 
+const GALLERY_LABELS = [
+  "GALLERY I (2D)",
+  "GALLERY II (2D)",
+  "GALLERY III (3D)",
+  "GALLERY IV (2D)",
+  "GALLERY V (GOLD)",
+  "GALLERY VI (3D)",
+  "GALLERY VII (3D)",
+  "GALLERY VIII (3D)",
+];
+
+function defineCarouselGallery(
+  index: number,
+  raw: CarouselGalleryFile,
+): GalleryDefinition {
+  const id = `gallery-${index}`;
+  return {
+    id,
+    label: GALLERY_LABELS[index - 1] ?? `Gallery ${index}`,
+    groups: buildCarouselGroups(raw, id),
+  };
+}
+
 function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
   const id = `gallery-${index}`;
   const labels = [
