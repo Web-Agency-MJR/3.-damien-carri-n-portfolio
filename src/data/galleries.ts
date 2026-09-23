@@ -2,6 +2,31 @@ import galleryOneRaw from "./galleries/gallery-1.json";
 import galleryTwoRaw from "./galleries/gallery-2.json";
 import galleryThreeRaw from "./galleries/gallery-3.json";
 import galleryFourRaw from "./galleries/gallery-4.json";
+import galleryFiveRaw from "./galleries/gallery-5.json";
+import gallerySixRaw from "./galleries/gallery-6.json";
+import gallerySevenRaw from "./galleries/gallery-7.json";
+import galleryEightRaw from "./galleries/gallery-8.json";
+
+/** Shape of the "completa" export files (galleries 5-8): one entry per
+ * original Wix carousel, items verbatim. */
+export interface CarouselGalleryFile {
+  gallery: number;
+  name?: string;
+  totalCarousels?: number;
+  totalItems?: number;
+  carousels: {
+    carousel: number;
+    totalItems?: number;
+    items: {
+      posicion: number;
+      titulo: string;
+      descripcion?: string;
+      width?: number;
+      height?: number;
+      imageUrl: string;
+    }[];
+  }[];
+}
 
 /** Raw shape of the extracted Wix JSON files. */
 export interface RawGalleryFile {
