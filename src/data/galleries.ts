@@ -196,10 +196,10 @@ export const galleries: GalleryDefinition[] = [
   defineGallery(2, galleryTwoRaw as RawGalleryFile),
   defineGallery(3, galleryThreeRaw as RawGalleryFile),
   defineGallery(4, galleryFourRaw as RawGalleryFile),
-  defineGallery(5),
-  defineGallery(6),
-  defineGallery(7),
-  defineGallery(8),
+  defineCarouselGallery(5, galleryFiveRaw as CarouselGalleryFile),
+  defineCarouselGallery(6, gallerySixRaw as CarouselGalleryFile),
+  defineCarouselGallery(7, gallerySevenRaw as CarouselGalleryFile),
+  defineCarouselGallery(8, galleryEightRaw as CarouselGalleryFile),
 ];
 
 export const ALL_WORKS_ID = "all";
