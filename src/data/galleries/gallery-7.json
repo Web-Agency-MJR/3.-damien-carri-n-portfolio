@@ -1,0 +1,1281 @@
+{
+  "gallery": 7,
+  "totalCarousels": 7,
+  "totalItems": 154,
+  "carousels": [
+    {
+      "carousel": 1,
+      "totalItems": 40,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "LIX EXPOSICIÓN INTERNACIONAL SALÓN DE OTOÑO.",
+          "descripcion": "Real Academia de Santa Isabel de Hungría / Sevilla / 2010.",
+          "width": 492,
+          "height": 483,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c48e5c1bef134c508cc499ade34684b2~mv2.gif"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol / 2007-2010.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_36b4ce546bb549a886a1047eccb28785~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''el Origen'' (ENCAJE-1)",
+          "descripcion": "Escultura / Talla Directa / Mármol (35x34x24) / 2007.",
+          "width": 1662,
+          "height": 2318,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_599c82b4d36f4a5c856c4a80c5c0b846~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''el Origen'' (ENCAJE-1)",
+          "descripcion": "Escultura / Talla Directa / Mármol (35x34x24) / 2007.",
+          "width": 1662,
+          "height": 2328,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_67cc9713e5e34fc7baac70551f075f8e~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e86646165a5d4ede8425bd31c98dc9ea~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f6f7d0bd339b4cd7a1cf48096fb027fc~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c9f77609b8d54199a92670f30a76ae91~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ba05a88257d1499fa10fa9438d658c83~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4c58cb41c0fb43e8a736d76ea03514f5~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0d3658abff6542fe80163fac9ce171f4~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''el Origen'' (BOCETOS 1)",
+          "descripcion": "Escultura / Modelo / Plastilina (11'5x9x5) / Talla Directa / Mármol / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_17e9599488924ddbbd297daa2a722be1~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''el Origen'' (BOCETOS 2)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Mármol / 2007.",
+          "width": 1662,
+          "height": 2338,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4451e8e857c8428cbca773bd935c607c~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''el Origen'' (BOCETOS 2)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Mármol / 2007.",
+          "width": 1700,
+          "height": 2300,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_df0e8cab45154f23a02b6266f181655c~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''el Origen'' (BOCETOS 2)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Mármol / 2007.",
+          "width": 1652,
+          "height": 2328,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_257ef70afc094cc8b5c02a2b9424b4a9~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''el Origen'' (MODELO 1)",
+          "descripcion": "Escultura / Modelo / Talla Directa / Mármol / 2007.",
+          "width": 1662,
+          "height": 2233,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_28c1a7f2ba30488ba8259a5fb133d636~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''el Origen'' (MODELO 1)",
+          "descripcion": "Escultura / Modelo / Talla Directa / Mármol / 2007.",
+          "width": 1662,
+          "height": 2328,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4b861885973e4ca1b5a8bef44fb5b4e5~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b412ee5bae424d4a844ee01e525a7304~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c0ddd13fb2384b6fadda08f26d45fa20~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fd17edaff3f0484ab9167e381aaa56b7~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0058c0fc89b240e3b90ef2462bcae4df~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3a468c06dfea499a887610bbb192c756~mv2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7d29769576264b2690c14a56e08b1ee2~mv2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "''el Origen'' (31x32x15).",
+          "descripcion": "Escultura / Talla Directa / Mármol Rosa de Portugal / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_aafec920c2814aaabdb409a84f84f244~mv2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Mármol / 2007-2010.",
+          "width": 1700,
+          "height": 2309,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_66dde08fc9fd4b7ebf2d1fd1c9aa4c27~mv2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Mármol / 2007-2010.",
+          "width": 1652,
+          "height": 2338,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0173477723f54b748ec6bf12bd979cae~mv2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1652,
+          "height": 2338,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7ed1045f362d4174a1e8b134081d4857~mv2.jpg"
+        },
+        {
+          "posicion": 27,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1662,
+          "height": 2338,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0b6e8c6b06694762ba061afb9f5cf1d5~mv2.jpg"
+        },
+        {
+          "posicion": 28,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1662,
+          "height": 2338,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9d2f569d8b2f4589bc83a3524f32a9df~mv2.jpg"
+        },
+        {
+          "posicion": 29,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1652,
+          "height": 2328,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8bb202db9ca84edba04bec48493e2242~mv2.jpg"
+        },
+        {
+          "posicion": 30,
+          "titulo": "''el Origen'' (PEANA 1)",
+          "descripcion": "Escultura / Bocetos / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1642,
+          "height": 2318,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c7ebab1bc25840a594bcb6198dca9f30~mv2.jpg"
+        },
+        {
+          "posicion": 31,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7ec06e8cb7f2486f9122c6e191b4df7b~mv2.jpg"
+        },
+        {
+          "posicion": 32,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f8dfe6dd9bb8422483da2c98e2ba3085~mv2.jpg"
+        },
+        {
+          "posicion": 33,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d7e44fe2340a41b9a9425cf63eebd547~mv2.jpg"
+        },
+        {
+          "posicion": 34,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c68360166ced440bbfe8c449b58892bb~mv2.jpg"
+        },
+        {
+          "posicion": 35,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8c69f62ec0bd473b9ec9fbe7c69c64a5~mv2.jpg"
+        },
+        {
+          "posicion": 36,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0d8bab4de44a40a186c07fb363d6b3f1~mv2.jpg"
+        },
+        {
+          "posicion": 37,
+          "titulo": "''el Origen'' (PEANA 2)",
+          "descripcion": "Escultura / Talla Directa / Peana (100x50x30) / 2007.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8d0a41a829134646af5eb2c163810196~mv2.jpg"
+        },
+        {
+          "posicion": 38,
+          "titulo": "''el Origen'' (150x50x30).",
+          "descripcion": "SELECCIÓN / Escultura / Talla Directa / Mármol Rosa de Portugal / 2010.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_16bd2dd2ebef4f90aa66820e915c7d90~mv2.jpg"
+        },
+        {
+          "posicion": 39,
+          "titulo": "''el Origen'' (150x50x30).",
+          "descripcion": "Seleccionado / Escultura / Talla Directa / Mármol Rosa de Portugal / 2010.",
+          "width": 715,
+          "height": 951,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c81ce07fc9914e819d5ba0e011a6eba3~mv2.jpg"
+        },
+        {
+          "posicion": 40,
+          "titulo": "''el Origen'' (150x50x30).",
+          "descripcion": "Seleccionado / Escultura / Talla Directa / Mármol Rosa de Portugal / 2010.",
+          "width": 701,
+          "height": 971,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dcc09816f79a4ad1956ac846a997f30e~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 2,
+      "totalItems": 16,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "Grupo EAAPPD (1992-2008).",
+          "descripcion": "Escuelas de Artes Plásticas y Diseño / Almería / Málaga / Sevilla.",
+          "width": 2392,
+          "height": 1192,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_16be33cd3fd04aa8941a37d4ba43e0f5~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''la Luna de Meliés'' (25x17x3).",
+          "descripcion": "Escultura / Relieve / Talla Directa / Caliza / 1993.",
+          "width": 600,
+          "height": 774,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a388b359a05a4f2482143779bae4ddb4~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''medida sín Tiempo'' (48'5x35x5).",
+          "descripcion": "Escultura / Relieve / Terracota / Acrílicos / 1994.",
+          "width": 653,
+          "height": 873,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8a709279061a4752abafc42d2161d883~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''Invierno'' (12x22x2).",
+          "descripcion": "Escultura / Relieve / Vaciado / Escayola / Tintes y Dorado / 1996-1997.",
+          "width": 1181,
+          "height": 886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2d9bd78f6a4842ae879e77874490480d~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Primavera'' (12x22x2).",
+          "descripcion": "Escultura / Relieve / Vaciado / Escayola / Tintes y Dorado / 1996-1997.",
+          "width": 1181,
+          "height": 886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_eaaf3ea2adfd4ac2bfa9f223fa99cb2d~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Verano'' (12x22x2).",
+          "descripcion": "Escultura / Relieve / Vaciado / Escayola / Tintes y Dorado / 1996-1997.",
+          "width": 1181,
+          "height": 886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c4663c2c783e4c4aa214c963597cdefe~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Otoño'' (12x22x2).",
+          "descripcion": "Escultura / Relieve / Vaciado / Escayola / Tintes y Dorado / 1996-1997.",
+          "width": 1181,
+          "height": 886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ea0532b23c7b4ac89116dccefcc9c6ef~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''al Guernica'' (35x70x3'5).",
+          "descripcion": "Escultura / Relieve / Porexpán Tallado / Escayola / Estucado y Plateado / 2002.",
+          "width": 1147,
+          "height": 518,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_725159e082444ab6a28477271950e2a6~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''autorretrato'' (50x40x5).",
+          "descripcion": "Escultura / Relieve / Barro / 2006.",
+          "width": 873,
+          "height": 1299,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8b89df61cb744995817ba2e7b54396d9~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''los ...Ismos'' (30'5x43'5x7).",
+          "descripcion": "Escultura / Relieve / Talla Directa / Pino / Acuarelas / Cubismo / Futurismo / Constructivismo / L.Russolo / M.Duchamp / P.Mondrian / 2008.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ce3fa0836b6a42f69250403bf56f2c78~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "\"...huellas\" (35x50x3).",
+          "descripcion": "Escultura / Relieve / Vaciado / Escayola y Arena / 2008.",
+          "width": 2006,
+          "height": 1328,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4a919ceeea22470983bd14dc892d1087~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Deseo I'' (57'5x25x8'5).",
+          "descripcion": "Escultura / Relieve / Vaciado / Yeso Exaduro / Óleos y Plateado / 2012.",
+          "width": 740,
+          "height": 1203,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7ee5a444debc40caae5dcc700759b4c2~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Deseo II''  (27x25x5'5).",
+          "descripcion": "Escultura / Relieve / Vaciado / Yeso Exaduro / Óleos / 2012.",
+          "width": 946,
+          "height": 768,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7c09e65368f44bf5904f16c6ba8aca5f~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Deseo II'' (27x25x8'5).",
+          "descripcion": "Escultura / Relieve / Vaciado / Yeso Exaduro / Óleos / 2012.",
+          "width": 721,
+          "height": 953,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9fbf9ef5b15f47f7a37438ccaa6daf11~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Renacer...'' (60x33x5).",
+          "descripcion": "Escultura / Relieve / Vaciado / Escayola y Arena / 2015.",
+          "width": 768,
+          "height": 576,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ec41647d8bce4b0fb1e901305bba42e1~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 3,
+      "totalItems": 27,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "LVII EXPOSICIÓN INTERNACIONAL SALÓN DE OTOÑO.",
+          "descripcion": "Real Academia de Santa Isabel de Hungría / Sevilla / 2008.",
+          "width": 492,
+          "height": 483,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ef8db5b8f42b46e58b33580480e69865~mv2.gif"
+        },
+        {
+          "posicion": 2,
+          "titulo": "Forjando el Hierro...",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6638f083e4634423aa8eef2f56d720eb~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "\"transparente Pensamiento\" (Modelo)",
+          "descripcion": "Referencia Gráfica / Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f830892f895341098bebf10c37bd52f2~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "\"transparente Pensamiento\" (Plantillas).",
+          "descripcion": "Referencia Documental / Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_57abc67691374c299ec4432af398878d~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "\"transparente Pensamiento\" (Molde).",
+          "descripcion": "Escultura / Escayola / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_78da7dc5c4894c2c8c622c783cd16349~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "\"transparente Pensamiento\" (Vaciado).",
+          "descripcion": "Escultura / Escayola / Forja Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_60233f84f8a7476798238efaaa232117~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "\"transparente Pensamiento\" (Maqueta).",
+          "descripcion": "Escultura / Maqueta / Cartón / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_90853851bb0547fd9f8a97959de51880~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "\"transparente Pensamiento\" (Maqueta).",
+          "descripcion": "Escultura / Maqueta / Cartón / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bc5d8d2d4a6c4a8d91609e04977e4b5a~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "\"transparente Pensamiento\" (Maqueta).",
+          "descripcion": "Escultura / Maqueta / Cartón / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_59dffd5f68bf4e6387831c7e7f6fd89b~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "\"transparente Pensamiento\" (Maqueta).",
+          "descripcion": "Escultura / Maqueta / Cartón / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0e0b30a3027e480d8b1b3a0551161dd1~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "Plantillas (Corte-Piezas).",
+          "descripcion": "Referencia Documental / Escultura / Plantillas / Forja / Hierro Batido / 2007-2008.",
+          "width": 1654,
+          "height": 2333,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_155789c14b904cd1b8eadee020d5bb02~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "Plantillas (Corte-Piezas).",
+          "descripcion": "Escultura / Plantillas / Forja / Hierro Batido / 2007-2008.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_346f2f33febb452d9a4044c15db44b95~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "Plantillas (Corte-Piezas-Peana).",
+          "descripcion": "Escultura / Plantillas / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b4c1f880c92246b8a752a8d7405ff89a~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "\"transparente Pensamiento\" (Conformado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8cc5ef42b5e346a086f3e73ad7847931~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "\"transparente Pensamiento\" (Conformado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_635e19f634b04060abfdc12d4dd6d75c~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "\"transparente Pensamiento\" (Conformado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_76bd389d0a494b8ab0b65efdf90cd6c5~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "\"transparente Pensamiento\" (Conformado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fcacea60119f40128c60429ae4159d76~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "\"transparente Pensamiento\" (Conformado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0d90a35722cc453fbf447983e175fee0~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "\"transparente Pensamiento\" (Soldaduras).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d122d496e0624841886fcf8781beec0f~mv2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "\"transparente Pensamiento\" (Conformado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / Pátina / Pavonado / 2007-2008.",
+          "width": 2304,
+          "height": 3072,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c20acb1c5e3446bbb0e35eb1c6678a82~mv2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "\"transparente Pensamiento\" (Soldaduras).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2e0c066d27994ff884648bee7682e534~mv2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "\"transparente Pensamiento\" (Grafito+Aceite linaza).",
+          "descripcion": "Escultura / Forja / Hierro Batido / Pátina / Pavonado / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_33fe3fe9cdf547758175f84beccb9c15~mv2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "\"transparente Pensamiento\" (Pavonado).",
+          "descripcion": "Escultura / Forja / Hierro Batido / Pátina / Pavonado / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a1c7be583a084251bd5f10a9ed09ec0d~mv2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "''transparente Pensamiento'' (57x26'5x22).",
+          "descripcion": "Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_997d97fd8b114e9c93ede505dd21cece~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "\"...transparente Pensamiento'' (57x26'5x22).",
+          "descripcion": "Seleccionado / Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 590,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e93d801aec8647e3a1bd3e6255a919bf~mv2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "\"...transparente Pensamiento'' (57x26'5x22).",
+          "descripcion": "Seleccionado / Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 576,
+          "height": 768,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ced909f9bddd4bc0b42cb578dbcef098~mv2.jpg"
+        },
+        {
+          "posicion": 27,
+          "titulo": "\"...transparente Pensamiento'' (57x26'5x22).",
+          "descripcion": "Seleccionado / Escultura / Forja / Hierro Batido / 2007-2008.",
+          "width": 588,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_cfedd35907f845569dcdcc2d8479ecaf~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 4,
+      "totalItems": 17,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© ResinaS...",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas / Polvo de Bronce.",
+          "width": 960,
+          "height": 720,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8fd9f35f57d9443ab5743c9831324a48~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 748,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4728612acab44fb798e1435413bb6360~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a773741b69db44cebabf2c084236cb5d~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_39016a56fa4c4664a3a487e09ecd4048~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 750,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_55c53f6ab2f54be38ef4ad3d2e64a151~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Odalisca III'' (35x12x9).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 701,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_130593cf6a3e4918a34ecf7d0cf34247~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Odalisca III'' (35x12x9).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 698,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_00396cd10bd3406282352194693bf1e4~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Odalisca III'' (35x12x9).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 1413,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4a27a4b62dc645efbc6456c2b39119b0~mv2_d_1413_2048_s_2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Odalisca III'' (35x12x9).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 1408,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3c855b41511e43daab1500039031be61~mv2_d_1408_2048_s_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 754,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_53b6bfb7f143425698fd9296b6de53cd~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_deccaa0b456a48e0878115cc2a17dd22~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f0e4048d20bf4629b5b62795a48c404d~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resinas con polvo de Bronce / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d2426b92a3624c5cacfae1101f34bdaa~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Banshee'' (21x6x8).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina pulida / 2012.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fe6a8ff1cd194a8d89a5b12705093097~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Banshee'' (21x6x8).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina pulida / 2012.",
+          "width": 1516,
+          "height": 2036,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_48eca19850cd42be9e1e3770a0346cfa~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Banshee'' (21x6x8).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina pulida / 2012.",
+          "width": 768,
+          "height": 1024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_405cae2f67c142cd8721c8efbac5e4ee~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 5,
+      "totalItems": 19,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "''los Colosos del Pensamiento'' (Composición).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 928,
+          "height": 575,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e7ee1a98e2d14a708219ade8e013ec4c~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''los Colosos del Pensamiento'' (15x33x14).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 1666,
+          "height": 1291,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_d25fc81ebee14b3293c1ee6a1c28202c~mv2_d_1666_1291_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''los Colosos del Pensamiento'' (15x33x14).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_acb36b07f14e476e839e01cb73983345~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''los Colosos del Pensamiento'' (15x33x14).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 2048,
+          "height": 1267,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_db60f6bd80f84e309c426fde231d6fe6~mv2_d_2048_1267_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Coloso I''.",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_189c5e2302424344b22b21878d38e8f1~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_daad565de1b44e71aeab5266ab1a52fc~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8b57d65e9f1340069cd53a2bf12768ce~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_135c117495834c5cb39f247578d21942~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_aadb90a0a2af4e62adf9a14bda43e66a~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_03b6c789ea78450e910fc601184273fa~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Coloso I''.",
+          "descripcion": "Escultura / Moldes / Vaciados / Peana posterior / 2006-2017.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_95f049f9a5de492dbd3ef50c0cb33467~mv2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Coloso I'' (15xx33x14).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b793d075649542b68cdcba278946fda9~mv2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_6596652be64d427cbfc60a3d39a3994c~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ba128722eed34367aec473ad9182f9ac~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dc929b17644e4c929436df14d4cdd1da~mv2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Coloso I'' (11x11x15).",
+          "descripcion": "Escultura / Moldes / Vaciados / Resina (Pátina) / 2006-2017.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_dbcbc2746470433baf540bba6e55e9b7~mv2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "''Coloso II''.",
+          "descripcion": "Escultura / Moldes / Vaciados / Yesos (Exaduro) / 2006-2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e9bb7d3f079946f4aa03263ffccfb7de~mv2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "''Coloso II'' (12x13x16'5).",
+          "descripcion": "Escultura / Moldes / Vaciados / Peana Posterior / Resina (Pátina) / 2006-2017.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b5e8614417ce443f95af33d122c417ca~mv2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 6,
+      "totalItems": 28,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© VaciadoS...",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes.",
+          "width": 691,
+          "height": 996,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7e4ea620596342ccbe28ef7c3a4400c2~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3cc6d68dc95942e0b98ee7f86cfe7a6b~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_966f406cefb341909ff496253f493759~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b8f84a2a384c4f02b2941bf25ab58719~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_89c9805474b640e5b61746383dc4349b~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e31b499cb2294e53936777e180045b7f~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0538bb12704f4d7baf8eba26538e015b~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_df5849caef674976bc5e86f3567ef6ae~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Lineas del Perdón I'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1a7b72733ade4a1ea42ae878bc1ec583~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "MONTAJE",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_901c0d2603a447fd8f8e42ccd9001cf9~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_585e6f054b7f427a9dcf512f359bd864~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_b703581ba4df4b79a663b7b1109286ba~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_32dcdd18842945b7939bf32775141f00~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bfdd755ee45c4904bee0fddd9cb0eed0~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8b3a0a30744245c6ac5a83fd9ab7531d~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 16,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_350f124f4d064a75bdc80ac7d0dfcfdb~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 17,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ff5ee06d3de144c496ceb098522e4616~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 18,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2011.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1d6d9a3e03954f12ab5922b8d7c74c5f~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 19,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2173303a22524ef5b8b439259190a6bc~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 20,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_07e85b50fb6c4524ad181f3e2cf3b226~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 21,
+          "titulo": "''Lineas del Perdón II'' (22x11x12).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_270bf44a140443df8511ceb782744938~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 22,
+          "titulo": "''Venus III'' (8x6x6).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_eac212d9cd2c4f5d8790e60c2acf4149~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 23,
+          "titulo": "''Venus III'' (8x6x6).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2f6b29f47ed4440a91020cb66293311e~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 24,
+          "titulo": "''Venus III'' (8x6x6).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_29911586d3e948febc9b7d276e88bcfc~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 25,
+          "titulo": "''Venus III'' (8x6x6).",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Tintes / 2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3e07d057bb154c7f80367458fee08092~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 26,
+          "titulo": "\"Mercado Artesanal Bermejales\".",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Bronces / Mercado / 2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a33268a440be4ffba1e6377667f03e66~mv2.jpg"
+        },
+        {
+          "posicion": 27,
+          "titulo": "\"Mercado Artesanal Bermejales\".",
+          "descripcion": "Escultura / Moldes / Vaciados / Yeso Exaduro / Bronces / Mercado / 2012.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3fa307b512514270a76fd7218c03136e~mv2.jpg"
+        },
+        {
+          "posicion": 28,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 7,
+      "totalItems": 7,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "2023 ''Líneas del Perdón I''",
+          "descripcion": "Escultura / Moldes / Vaciados / Bronces / Regalo de Boda / 2026.",
+          "width": 3000,
+          "height": 4000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_03b8007efefe4b54b5bfcf28a2205855~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "2026 ''Lineas del Perdón I'' (13x16x22) (0)",
+          "descripcion": "Escultura / Moldes / Vaciados / Bronces / Regalo de Boda / 2026.",
+          "width": 1500,
+          "height": 2000,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_729d611ae5c94636a2c5965d739217b2~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "2026 ''Lineas del Perdón I'' (13x16x22) (1)",
+          "descripcion": "Escultura / Moldes / Vaciados / Bronces / Regalo de Boda / 2026.",
+          "width": 1294,
+          "height": 1859,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_524daacb7e1f4bb29994794b02228fe0~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "2026 ''Lineas del Perdón I'' (13x16x22) (2)",
+          "descripcion": "Escultura / Moldes / Vaciados / Bronces / Regalo de Boda / 2026.",
+          "width": 1294,
+          "height": 1955,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_7e8e222dcd914b6087088fd7fe27f8da~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "2026 ''Lineas del Perdón I'' (13x16x22) (3)",
+          "descripcion": "Escultura / Moldes / Vaciados / Bronces / Regalo de Boda / 2026.",
+          "width": 1606,
+          "height": 1968,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_cdb78fbc651c4b52933c642334b5f904~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "2026 ''Lineas del Perdón I'' (13x16x22) (4)",
+          "descripcion": "Escultura / Moldes / Vaciados / Bronces / Regalo de Boda / 2026.",
+          "width": 1137,
+          "height": 1868,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_405727ec2ce8427cad2761bdffb120f4~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    }
+  ]
+}
