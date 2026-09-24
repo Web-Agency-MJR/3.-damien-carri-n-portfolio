@@ -378,30 +378,6 @@
   filter: drop-shadow(0 26px 48px color-mix(in oklab, var(--foreground) 45%, transparent));
 }
 
-/* Brush cursor feedback ring (see BrushCursorFeedback.tsx) */
-.brush-cursor-ring {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2147483647;
-  width: 22px;
-  height: 22px;
-  border-radius: 9999px;
-  border: 1px solid color-mix(in oklab, var(--foreground) 70%, transparent);
-  box-shadow: 0 0 0 1px color-mix(in oklab, var(--background) 60%, transparent);
-  pointer-events: none;
-  opacity: 0;
-  scale: 0.6;
-  transition: opacity 180ms ease-out, scale 180ms ease-out;
-  will-change: transform;
-}
-.brush-cursor-ring[data-active="true"] {
-  opacity: 1;
-  scale: 1;
-}
-@media not ((hover: hover) and (pointer: fine)) {
-  .brush-cursor-ring { display: none; }
-}
 
 /* Lightbox controls (arrows + close X): subtle reaction under the brush tip */
 [role="dialog"] button:is([aria-label*="anterior"], [aria-label*="siguiente"], :has(> .sr-only)) {
@@ -412,7 +388,4 @@
 [role="dialog"] button:is([aria-label*="anterior"], [aria-label*="siguiente"], :has(> .sr-only))[data-brush-hover] {
   transform: scale(1.08);
   opacity: 1;
-}
-@media (prefers-reduced-motion: reduce) {
-  .brush-cursor-ring { transition: opacity 120ms linear; scale: 1; }
 }

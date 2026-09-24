@@ -1,21 +1,17 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 /**
- * Feedback for the single native brush cursor (defined in styles.css).
- * Shows a small, subtle ring at the bristle tip whenever the tip is over
- * something clickable, and flags that element with data-brush-hover.
+ * Flags interactive elements under the brush cursor with data-brush-hover
+ * so existing hover transitions (lightbox arrows, close button, etc.) keep
+ * working. The visible ring has been removed; only the attribute flag remains.
  * Only active on fine pointers (mouse / trackpad).
  */
 const INTERACTIVE =
   'a[href], button:not(:disabled), [role="button"], [role="tab"], [role="link"], [role="menuitem"], [role="option"], summary, label[for], select, input:not([type="hidden"]), textarea, [tabindex]:not([tabindex="-1"])';
 
 export function BrushCursorFeedback() {
-  const ringRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
-    const ring = ringRef.current;
-    if (!ring) return;
     let current: Element | null = null;
 
     const setTarget = (el: Element | null) => {
@@ -23,12 +19,10 @@ export function BrushCursorFeedback() {
       current?.removeAttribute("data-brush-hover");
       el?.setAttribute("data-brush-hover", "");
       current = el;
-      ring.setAttribute("data-active", el ? "true" : "false");
     };
 
     const onMove = (e: PointerEvent) => {
       if (e.pointerType !== "mouse" && e.pointerType !== "pen") return;
-      ring.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0) translate(-50%, -50%)`;
       const target = e.target instanceof Element ? e.target.closest(INTERACTIVE) : null;
       setTarget(target);
     };
@@ -43,5 +37,5 @@ export function BrushCursorFeedback() {
     };
   }, []);
 
-  return <div ref={ringRef} className="brush-cursor-ring" data-active="false" aria-hidden="true" />;
+  return null;
 }
