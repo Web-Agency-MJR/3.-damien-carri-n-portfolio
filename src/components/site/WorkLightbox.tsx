@@ -82,14 +82,14 @@ export function WorkLightbox({
                   <button
                     aria-label="Obra anterior"
                     onClick={() => step(-1)}
-                    className="absolute left-3 flex size-10 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-opacity hover:opacity-70"
+                    className="absolute left-3 flex size-10 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-colors duration-200 hover:bg-secondary"
                   >
                     <ChevronLeft className="size-4" strokeWidth={1.5} />
                   </button>
                   <button
                     aria-label="Obra siguiente"
                     onClick={() => step(1)}
-                    className="absolute right-3 flex size-10 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-opacity hover:opacity-70"
+                    className="absolute right-3 flex size-10 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-colors duration-200 hover:bg-secondary"
                   >
                     <ChevronRight className="size-4" strokeWidth={1.5} />
                   </button>

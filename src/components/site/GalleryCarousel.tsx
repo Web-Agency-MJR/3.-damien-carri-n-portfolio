@@ -82,14 +82,14 @@ export function GalleryCarousel({
           <button
             aria-label="Anterior"
             onClick={() => step(-1)}
-            className="absolute top-1/2 left-2 flex size-9 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 focus-visible:opacity-100 max-sm:opacity-100"
+            className="absolute top-1/2 left-2 flex size-9 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 opacity-0 backdrop-blur-sm transition-[opacity,background-color] duration-200 hover:bg-secondary group-hover:opacity-100 focus-visible:opacity-100 max-sm:opacity-100"
           >
             <ChevronLeft className="size-4" strokeWidth={1.5} />
           </button>
           <button
             aria-label="Siguiente"
             onClick={() => step(1)}
-            className="absolute top-1/2 right-2 flex size-9 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 focus-visible:opacity-100 max-sm:opacity-100"
+            className="absolute top-1/2 right-2 flex size-9 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 opacity-0 backdrop-blur-sm transition-[opacity,background-color] duration-200 hover:bg-secondary group-hover:opacity-100 focus-visible:opacity-100 max-sm:opacity-100"
           >
             <ChevronRight className="size-4" strokeWidth={1.5} />
           </button>
