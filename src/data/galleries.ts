@@ -152,30 +152,6 @@ export function buildGroups(raw: RawGalleryFile, galleryId: string): GalleryGrou
     }));
 }
 
-/** Groups by original `gallery` field keeping file order verbatim:
- * no dedupe, no filtering, titles/descriptions untouched. */
-export function buildVerbatimGroups(raw: RawGalleryFile, galleryId: string): GalleryGroup[] {
-  const buckets = new Map<number, RawGalleryItem[]>();
-  for (const item of raw.items) {
-    const list = buckets.get(item.gallery) ?? [];
-    list.push(item);
-    buckets.set(item.gallery, list);
-  }
-  return [...buckets.entries()]
-    .sort((a, b) => a[0] - b[0])
-    .map(([g, items]) => ({
-      id: `${galleryId}-g${g}`,
-      works: items.map((item, i) => ({
-        id: `${galleryId}-g${g}-${i}`,
-        title: item.title,
-        info: item.description,
-        imageUrl: item.imageUrl,
-        width: item.width,
-        height: item.height,
-      })),
-    }));
-}
-
 /** Builds one group per original carousel, verbatim: no dedupe, no filtering,
  * no reordering, titles and descriptions exactly as provided. */
 export function buildCarouselGroups(
@@ -240,11 +216,7 @@ function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
 /** Registry — drop a new extracted JSON here to activate Gallery 2–8. */
 export const galleries: GalleryDefinition[] = [
   defineGallery(1, galleryOneRaw as RawGalleryFile),
-  {
-    id: "gallery-2",
-    label: GALLERY_LABELS[1]!,
-    groups: buildVerbatimGroups(galleryTwoRaw as RawGalleryFile, "gallery-2"),
-  },
+  defineGallery(2, galleryTwoRaw as RawGalleryFile),
   defineGallery(3, galleryThreeRaw as RawGalleryFile),
   defineGallery(4, galleryFourRaw as RawGalleryFile),
   defineCarouselGallery(5, galleryFiveRaw as CarouselGalleryFile),
