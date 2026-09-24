@@ -1,8 +1,7 @@
-import portraitAsset from "../../../public/Foto Perfil Damien Carrion Abour Me.webp.asset.json";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
-const portrait = portraitAsset.url;
+const portrait = "/foto-perfil-damien.webp";
 
 export function About() {
   return (
