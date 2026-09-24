@@ -1,4 +1,4 @@
-import portraitAsset from "@/assets/Foto Perfil Damien Carrion Abour Me.webp.asset.json";
+import portraitAsset from "../../../public/Foto Perfil Damien Carrion Abour Me.webp.asset.json";
 import { Reveal } from "./Reveal";
 import { Socials } from "./Socials";
 
