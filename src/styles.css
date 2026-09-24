@@ -164,63 +164,30 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-    /* Fine brush cursor: full brush at -45deg, hotspot on the bristle tip.
-       2x asset keeps it pin-sharp on Retina/4K displays. */
-    cursor: url("/images/brush-fine-1x.png") 2 2, auto;
-    cursor:
-      -webkit-image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      auto;
-    cursor:
-      image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      auto;
   }
 
-  /* Keep pointer feedback on interactive elements while staying on theme */
-  a,
-  button,
-  [role="button"],
-  summary,
-  label,
-  select,
-  input,
-  textarea {
-    cursor: url("/images/brush-fine-1x.png") 2 2, pointer;
-    cursor:
-      -webkit-image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      pointer;
-    cursor:
-      image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      pointer;
-  }
-
-  /* Touch devices: no custom cursor, standard touch behavior */
-  @media (pointer: coarse) {
-    body,
-    a,
-    button,
-    [role="button"],
-    summary,
-    label,
-    select,
-    input,
-    textarea {
-      cursor: auto;
+  /* Single brush cursor everywhere on mouse/trackpad devices.
+     Hotspot (2,2) = tip of the bristles. Overrides pointer/text/zoom cursors. */
+  @media (pointer: fine) {
+    html,
+    html *,
+    html *::before,
+    html *::after {
+      cursor: url("/images/brush-fine-1x.png") 2 2, default !important;
+      cursor:
+        -webkit-image-set(
+          url("/images/brush-fine-1x.png") 1x,
+          url("/images/brush-fine-2x.png") 2x
+        )
+        2 2,
+        default !important;
+      cursor:
+        image-set(
+          url("/images/brush-fine-1x.png") 1x,
+          url("/images/brush-fine-2x.png") 2x
+        )
+        2 2,
+        default !important;
     }
   }
 
