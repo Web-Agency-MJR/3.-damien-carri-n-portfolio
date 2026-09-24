@@ -217,7 +217,7 @@ function HomeImageViewer({
                 type="button"
                 aria-label="Imagen anterior"
                 onClick={() => step(-1)}
-                className="absolute left-1 top-1/2 flex size-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-opacity hover:opacity-70 sm:left-2"
+                className="absolute left-1 top-1/2 flex size-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-colors duration-200 hover:bg-secondary sm:left-2"
               >
                 <ChevronLeft className="size-4" strokeWidth={1.5} />
               </button>
@@ -225,7 +225,7 @@ function HomeImageViewer({
                 type="button"
                 aria-label="Imagen siguiente"
                 onClick={() => step(1)}
-                className="absolute right-1 top-1/2 flex size-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-opacity hover:opacity-70 sm:right-2"
+                className="absolute right-1 top-1/2 flex size-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background/80 backdrop-blur-sm transition-colors duration-200 hover:bg-secondary sm:right-2"
               >
                 <ChevronRight className="size-4" strokeWidth={1.5} />
               </button>
