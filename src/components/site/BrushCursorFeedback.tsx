@@ -23,7 +23,7 @@ export function BrushCursorFeedback() {
       current?.removeAttribute("data-brush-hover");
       el?.setAttribute("data-brush-hover", "");
       current = el;
-      ring.dataset.active = el ? "true" : "false";
+      ring.setAttribute("data-active", el ? "true" : "false");
     };
 
     const onMove = (e: PointerEvent) => {
