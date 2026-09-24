@@ -44,7 +44,7 @@ export function CursorRing() {
     <div
       ref={ref}
       aria-hidden
-      className="pointer-events-none fixed top-0 left-0 z-[9999] size-7 rounded-full border border-foreground/60 opacity-0 transition-[opacity,scale] duration-200 ease-out max-[pointer:coarse]:hidden"
+      className="pointer-events-none fixed top-0 left-0 z-[9999] size-7 rounded-full border border-foreground/60 opacity-0 transition-[opacity,scale] duration-200 ease-out"
       style={{ transition: "opacity 180ms ease-out" }}
     />
   );
