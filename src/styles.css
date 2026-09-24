@@ -165,63 +165,30 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-    /* Fine brush cursor: full brush at -45deg, hotspot on the bristle tip.
-       2x asset keeps it pin-sharp on Retina/4K displays. */
-    cursor: url("/images/brush-fine-1x.png") 2 2, auto;
-    cursor:
-      -webkit-image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      auto;
-    cursor:
-      image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      auto;
   }
 
-  /* Keep pointer feedback on interactive elements while staying on theme */
-  a,
-  button,
-  [role="button"],
-  summary,
-  label,
-  select,
-  input,
-  textarea {
-    cursor: url("/images/brush-fine-1x.png") 2 2, pointer;
-    cursor:
-      -webkit-image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      pointer;
-    cursor:
-      image-set(
-        url("/images/brush-fine-1x.png") 1x,
-        url("/images/brush-fine-2x.png") 2x
-      )
-      2 2,
-      pointer;
-  }
-
-  /* Touch devices: no custom cursor, standard touch behavior */
-  @media (pointer: coarse) {
-    body,
-    a,
-    button,
-    [role="button"],
-    summary,
-    label,
-    select,
-    input,
-    textarea {
-      cursor: auto;
+  /* Single brush cursor on mouse/trackpad devices. Hotspot (1,1) = exact
+     bristle tip pixel of the 47x44 asset. Forced on every element so no
+     native arrow / hand / text cursor can leak through. */
+  @media (hover: hover) and (pointer: fine) {
+    *,
+    *::before,
+    *::after {
+      cursor: url("/images/brush-fine-1x.png") 1 1, auto !important;
+      cursor:
+        -webkit-image-set(
+          url("/images/brush-fine-1x.png") 1x,
+          url("/images/brush-fine-2x.png") 2x
+        )
+        1 1,
+        auto !important;
+      cursor:
+        image-set(
+          url("/images/brush-fine-1x.png") 1x,
+          url("/images/brush-fine-2x.png") 2x
+        )
+        1 1,
+        auto !important;
     }
   }
 
@@ -409,4 +376,43 @@
 @utility ornate-frame {
   position: relative;
   filter: drop-shadow(0 26px 48px color-mix(in oklab, var(--foreground) 45%, transparent));
+}
+
+/* Brush cursor feedback ring (see BrushCursorFeedback.tsx) */
+.brush-cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+  width: 22px;
+  height: 22px;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in oklab, var(--foreground) 70%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--background) 60%, transparent);
+  pointer-events: none;
+  opacity: 0;
+  scale: 0.6;
+  transition: opacity 180ms ease-out, scale 180ms ease-out;
+  will-change: transform;
+}
+.brush-cursor-ring[data-active="true"] {
+  opacity: 1;
+  scale: 1;
+}
+@media not ((hover: hover) and (pointer: fine)) {
+  .brush-cursor-ring { display: none; }
+}
+
+/* Lightbox controls (arrows + close X): subtle reaction under the brush tip */
+[role="dialog"] button:is([aria-label*="anterior"], [aria-label*="siguiente"], :has(> .sr-only)) {
+  transition-property: color, background-color, opacity, transform, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+[role="dialog"] button:is([aria-label*="anterior"], [aria-label*="siguiente"], :has(> .sr-only))[data-brush-hover] {
+  transform: scale(1.08);
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .brush-cursor-ring { transition: opacity 120ms linear; scale: 1; }
 }
