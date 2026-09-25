@@ -1,0 +1,3 @@
+- [ ] Añadir Proyectos al inicio y al menú, con imagen principal, texto exacto y carrusel de seis imágenes.
+- [ ] Suavizar y mejorar visualmente el menú lateral.
+- [ ] Comprobar navegación, imágenes y presentación móvil/escritorio.
