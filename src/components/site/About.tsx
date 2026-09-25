@@ -10,7 +10,7 @@ export function About() {
         <div className="lg:sticky lg:top-32 lg:self-start">
           <Reveal>
             <figure>
-              <div className="relative mx-auto aspect-[1024/1280] w-full max-w-3xl overflow-hidden shadow-[0_24px_60px_-28px_color-mix(in_oklab,var(--foreground)_70%,transparent)]">
+              <div className="relative mx-auto aspect-[1024/1280] w-full max-w-3xl overflow-hidden">
                 <img
                   src={portrait}
                   alt="Foto Perfil Damien Carrion Abour Me"
@@ -18,6 +18,12 @@ export function About() {
                   width={1024}
                   height={1280}
                   className="size-full object-cover"
+                  style={{
+                    WebkitMaskImage:
+                      "radial-gradient(ellipse 92% 92% at center, #000 58%, transparent 100%)",
+                    maskImage:
+                      "radial-gradient(ellipse 92% 92% at center, #000 58%, transparent 100%)",
+                  }}
                 />
               </div>
             </figure>
