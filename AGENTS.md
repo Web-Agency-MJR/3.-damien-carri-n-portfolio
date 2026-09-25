@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+Project decisions:
+- Keep the six supplied Proyectos images as WebP files under public/images and render them in two seamless three-item rows; their public paths are explicitly required and motion pauses for reduced-motion users.
