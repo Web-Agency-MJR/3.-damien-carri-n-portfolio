@@ -139,16 +139,28 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
             Compartir emociones a través del Arte...
           </motion.p>
 
-          <motion.button
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2.1, duration: 0.8 }}
-            onClick={onExplore}
-            className="group mt-12 inline-flex items-center gap-3 rounded-full border border-foreground/20 px-7 py-3.5 text-[0.72rem] tracking-[0.22em] uppercase transition-colors hover:bg-foreground hover:text-background"
+            className="mt-12 flex flex-wrap items-center justify-center gap-4"
           >
-            Ver la obra
-            <ArrowDown className="size-3.5 transition-transform group-hover:translate-y-0.5" strokeWidth={1.5} />
-          </motion.button>
+            <button
+              onClick={onExplore}
+              className="group inline-flex items-center gap-3 rounded-full border border-foreground/20 px-7 py-3.5 text-[0.72rem] tracking-[0.22em] uppercase transition-colors hover:bg-foreground hover:text-background"
+            >
+              Ver la obra
+              <ArrowDown className="size-3.5 transition-transform group-hover:translate-y-0.5" strokeWidth={1.5} />
+            </button>
+            <a
+              href="https://www.youtube.com/watch?v=cc0tTly2VoY"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-full bg-foreground px-7 py-3.5 text-[0.72rem] tracking-[0.22em] uppercase text-background transition-opacity hover:opacity-80"
+            >
+              Presentación
+            </a>
+          </motion.div>
         </motion.div>
 
         <motion.p
