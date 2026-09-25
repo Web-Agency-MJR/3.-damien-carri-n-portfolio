@@ -59,7 +59,7 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
         </button>
 
         <ul className="hidden items-center gap-1 lg:flex">
-          {navItems.filter((item) => item.label !== "Proyectos").map((item) => (
+          {navItems.map((item) => (
             <li key={item.label}>
               {item.href ? (
                 <a
