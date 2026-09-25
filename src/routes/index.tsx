@@ -3,6 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Header, type NavTarget } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { Marquee } from "@/components/site/Marquee";
+import { Projects } from "@/components/site/Projects";
 import { Gallery } from "@/components/site/Gallery";
 import { About } from "@/components/site/About";
 import { Cv } from "@/components/site/Cv";
@@ -56,8 +57,9 @@ function Index() {
     <div className="brick-wall min-h-screen">
       <Header onNavigate={handleNavigate} />
       <main>
-        <Hero onExplore={() => scrollTo("obra")} />
+        <Hero onExplore={() => scrollTo("obra")} onProjects={() => scrollTo("proyectos")} />
         <Marquee />
+        <Projects />
         <About />
         <Gallery filter={filter} onFilterChange={setFilter} onInquire={handleInquire} />
         <Cv />

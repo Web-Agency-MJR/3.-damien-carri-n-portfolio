@@ -14,6 +14,7 @@ export type NavTarget = {
 export const navItems: NavTarget[] = [
   { label: "Home", section: "inicio" },
   { label: "Sobre mí", section: "sobre-mi" },
+  { label: "Proyectos", section: "proyectos" },
   { label: "Gallery (2D)", section: "obra", tab: "2D" },
   { label: "Gallery V (GOLD)", section: "obra", tab: "GOLD" },
   { label: "Gallery (3D)", section: "obra", tab: "3D" },
@@ -92,17 +93,17 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger
               aria-label="Abrir menú"
-              className="flex size-10 items-center justify-center rounded-full border border-border lg:hidden"
+              className="flex size-10 items-center justify-center rounded-full border border-border transition-colors duration-300 hover:bg-secondary focus-visible:outline-2 focus-visible:outline-ring lg:hidden"
             >
               <Menu className="size-4" strokeWidth={1.5} />
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="w-full border-none bg-transparent p-0 backdrop-blur-xl sm:max-w-full [&>button]:z-20 [&>button]:text-background"
+              className="w-[min(100vw,430px)] overflow-y-auto border-l border-background/15 bg-foreground/95 p-0 text-background shadow-2xl backdrop-blur-2xl sm:max-w-[430px] [&>button]:z-20 [&>button]:right-7 [&>button]:top-7 [&>button]:text-background [&>button]:transition-transform [&>button]:duration-300 [&>button]:hover:rotate-90"
             >
-              <div className="absolute inset-0 bg-foreground/40" />
               <SheetTitle className="sr-only">Navegación</SheetTitle>
-              <div className="relative z-10 flex h-full flex-col justify-center gap-2 px-10">
+              <div className="relative z-10 flex min-h-full flex-col justify-center px-8 py-20 sm:px-12">
+                <p className="mb-8 border-b border-background/20 pb-5 font-gallery text-xs font-semibold uppercase text-background/50">Damien Carrión · Menú</p>
                 {navItems.map((item, i) => (
                   item.href ? (
                     <motion.a
@@ -110,33 +111,33 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      initial={{ opacity: 0, x: 24 }}
+                      initial={{ opacity: 0, x: 18 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.05 * i, duration: 0.4 }}
+                      transition={{ delay: 0.04 * i, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
                       onClick={() => setOpen(false)}
-                      className="font-display text-left text-3xl text-background/90 transition-colors hover:text-background"
+                      className="group flex items-baseline gap-5 border-b border-background/10 py-3 text-left font-display text-2xl text-background/80 transition-all duration-300 hover:translate-x-1 hover:text-background sm:text-3xl"
                     >
-                      {item.label}
+                      <span className="font-gallery text-xs text-background/40">{String(i + 1).padStart(2, "0")}</span>{item.label}
                     </motion.a>
                   ) : (
                     <motion.button
                       key={item.label}
-                      initial={{ opacity: 0, x: 24 }}
+                      initial={{ opacity: 0, x: 18 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.05 * i, duration: 0.4 }}
+                      transition={{ delay: 0.04 * i, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
                       onClick={() => go(item)}
-                      className="font-display text-left text-3xl text-background/90 transition-colors hover:text-background"
+                      className="flex items-baseline gap-5 border-b border-background/10 py-3 text-left font-display text-2xl text-background/80 transition-all duration-300 hover:translate-x-1 hover:text-background sm:text-3xl"
                     >
-                      {item.label}
+                      <span className="font-gallery text-xs text-background/40">{String(i + 1).padStart(2, "0")}</span>{item.label}
                     </motion.button>
                   )
                 ))}
                 <motion.button
-                  initial={{ opacity: 0, x: 24 }}
+                  initial={{ opacity: 0, x: 18 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.45, duration: 0.4 }}
+                  transition={{ delay: 0.4, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
                   onClick={() => go({ label: "Contacto", section: "contacto" })}
-                  className="mt-8 w-fit rounded-full bg-background px-8 py-3 text-xs tracking-[0.2em] uppercase text-foreground"
+                  className="mt-9 w-fit rounded-full bg-background px-8 py-3 text-xs uppercase text-foreground transition-all duration-300 hover:scale-[1.03] hover:bg-background/90"
                 >
                   Contacto
                 </motion.button>
