@@ -160,15 +160,6 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
             >
               Presentación
             </a>
-            <a
-              href="/proyectos"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-3 rounded-full border border-foreground/20 px-7 py-3.5 text-[0.72rem] tracking-[0.22em] uppercase transition-colors hover:bg-foreground hover:text-background"
-            >
-              Proyectos
-              <ArrowDown className="size-3.5 transition-transform group-hover:translate-y-0.5" strokeWidth={1.5} />
-            </a>
           </motion.div>
         </motion.div>
 
