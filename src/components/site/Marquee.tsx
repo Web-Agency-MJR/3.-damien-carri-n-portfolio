@@ -88,7 +88,7 @@ const overlayText: Record<number, OverlayText> = {
 const externalLinks: Record<number, string> = {
   10: "https://www.realacademiabellasartessevilla.com/?page_id=760",
   16: "https://www.realacademiabellasartessevilla.com/?page_id=760",
-  18: "https://www.realacademiabellasartessevilla.com/?page_id=760",
+  18: "https://www.youtube.com/watch?v=qjOaUbRhiZM&list=PLWb-ReAsOdoWTy8nkqlyCD7Doqj0VHj02",
 };
 
 const LINK_CLASS =
