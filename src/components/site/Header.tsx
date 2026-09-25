@@ -14,7 +14,7 @@ export type NavTarget = {
 export const navItems: NavTarget[] = [
   { label: "Home", section: "inicio" },
   { label: "Sobre mí", section: "sobre-mi" },
-  { label: "Proyectos", section: "proyectos" },
+  { label: "Proyectos", section: "proyectos", href: "/proyectos" },
   { label: "Gallery (2D)", section: "obra", tab: "2D" },
   { label: "Gallery V (GOLD)", section: "obra", tab: "GOLD" },
   { label: "Gallery (3D)", section: "obra", tab: "3D" },
@@ -59,7 +59,7 @@ export function Header({ onNavigate }: { onNavigate: (item: NavTarget) => void }
         </button>
 
         <ul className="hidden items-center gap-1 lg:flex">
-          {navItems.map((item) => (
+          {navItems.filter((item) => item.label !== "Proyectos").map((item) => (
             <li key={item.label}>
               {item.href ? (
                 <a

@@ -61,7 +61,7 @@ function FragmentLayer({
   );
 }
 
-export function Hero({ onExplore, onProjects }: { onExplore: () => void; onProjects: () => void }) {
+export function Hero({ onExplore }: { onExplore: () => void }) {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
 
@@ -160,12 +160,14 @@ export function Hero({ onExplore, onProjects }: { onExplore: () => void; onProje
             >
               Presentación
             </a>
-            <button
-              onClick={onProjects}
+            <a
+              href="/proyectos"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-3.5 text-[0.72rem] uppercase text-foreground/80 transition-colors hover:text-foreground"
             >
               Proyectos <ArrowDown className="size-3.5" strokeWidth={1.5} />
-            </button>
+            </a>
           </motion.div>
         </motion.div>
 
