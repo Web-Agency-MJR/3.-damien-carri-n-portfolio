@@ -20,9 +20,9 @@ export function About() {
                   className="size-full object-cover"
                   style={{
                     WebkitMaskImage:
-                      "radial-gradient(ellipse 92% 92% at center, #000 58%, transparent 100%)",
+                      "radial-gradient(ellipse 100% 100% at center, #000 42%, transparent 88%)",
                     maskImage:
-                      "radial-gradient(ellipse 92% 92% at center, #000 58%, transparent 100%)",
+                      "radial-gradient(ellipse 100% 100% at center, #000 42%, transparent 88%)",
                   }}
                 />
               </div>
