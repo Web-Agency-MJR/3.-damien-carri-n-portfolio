@@ -269,6 +269,21 @@
   }
 }
 
+/* Two seamless three-project rows travel gently from left to right. */
+.projects-track {
+  animation: projects-drift 40s linear infinite;
+  will-change: transform;
+}
+
+@keyframes projects-drift {
+  from { transform: translate3d(-50%, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projects-track { animation: none; will-change: auto; }
+}
+
 /* --- Gallery wall ------------------------------------------------------ */
 
 @utility font-script {
