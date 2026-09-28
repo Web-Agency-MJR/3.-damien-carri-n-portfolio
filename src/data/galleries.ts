@@ -216,7 +216,7 @@ function defineGallery(index: number, raw?: RawGalleryFile): GalleryDefinition {
 /** Registry — drop a new extracted JSON here to activate Gallery 2–8. */
 export const galleries: GalleryDefinition[] = [
   defineGallery(1, galleryOneRaw as RawGalleryFile),
-  defineGallery(2, galleryTwoRaw as RawGalleryFile),
+  defineCarouselGallery(2, galleryTwoRaw as CarouselGalleryFile),
   defineGallery(3, galleryThreeRaw as RawGalleryFile),
   defineGallery(4, galleryFourRaw as RawGalleryFile),
   defineCarouselGallery(5, galleryFiveRaw as CarouselGalleryFile),
