@@ -1,581 +1,477 @@
 {
-  "source": "https://damiencarrion.wixsite.com/punto-art/copia-de-gallery-ii-2d-1",
-  "galleryNumber": 2,
-  "extractedAt": "2026-08-31T18:50:26.567Z",
-  "totalDetected": 97,
-  "totalUnique": 52,
-  "items": [
+  "gallery": 2,
+  "totalCarousels": 5,
+  "totalItems": 55,
+  "carousels": [
     {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 1,
-      "title": "EXPO 2015 \"Miradas\".",
-      "description": "Exposición 2015 Colectiva \"Miradas\" / Casa de la Provincia / Diputación Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_f901602886e747edaf7b72bb9905c449~mv2.jpg",
-      "wixFile": "df551e_f901602886e747edaf7b72bb9905c449~mv2.jpg",
-      "width": 651,
-      "height": 960
+      "carousel": 1,
+      "totalItems": 10,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© AcrílicoS (RetratoS).",
+          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a30cf5244900495abe40956540bbcaf4~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''pAsión'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1069,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c7aa7e11a5d04caa80217d1ee0e8411b~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''aZul'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1026,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8d9da2ad26a3494d8b308c01b6ba3e59~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''freSco'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1074,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5cc9429405414f6faf4492f1deddda3f~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''luCes'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1090,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_50d4c83dd7624f0dabcbc4aedc88a34d~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''veRde'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1071,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f9f9de43a32245e7ab0e8bb7083759c8~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Eternal II'' (40x40).",
+          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS / Colecc.Privada / 2009.",
+          "width": 1877,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3790558d1fcb46eeafd09e51b3ccb484~mv2_d_1877_1920_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Eternal III'' (40x40).",
+          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS / Colecc.Privada / 2012.",
+          "width": 1173,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0aeba1581d234c7697181f8b897dbd1a~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 10,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
     },
     {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 2,
-      "title": "''Puertas I'' (41x27) (Chaouen).",
-      "description": "Relieve (Masilla) / Pintura Acrílica\nExposición 2015 \"Miradas\" / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_76fe4f935ca84d66ac1c8a4594a644a6~mv2.jpg",
-      "wixFile": "df551e_76fe4f935ca84d66ac1c8a4594a644a6~mv2.jpg",
-      "width": 1536,
-      "height": 2048
+      "carousel": 2,
+      "totalItems": 16,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© IlustracioneS...",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / 1998.",
+          "width": 843,
+          "height": 1181,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_79fc1960c0f74c80a37a2384da4785dc~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''Resignación'' (51x37).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Obra de Teatro \"Las Ausencias de Dulcinea\" / 2005.",
+          "width": 2048,
+          "height": 2850,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bc1ad339073645eb90351b414f486589~mv2_d_2048_2850_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''complicidad...'' (51x37).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Obra de Teatro \"Las Ausencias de Dulcinea\" / 2005.",
+          "width": 1981,
+          "height": 2691,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_23043768a6c14f1295da0a183721be03~mv2_d_1981_2691_s_2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "2005 ''las ausencias de Dulcinea'' (51x37) (LUNA ROJA ACCIÓN TEATRAL) (MA)",
+          "descripcion": "Pintura / Cartelería / Ilustración / Obra de Teatro \"Las Ausencias de Dulcinea\" / 2005.",
+          "width": 1393,
+          "height": 2021,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ab8ee75c8ca04c1d86387589b61a74ba~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Oda a la Escultura'' (15x42).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Oda a la Escultura / 2006.",
+          "width": 1991,
+          "height": 738,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8dbe2cf969b8486381b9651c35112f21~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Libre Espíritu libre'' (1).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Escritores por la Tierra / 2010.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_208c0377403944c3b080a6af0b447806~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Libre Espíritu libre'' (2).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Escritores por la Tierra / 2010.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_81cf4687eb254c509119bf646abef080~mv2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Libre Espíritu libre'' (3).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Escritores por la Tierra / 2010.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4440c62e32ec40b8b797fffc6e25ecf1~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Libre Espíritu libre'' (4).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Escritores por la Tierra / 2010.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_914c79eaf3494f42bf544da37da6db32~mv2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''Reflejos'' (Josu Gómez Barrutia. D.L.CO-897-2012).",
+          "descripcion": "Poemario / Escritores por la Tierra / 2012.",
+          "width": 960,
+          "height": 675,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_85c76da789aa451ba877592dcd2a7663~mv2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''a Punto de dar con el Resultado'' (32x41).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Para MUPEAN (Museo Pedagógico Andaluz) / Guiño a Robert Doisneau (1956) / 2012.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3b13a909b1e04ed5b20f807f5ec21ce4~mv2_d_2560_1920_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "Euterpe (25x35).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Alegoría a la Música / 2015.",
+          "width": 2560,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_73fee16992764bbd9b65f2053d50726b~mv2_d_2560_1920_s_2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''Ophelia'' (31x24).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Guiño a Sara Bernhardt (1880) / 2019.",
+          "width": 1877,
+          "height": 2503,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_debc9824864347b8b4ca10c3d674f2a6~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''Ophelia'' (31x24).",
+          "descripcion": "Pintura / Acuarela / Ilustración / Poemario / Guiño a Sara Bernhardt (1880) / 2019.",
+          "width": 1920,
+          "height": 2560,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_61f8ab85c5594a0081cf571022d0e897~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 16,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
     },
     {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 3,
-      "title": "\"Puertas 1-2\" (41x27).",
-      "description": "Relieve (Masilla) / Pintura Acrílica\nExposición 2015 \"Miradas\" / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_0bf31856f0dd42c78490e955557721f2~mv2.jpg",
-      "wixFile": "df551e_0bf31856f0dd42c78490e955557721f2~mv2.jpg",
-      "width": 2048,
-      "height": 1536
+      "carousel": 3,
+      "totalItems": 7,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© ÓleoS...",
+          "descripcion": "Pintura / Óleo / Pablo Hermoso de Mendoza / 2005.",
+          "width": 1637,
+          "height": 1228,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0e6f44f875a84495ae58c91b5767296f~mv2_d_1637_1228_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''naufragio'' Nº4.F (33x24).",
+          "descripcion": "Pintura / Óleo / Collage / 1993.",
+          "width": 1676,
+          "height": 2362,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9d78d9deaddf4f08b62a867cff147035~mv2_d_1676_2362_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''media Verónica'' (137x48).",
+          "descripcion": "Pintura / Óleo / Rafael de Paula / 2002.",
+          "width": 700,
+          "height": 1643,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3e4defef06ed4473ac9e82be0eba25b5~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''naturales Catedralicios'' (137x48).",
+          "descripcion": "Pintura / Óleo / Rafael de Paula / 2002.",
+          "width": 700,
+          "height": 1683,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9b0e5ea453cf4a12888bfa780dabf30f~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''aires Bravos'' (97x130).",
+          "descripcion": "Pintura / Óleo / Pablo Hermoso de Mendoza / 2005.",
+          "width": 2223,
+          "height": 1909,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_76b3843f78914bcaa12fa1a8a8ee76c8~mv2_d_2223_1909_s_2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 7,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
     },
     {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 4,
-      "title": "''Puertas I'' (41x27) (Chaouen).",
-      "description": "Exposición 2015 \"Miradas\" / Acrílico / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_1ded359c90d1442b9ef74aa808c8d778~mv2_d_1920_2682_s_2.jpg",
-      "wixFile": "df551e_1ded359c90d1442b9ef74aa808c8d778~mv2_d_1920_2682_s_2.jpg",
-      "width": 1920,
-      "height": 2682
+      "carousel": 4,
+      "totalItems": 16,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© MuraleS...",
+          "descripcion": "Pintura / Mural / Acrílicos / ''Cosiendo redes'' (110x520) / Almería / 1998.",
+          "width": 3072,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e8a6adebd74542f48dadf79d8fdd4763~mv2_d_3072_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''Western'' (500x700).",
+          "descripcion": "Pintura / Mural / Acrílicos / Almerimar (Almería) / 1999.",
+          "width": 3072,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_40c4317f492b41c4908d2a1f3e19398e~mv2_d_3072_2048_s_2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''de Colores'' (Málaga).",
+          "descripcion": "Pintura / Mural / Acrílicos / Primal / Hospital Materno (Área Infantil) / 2002-2003.",
+          "width": 1181,
+          "height": 886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_1178d39d81454226a9023a4575a16c07~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''de Colores'' (Málaga).",
+          "descripcion": "Pintura / Mural / Acrílicos / Cerámica / Hospital Materno (Área Infantil) / 2003-2004.",
+          "width": 1181,
+          "height": 886,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2cbc4f59441349dcac97dfe097f29506~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''Esperanza'' (Tánger).",
+          "descripcion": "Pintura / Mural / Acrílicos / Festival Internacional de Artes Plásticas / 2013.",
+          "width": 960,
+          "height": 720,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bb96574d411b4a43a45093d5bab7b6b0~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''Esperanza'' (Tánger).",
+          "descripcion": "Pintura / Mural / Acrílicos / Festival Internacional de Artes Plásticas / 2013.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ab3583a664554c9d969db2ebfa2fdfbf~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Esperanza'' Detalle (Tánger).",
+          "descripcion": "Pintura / Mural / Acrílicos / Festival Internacional de Artes Plásticas / 2013.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_2cfca6f7c00c46ebb624b0081f53193b~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Carrera del Darro'' (135x240).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Granada / 2014.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_9ebb15643fb34b089774a9244299cc9f~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "''Carrera del Darro'' (135x240).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Granada / 2014.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_41c59b723de7499aa2fe9230b9cb6223~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 10,
+          "titulo": "''La Espera...'' (16x100).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Sevilla / 2014.",
+          "width": 2048,
+          "height": 1536,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_353615ede0f1426a924ad0b369ef0f3a~mv2_d_2048_1536_s_2.jpg"
+        },
+        {
+          "posicion": 11,
+          "titulo": "''Romántico'' (100x30).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Sevilla / 2014.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f605df3ffb764455989d1726aec53f12~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 12,
+          "titulo": "''Romántico'' (100x30).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Sevilla / 2014.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_4d2faa6541fe49f293cf3c760452ceab~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 13,
+          "titulo": "''El Puente'' (Action Painting).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Inspirado en Franz Kline / Expresionismo Abstracto / Sevilla / 2014.",
+          "width": 956,
+          "height": 1280,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fda56a62ec7c46958b48fa9b4ba824e4~mv2.jpg"
+        },
+        {
+          "posicion": 14,
+          "titulo": "''El Puente'' (Action Painting).",
+          "descripcion": "Pintura / Mural / Acrílicos / Particular / Inspirado en Franz Kline / Expresionismo Abstracto / Sevilla / 2014.",
+          "width": 960,
+          "height": 720,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a95ba54468bf4210921623f4ff2b9662~mv2.jpg"
+        },
+        {
+          "posicion": 15,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 16,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
     },
     {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 5,
-      "title": "''Puertas II'' (41x27) (Chaouen).",
-      "description": "Relieve (Masilla) / Pintura Acrílica\nExposición 2015 \"Miradas\" / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_d3e3ae3cb4c04516bd836799b71b4f57~mv2.jpg",
-      "wixFile": "df551e_d3e3ae3cb4c04516bd836799b71b4f57~mv2.jpg",
-      "width": 1536,
-      "height": 2048
-    },
-    {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 6,
-      "title": "''Puertas II'' (41x27) (Chaouen).",
-      "description": "Exposición 2015 \"Miradas\" / Acrílico / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_d198a8ee85d141e38948934a9b10f166~mv2_d_1920_2700_s_2.jpg",
-      "wixFile": "df551e_d198a8ee85d141e38948934a9b10f166~mv2_d_1920_2700_s_2.jpg",
-      "width": 1920,
-      "height": 2700
-    },
-    {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 7,
-      "title": "''Puertas III'' (41x27) (Chaouen).",
-      "description": "Relieve (Masilla) / Pintura Acrílica\nExposición 2015 \"Miradas\" / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_e482e5787f574ee595e4bb73c9fc10f1~mv2.jpg",
-      "wixFile": "df551e_e482e5787f574ee595e4bb73c9fc10f1~mv2.jpg",
-      "width": 2048,
-      "height": 1536
-    },
-    {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 8,
-      "title": "''Puertas III'' (41x27) (Chaouen).",
-      "description": "Exposición 2015 \"Miradas\" / Acrílico / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_d4300f22b5514d95b3b701a1a8da9cc1~mv2_d_1920_2726_s_2.jpg",
-      "wixFile": "df551e_d4300f22b5514d95b3b701a1a8da9cc1~mv2_d_1920_2726_s_2.jpg",
-      "width": 1920,
-      "height": 2726
-    },
-    {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 9,
-      "title": "''Puertas IV'' (41x27) (Chaouen).",
-      "description": "Relieve (Masilla) / Pintura Acrílica\nExposición 2015 \"Miradas\" / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_d0a5b732d7bc4a438163ab8415460573~mv2.jpg",
-      "wixFile": "df551e_d0a5b732d7bc4a438163ab8415460573~mv2.jpg",
-      "width": 1536,
-      "height": 2048
-    },
-    {
-      "gallery": 1,
-      "step": 0,
-      "visibleIndex": 10,
-      "title": "Carteles (Miradas-EXPO).",
-      "description": "Exposición 2015 Colectiva \"Miradas\" / Casa de la Provincia / Diputación Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_7734b1f367bd4642afc78f61a80dcc5d~mv2_d_2048_1536_s_2.jpg",
-      "wixFile": "df551e_7734b1f367bd4642afc78f61a80dcc5d~mv2_d_2048_1536_s_2.jpg",
-      "width": 2048,
-      "height": 1536
-    },
-    {
-      "gallery": 1,
-      "step": 1,
-      "visibleIndex": 10,
-      "title": "''Puertas IV'' (41x27) (Chaouen).",
-      "description": "Exposición 2015 \"Miradas\" / Acrílico / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_834170ee290247d58147caf87ea78d74~mv2_d_1920_2696_s_2.jpg",
-      "wixFile": "df551e_834170ee290247d58147caf87ea78d74~mv2_d_1920_2696_s_2.jpg",
-      "width": 1920,
-      "height": 2696
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 1,
-      "title": "Expo 2018 \"Momentos\".",
-      "description": "\"Tous les Matins du Monde\" / Guiño al libro de Pascal Quignard, 1948 / al film de Alain Corneau,1991.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_88dfa92eadab492798cc1526eb8cd2e7~mv2_d_3000_1883_s_2.jpg",
-      "wixFile": "df551e_88dfa92eadab492798cc1526eb8cd2e7~mv2_d_3000_1883_s_2.jpg",
-      "width": 3000,
-      "height": 1883
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 2,
-      "title": "Expo 2018 (Atelier).",
-      "description": "Exposición 2018 \"Momentos\" / (Exposición de Pintura y una sola Escultura) / Sala La Revuelta (Sevilla).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_0e67c74ce01f4c81b281d92fb732acd9~mv2.jpg",
-      "wixFile": "df551e_0e67c74ce01f4c81b281d92fb732acd9~mv2.jpg",
-      "width": 960,
-      "height": 960
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 3,
-      "title": "Expo 2018 (Montaje 1).",
-      "description": "Exposición 2018 \"Momentos\" / (Exposición de Pintura y una sola Escultura) / Sala La Revuelta (Sevilla).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_89bb2a3e8df94ed2b7db1890a3a4f272~mv2_d_2560_1559_s_2.jpg",
-      "wixFile": "df551e_89bb2a3e8df94ed2b7db1890a3a4f272~mv2_d_2560_1559_s_2.jpg",
-      "width": 2560,
-      "height": 1559
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 4,
-      "title": "Expo 2018 (Montaje 2).",
-      "description": "Exposición 2018 \"Momentos\" / (Exposición de Pintura y una sola Escultura) Sala La Revuelta (Sevilla).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_0def4305e2cc42149b980a0e1d23eb65~mv2.jpg",
-      "wixFile": "df551e_0def4305e2cc42149b980a0e1d23eb65~mv2.jpg",
-      "width": 1186,
-      "height": 1599
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 5,
-      "title": "Expo 2018 (Montaje 3).",
-      "description": "Exposición 2018 \"Momentos\" / (Exposición de Pintura y una sola Escultura) / Sala La Revuelta (Sevilla).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_ac1633d307fb4197af7f785ef6cc34a5~mv2.jpg",
-      "wixFile": "df551e_ac1633d307fb4197af7f785ef6cc34a5~mv2.jpg",
-      "width": 1186,
-      "height": 1599
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 6,
-      "title": "Expo 2018 (Montaje 4).",
-      "description": "Exposición 2018 \"Momentos\" / (Exposición de Pintura y una sola Escultura) / Sala La Revuelta (Sevilla).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_da6507f05ebf420b97b6af186e52cca1~mv2.jpg",
-      "wixFile": "df551e_da6507f05ebf420b97b6af186e52cca1~mv2.jpg",
-      "width": 1599,
-      "height": 1186
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 7,
-      "title": "''...tous nos Lendemains\" (25x35).",
-      "description": "Expo 2018 \"Momentos\" / Sevilla / Presentación del tipo de Diseño !.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_46672f3b480945a2a9869e58ad1c822d~mv2_d_3456_5184_s_4_2.jpg",
-      "wixFile": "df551e_46672f3b480945a2a9869e58ad1c822d~mv2_d_3456_5184_s_4_2.jpg",
-      "width": 3456,
-      "height": 5184
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 8,
-      "title": "''...tous nos Lendemains\" (25x35).",
-      "description": "Exposición 2018 \"Momentos\" / Acuarela / Bodegones / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_a65e3208f72b479899cc4ea091e10251~mv2_d_3450_2498_s_4_2.jpg",
-      "wixFile": "df551e_a65e3208f72b479899cc4ea091e10251~mv2_d_3450_2498_s_4_2.jpg",
-      "width": 3450,
-      "height": 2498
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 9,
-      "title": "''...camino al Louvre\" (25x35).",
-      "description": "Expo 2018 \"Momentos\" / Sevilla / Presentación del tipo de Diseño !.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_c048ee071730471c974125feed33cdd1~mv2_d_3456_5184_s_4_2.jpg",
-      "wixFile": "df551e_c048ee071730471c974125feed33cdd1~mv2_d_3456_5184_s_4_2.jpg",
-      "width": 3456,
-      "height": 5184
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 10,
-      "title": "''...camino al Louvre\" (25x35).",
-      "description": "Exposición 2018 \"Momentos\" / Acuarela / Bodegones / Sevilla.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_ac24279cb95a40479b09ef658b9ec8d8~mv2_d_3197_2320_s_2.jpg",
-      "wixFile": "df551e_ac24279cb95a40479b09ef658b9ec8d8~mv2_d_3197_2320_s_2.jpg",
-      "width": 3197,
-      "height": 2320
-    },
-    {
-      "gallery": 2,
-      "step": 0,
-      "visibleIndex": 11,
-      "title": "DVD 2018 \"Momentos\".",
-      "description": "Exposición 2018 \"Momentos\" / (Exposición de Pintura y una sola Escultura) / Sala La Revuelta (Sevilla).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_557c849cf760461198e55a76ab806147~mv2_d_1920_2560_s_2.jpg",
-      "wixFile": "df551e_557c849cf760461198e55a76ab806147~mv2_d_1920_2560_s_2.jpg",
-      "width": 1920,
-      "height": 2560
-    },
-    {
-      "gallery": 2,
-      "step": 1,
-      "visibleIndex": 11,
-      "title": "''...camino al d'Orsay\" (25x35).",
-      "description": "Expo 2018 \"Momentos\" / Sevilla / Presentación del tipo de Diseño !.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_5f23080409564142b21af99ad1169ea5~mv2_d_3456_5184_s_4_2.jpg",
-      "wixFile": "df551e_5f23080409564142b21af99ad1169ea5~mv2_d_3456_5184_s_4_2.jpg",
-      "width": 3456,
-      "height": 5184
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 1,
-      "title": "© AcuarelaS 2021.",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_ca106e7f1d9d4cf7ae4611b18de2ea06~mv2.jpg",
-      "wixFile": "df551e_ca106e7f1d9d4cf7ae4611b18de2ea06~mv2.jpg",
-      "width": 3000,
-      "height": 3000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 2,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_3d764b6417544ad8b0e7c5e9b601a998~mv2.jpg",
-      "wixFile": "df551e_3d764b6417544ad8b0e7c5e9b601a998~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 3,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_cd51617146bb460a9ac50db7436639be~mv2.jpg",
-      "wixFile": "df551e_cd51617146bb460a9ac50db7436639be~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 4,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_52b4e228976a4208b2fc3361912e3dd3~mv2.jpg",
-      "wixFile": "df551e_52b4e228976a4208b2fc3361912e3dd3~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 5,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_984b45aed0844b61a4967491c247bbe9~mv2.jpg",
-      "wixFile": "df551e_984b45aed0844b61a4967491c247bbe9~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 6,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_b68d99b1240a4bbc92b913a1187fed33~mv2.jpg",
-      "wixFile": "df551e_b68d99b1240a4bbc92b913a1187fed33~mv2.jpg",
-      "width": 3000,
-      "height": 3000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 7,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_e409d26653654e90913abd855def920b~mv2.jpg",
-      "wixFile": "df551e_e409d26653654e90913abd855def920b~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 8,
-      "title": "''el Columpio de Acuario'' (Detalle).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_f1fb9dcd45c844dc80ce8b4e617917f7~mv2.jpg",
-      "wixFile": "df551e_f1fb9dcd45c844dc80ce8b4e617917f7~mv2.jpg",
-      "width": 3000,
-      "height": 3000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 9,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.\nDesde Honoré Fragonard, Pierre Auguste Cot y Luis Pasihuan Tenorio hasta mi.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_d451f274977b47c6890ba3cc36ce6128~mv2.jpg",
-      "wixFile": "df551e_d451f274977b47c6890ba3cc36ce6128~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 10,
-      "title": "''el Columpio de Acuario'' (100x70).",
-      "description": "Acuarela / Doble Retrato / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_caa4ffd5b9934b92bb663768e758217b~mv2.jpg",
-      "wixFile": "df551e_caa4ffd5b9934b92bb663768e758217b~mv2.jpg",
-      "width": 3000,
-      "height": 3000
-    },
-    {
-      "gallery": 3,
-      "step": 0,
-      "visibleIndex": 11,
-      "title": "DC ©",
-      "description": "We'll return with more artworks.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg",
-      "wixFile": "df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg",
-      "width": 1849,
-      "height": 2048
-    },
-    {
-      "gallery": 3,
-      "step": 1,
-      "visibleIndex": 11,
-      "title": "''el Columpio de Acuario'' (2021).",
-      "description": "Acuarela / Doble Retrato / Serván-Romano Collection / 2021.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_a4b96890ac424905b94251a52e9ef2ba~mv2.jpg",
-      "wixFile": "df551e_a4b96890ac424905b94251a52e9ef2ba~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 1,
-      "title": "© Óleos 2022.",
-      "description": "Pintura / Óleos / Paisajes / Plateado.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_7d8ed0465d1a46b3bcb1fbda586e5fd5~mv2.jpg",
-      "wixFile": "df551e_7d8ed0465d1a46b3bcb1fbda586e5fd5~mv2.jpg",
-      "width": 4000,
-      "height": 3000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 2,
-      "title": "Paisaje (130x81 cm).",
-      "description": "Boceto y plateado del agua / Pintura al Óleo / Paisaje.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_b6eed34b39e0492288d91d88dd9b6764~mv2.jpg",
-      "wixFile": "df551e_b6eed34b39e0492288d91d88dd9b6764~mv2.jpg",
-      "width": 4000,
-      "height": 3000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 3,
-      "title": "Paisaje (130x81 cm).",
-      "description": "Manchando / Pintura al Óleo / Paisaje.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_452db5d97d3b4db6ab10c74a88bb2522~mv2.jpg",
-      "wixFile": "df551e_452db5d97d3b4db6ab10c74a88bb2522~mv2.jpg",
-      "width": 4000,
-      "height": 3000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 4,
-      "title": "Paisaje (130x81 cm).",
-      "description": "Abordando todas las partes / Pintura al Óleo / Paisaje.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_c8852c7938534961bf7e3010812d2d2b~mv2.jpg",
-      "wixFile": "df551e_c8852c7938534961bf7e3010812d2d2b~mv2.jpg",
-      "width": 4000,
-      "height": 3000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 5,
-      "title": "Paisaje (130x81 cm).",
-      "description": "Buscando los tonos / Pintura al Óleo / Paisaje.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_b0dfc8ec157748de8440bf5edf8df723~mv2.jpg",
-      "wixFile": "df551e_b0dfc8ec157748de8440bf5edf8df723~mv2.jpg",
-      "width": 4000,
-      "height": 3000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 6,
-      "title": "Paisaje (130x81 cm).",
-      "description": "Observación del revés / Pintura al Óleo / Paisaje / Diferentes perspectivas de una realidad.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_3708ca754f6e4248a4ffd74dd5abc6bd~mv2.jpg",
-      "wixFile": "df551e_3708ca754f6e4248a4ffd74dd5abc6bd~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 7,
-      "title": "Paisaje (130x81 cm).",
-      "description": "De lo genérico al detalle / Pintura al Óleo / Paisaje.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_3ea1633f70294fd1bd55bc610e3d67db~mv2.jpg",
-      "wixFile": "df551e_3ea1633f70294fd1bd55bc610e3d67db~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 4,
-      "step": 0,
-      "visibleIndex": 8,
-      "title": "''El Gran Salto'' (130x81 cm).",
-      "description": "Et voilà / Pintura al Óleo / Paisaje / EE.UU.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_42b6110a972c4708880717bd0c92c6b6~mv2.jpg",
-      "wixFile": "df551e_42b6110a972c4708880717bd0c92c6b6~mv2.jpg",
-      "width": 3799,
-      "height": 2340
-    },
-    {
-      "gallery": 5,
-      "step": 0,
-      "visibleIndex": 1,
-      "title": "© Óleos 2022.",
-      "description": "Pintura / Óleos / Retrato anacrónico / Espacio imaginario / Arquitectura del Museo del Louvre / Escultura de la Casa-Museo Rodín (Meudon, París).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_2770583796354ad5870e3e96eb3f5c5c~mv2.jpg",
-      "wixFile": "df551e_2770583796354ad5870e3e96eb3f5c5c~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 5,
-      "step": 0,
-      "visibleIndex": 2,
-      "title": "Retrato (77x50 cm).",
-      "description": "Pintura / Óleo / Retrato / Boceto / 2020.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_92633f7b680e46d8a89eba9861946703~mv2.jpg",
-      "wixFile": "df551e_92633f7b680e46d8a89eba9861946703~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 5,
-      "step": 1,
-      "visibleIndex": 3,
-      "title": "Retrato (77x50 cm).",
-      "description": "Pintura / Óleo / Retrato / Boceto / 2020.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_67a25e333665424e8a0f6ba28dc50c29~mv2.jpg",
-      "wixFile": "df551e_67a25e333665424e8a0f6ba28dc50c29~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 5,
-      "step": 2,
-      "visibleIndex": 4,
-      "title": "Atelier (coVid-19).",
-      "description": "Pintura / Óleo / Retrato / Bocetos / 2020.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_1f86d414d49b475496ec51724141deed~mv2.jpg",
-      "wixFile": "df551e_1f86d414d49b475496ec51724141deed~mv2.jpg",
-      "width": 4000,
-      "height": 3000
-    },
-    {
-      "gallery": 6,
-      "step": 0,
-      "visibleIndex": 1,
-      "title": "Expo 2022 \"Colectiva Arte Contemporáneo\".",
-      "description": "ABARTIUM Galería & Estudio (Barcelona).",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_487fbc45d26748caa75ed8a7c84dd303~mv2.jpg",
-      "wixFile": "df551e_487fbc45d26748caa75ed8a7c84dd303~mv2.jpg",
-      "width": 1144,
-      "height": 201
-    },
-    {
-      "gallery": 6,
-      "step": 0,
-      "visibleIndex": 2,
-      "title": "\"aZul\" (40x80).",
-      "description": "Pintura / Retrato / Acrílicos caseros.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_bc0b864687b0422481c9fb223e74b4cc~mv2.jpg",
-      "wixFile": "df551e_bc0b864687b0422481c9fb223e74b4cc~mv2.jpg",
-      "width": 973,
-      "height": 1919
-    },
-    {
-      "gallery": 6,
-      "step": 0,
-      "visibleIndex": 3,
-      "title": "''breakfast in dark Colours'' (32x41).",
-      "description": "Pintura / Retratos / Acuarela casera.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_49d6c78d94c440bf898ca17cee524f4e~mv2.jpg",
-      "wixFile": "df551e_49d6c78d94c440bf898ca17cee524f4e~mv2.jpg",
-      "width": 1309,
-      "height": 1688
-    },
-    {
-      "gallery": 6,
-      "step": 0,
-      "visibleIndex": 4,
-      "title": "Serie \"Flores y Corales\" (19x14).",
-      "description": "Pintura / Acrílicos / Pigmentos Metálicos y Fluorescentes / Manchas / Arte Abstracto / 2022.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_d8f684fec86a42dba722ed973204fe4d~mv2.jpg",
-      "wixFile": "df551e_d8f684fec86a42dba722ed973204fe4d~mv2.jpg",
-      "width": 3000,
-      "height": 4000
-    },
-    {
-      "gallery": 6,
-      "step": 1,
-      "visibleIndex": 4,
-      "title": "\"freSco\" (40x80).",
-      "description": "Pintura / Retrato / Acrílicos caseros.",
-      "imageUrl": "https://static.wixstatic.com/media/df551e_f0bf6a57fa64477abf38cd39231292be~mv2.jpg",
-      "wixFile": "df551e_f0bf6a57fa64477abf38cd39231292be~mv2.jpg",
-      "width": 1013,
-      "height": 1908
+      "carousel": 5,
+      "totalItems": 6,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "\"III éme Edition Festival International Tanger des Arts Plastiques\".",
+          "descripcion": "Exposición Colectiva 2013 \"Rencontre des Arts Plastiques Nord-Sud\" (Marroc).",
+          "width": 1396,
+          "height": 1853,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bb6043362cf0436d894446c62b883962~mv2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "\"III éme Edition Festival International Tanger des Arts Plastiques\".",
+          "descripcion": "Exposición Colectiva 2013 \"Rencontre des Arts Plastiques Nord-Sud\" (Marroc).",
+          "width": 423,
+          "height": 720,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fe58471eba3546c38c8ef3468d51fdc2~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''the Blues-man'' (41x32).",
+          "descripcion": "Exposición Colectiva 2013 \"Rencontre des Arts Plastiques Nord-Sud\" (Marroc).",
+          "width": 1502,
+          "height": 2043,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f94bb7deab354b518522a44e2d0e3ae7~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''the Sculptor of Soul'' (32x41).",
+          "descripcion": "Exposición Colectiva 2013 \"Rencontre des Arts Plastiques Nord-Sud\" (Marroc).",
+          "width": 2048,
+          "height": 1524,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a678bbaabe834b5c96214924988053b5~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''the Cristal-man'' (41x32).",
+          "descripcion": "Exposición Colectiva 2013 \"Rencontre des Arts Plastiques Nord-Sud\" (Marroc).",
+          "width": 1788,
+          "height": 2260,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a8b14000ad3c4e368ddfca7c0c173d69~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''un bufón Embrujado'' (32x41).",
+          "descripcion": "Exposición Colectiva 2013 \"Rencontre des Arts Plastiques Nord-Sud\" (Marroc).",
+          "width": 2189,
+          "height": 1704,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_65a64e6234d64f378d6a7be9b76da931~mv2.jpg"
+        }
+      ]
     }
   ]
 }
