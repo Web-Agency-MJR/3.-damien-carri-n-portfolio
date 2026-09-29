@@ -1,7 +1,7 @@
 {
   "gallery": 2,
-  "totalCarousels": 5,
-  "totalItems": 55,
+  "totalCarousels": 6,
+  "totalItems": 65,
   "carousels": [
     {
       "carousel": 1,
@@ -9,67 +9,67 @@
       "items": [
         {
           "posicion": 1,
-          "titulo": "© AcrílicoS (RetratoS).",
-          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS.",
-          "width": 1536,
-          "height": 2048,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_a30cf5244900495abe40956540bbcaf4~mv2_d_1536_2048_s_2.jpg"
+          "titulo": "© Técnicas MixtaS...",
+          "descripcion": "Acrílicos / Tierras Naturales / Collage / Plomo Artístico.",
+          "width": 330,
+          "height": 330,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5b0558a15ffd424d984ead30c61df575~mv2.jpg"
         },
         {
           "posicion": 2,
-          "titulo": "''pAsión'' (80x40).",
-          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
-          "width": 1069,
-          "height": 2024,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_c7aa7e11a5d04caa80217d1ee0e8411b~mv2.jpg"
+          "titulo": "''el Camino'' (70x50).",
+          "descripcion": "Pintura / Plomo artístico / Goma Laca / Proyecto-Vitreaux / 1994.",
+          "width": 1769,
+          "height": 2462,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_bd93edde3cb048d881ef1af8a355b671~mv2_d_1769_2462_s_2.jpg"
         },
         {
           "posicion": 3,
-          "titulo": "''aZul'' (80x40).",
-          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
-          "width": 1026,
-          "height": 2024,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_8d9da2ad26a3494d8b308c01b6ba3e59~mv2.jpg"
+          "titulo": "''Natura'' (130x97) (C.de Gata-AL).",
+          "descripcion": "Pintura / Acrílico / Lápiz y Tintas /  Tierras Naturales / Collage / 1998.",
+          "width": 782,
+          "height": 1055,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_ae5f5f0be8374675971c98b9dc9e17df~mv2.jpg"
         },
         {
           "posicion": 4,
-          "titulo": "''freSco'' (80x40).",
-          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
-          "width": 1074,
-          "height": 2024,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_5cc9429405414f6faf4492f1deddda3f~mv2.jpg"
+          "titulo": "''Washboard Company'' (139x97).",
+          "descripcion": "Pintura / Acrílico / Proyecto-Decoración / Nuevo \"Plátano Azul\" / San José (Almería) / 2000.",
+          "width": 1158,
+          "height": 1575,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e631d9c8c40f4d378221c767fc41164f~mv2.jpg"
         },
         {
           "posicion": 5,
-          "titulo": "''luCes'' (80x40).",
-          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
-          "width": 1090,
-          "height": 2024,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_50d4c83dd7624f0dabcbc4aedc88a34d~mv2.jpg"
+          "titulo": "''Jazz-Proyect'' (81x65).",
+          "descripcion": "Pintura / Acrílico / Óleo / Plomo artístico / Técnica Mixta / Colecc.Privada / Hamburgo (Alemania) / 2000.",
+          "width": 906,
+          "height": 1203,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_01ced26a23044eeea98d81b690864e17~mv2.jpg"
         },
         {
           "posicion": 6,
-          "titulo": "''veRde'' (80x40).",
-          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
-          "width": 1071,
-          "height": 2024,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_f9f9de43a32245e7ab0e8bb7083759c8~mv2.jpg"
+          "titulo": "''Jazz-Proyect'' (81x65).",
+          "descripcion": "Pintura / Acrílico / Plomo artístico / Técnica Mixta / Proyecto-Decoración / Nuevo \"Plátano Azul\" / San José (Almería) / 2000.",
+          "width": 1129,
+          "height": 1421,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_fb9cb52c3de046b5bcfc55941a9231a3~mv2.jpg"
         },
         {
           "posicion": 7,
-          "titulo": "''Eternal II'' (40x40).",
-          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS / Colecc.Privada / 2009.",
-          "width": 1877,
-          "height": 1920,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_3790558d1fcb46eeafd09e51b3ccb484~mv2_d_1877_1920_s_2.jpg"
+          "titulo": "''Jazz-Proyect'' (81x65).",
+          "descripcion": "Pintura / Acrílico / Plomo artístico / Técnica Mixta / Proyecto-Decoración / Nuevo \"Plátano Azul\" / San José (Almería) / 2000.",
+          "width": 1173,
+          "height": 1447,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_851ff5363ad14adcb28bad875d15b53f~mv2.jpg"
         },
         {
           "posicion": 8,
-          "titulo": "''Eternal III'' (40x40).",
-          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS / Colecc.Privada / 2012.",
-          "width": 1173,
-          "height": 1200,
-          "imageUrl": "https://static.wixstatic.com/media/df551e_0aeba1581d234c7697181f8b897dbd1a~mv2.jpg"
+          "titulo": "''Spiritual hands'' (81x65).",
+          "descripcion": "Pintura / Acrílico / Óleo / Plomo artístico / Técnica Mixta / Colecc.Privada / Hamburgo (Alemania) / 2008.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_e8cc0496bb6e4ff49424f8c09eacb6b3~mv2_d_1536_2048_s_2.jpg"
         },
         {
           "posicion": 9,
@@ -287,6 +287,92 @@
     },
     {
       "carousel": 4,
+      "totalItems": 10,
+      "items": [
+        {
+          "posicion": 1,
+          "titulo": "© AcrílicoS (RetratoS).",
+          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS.",
+          "width": 1536,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a30cf5244900495abe40956540bbcaf4~mv2_d_1536_2048_s_2.jpg"
+        },
+        {
+          "posicion": 2,
+          "titulo": "''pAsión'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1069,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_c7aa7e11a5d04caa80217d1ee0e8411b~mv2.jpg"
+        },
+        {
+          "posicion": 3,
+          "titulo": "''aZul'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1026,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_8d9da2ad26a3494d8b308c01b6ba3e59~mv2.jpg"
+        },
+        {
+          "posicion": 4,
+          "titulo": "''freSco'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1074,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_5cc9429405414f6faf4492f1deddda3f~mv2.jpg"
+        },
+        {
+          "posicion": 5,
+          "titulo": "''luCes'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1090,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_50d4c83dd7624f0dabcbc4aedc88a34d~mv2.jpg"
+        },
+        {
+          "posicion": 6,
+          "titulo": "''veRde'' (80x40).",
+          "descripcion": "Pintura / Acrílico ( Pigmentos Naturales) / RetratoS / 2008-2010.",
+          "width": 1071,
+          "height": 2024,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_f9f9de43a32245e7ab0e8bb7083759c8~mv2.jpg"
+        },
+        {
+          "posicion": 7,
+          "titulo": "''Eternal II'' (40x40).",
+          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS / Colecc.Privada / 2009.",
+          "width": 1877,
+          "height": 1920,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_3790558d1fcb46eeafd09e51b3ccb484~mv2_d_1877_1920_s_2.jpg"
+        },
+        {
+          "posicion": 8,
+          "titulo": "''Eternal III'' (40x40).",
+          "descripcion": "Pintura / Acrílico (Pigmentos Naturales) / RetratoS / Colecc.Privada / 2012.",
+          "width": 1173,
+          "height": 1200,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_0aeba1581d234c7697181f8b897dbd1a~mv2.jpg"
+        },
+        {
+          "posicion": 9,
+          "titulo": "ConstructioN",
+          "descripcion": "We'll return with more artworks.",
+          "width": 263,
+          "height": 101,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_a119b40a992e4deb810658edfcdd77be~mv2.png"
+        },
+        {
+          "posicion": 10,
+          "titulo": "DC ©",
+          "descripcion": "We'll return with more artworks.",
+          "width": 1849,
+          "height": 2048,
+          "imageUrl": "https://static.wixstatic.com/media/df551e_152dc3c265034d8185f6fe0e4c96afc3~mv2.jpg"
+        }
+      ]
+    },
+    {
+      "carousel": 5,
       "totalItems": 16,
       "items": [
         {
@@ -420,7 +506,7 @@
       ]
     },
     {
-      "carousel": 5,
+      "carousel": 6,
       "totalItems": 6,
       "items": [
         {
