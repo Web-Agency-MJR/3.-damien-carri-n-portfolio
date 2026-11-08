@@ -6,7 +6,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Reveal } from "./Reveal";
-import cvAsset from "@/assets/cv.pdf.asset.json";
+/* El PDF vive en public/ (no en el almacenamiento de Lovable) para que la copia
+   desplegada en Cloudflare también pueda servirlo. */
+const CV_URL = "/files/Curriculum_Vitae_Damien_Carrion.pdf";
 
 type Group = { id: string; title: string; entries: string[] };
 
@@ -129,7 +131,7 @@ export function Cv() {
             Nacido en Burdeos (Francia, 1967). Vive y trabaja en Andalucía, España.
           </p>
           <a
-            href={cvAsset.url}
+            href={CV_URL}
             download="Curriculum_Vitae_Damien_Carrion.pdf"
             className="group mt-8 inline-flex items-center gap-3 rounded-full bg-primary px-7 py-3.5 text-[0.72rem] tracking-[0.2em] uppercase text-primary-foreground transition-opacity hover:opacity-85"
           >
