@@ -111,10 +111,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   errorComponent: ErrorComponent,
 });
 
+/*
+ * Aplica el tema guardado (botón claro/oscuro del hero) antes del primer pintado,
+ * para que no haya destello claro al recargar en modo oscuro. La clave debe
+ * coincidir con THEME_STORAGE_KEY en components/site/ThemeToggle.tsx.
+ */
+const THEME_BOOT_SCRIPT = `(function(){try{var t=localStorage.getItem("damien-theme");if(t==="dark"){document.documentElement.classList.add("dark");document.documentElement.style.colorScheme="dark";}}catch(e){}})();`;
+
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
         <HeadContent />
       </head>
       <body>

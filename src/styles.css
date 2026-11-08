@@ -140,6 +140,13 @@
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.68 0.1 84);
+
+  /* Superficies propias del atelier (hero, selección de texto) en versión nocturna. */
+  --gold: oklch(0.74 0.1 84);
+  --gold-soft: oklch(0.36 0.05 85);
+  --stone: oklch(0.42 0.01 75);
+  --cream: oklch(0.19 0.006 85);
+
   --sidebar: oklch(0.21 0 0);
   --sidebar-foreground: oklch(0.96 0 0);
   --sidebar-primary: oklch(0.68 0.1 84);

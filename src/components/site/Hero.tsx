@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
 import { ArrowDown } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 const heroSculpture = "/images/hero-sculpture.jpg";
 
 /** A fragment is a clipped window onto the same source image, offset while scattered. */
@@ -76,7 +77,8 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
        sculpture has fully reassembled. */
     <section id="inicio" ref={ref} className="relative h-[220svh] sm:h-[320svh]">
       <div className="sticky top-0 flex h-[100svh] items-center justify-center overflow-hidden bg-cream">
-        <motion.div style={{ scale }} className="absolute inset-0">
+        {/* En modo oscuro la escultura (casi blanca) se atenúa para que el texto claro se lea. */}
+        <motion.div style={{ scale }} className="absolute inset-0 transition-[filter] duration-500 dark:brightness-50">
           <motion.img
             src={heroSculpture}
             alt="Escultura fragmentada de Damien Carrión que se recompone al desplazarse"
@@ -160,6 +162,7 @@ export function Hero({ onExplore }: { onExplore: () => void }) {
             >
               Presentación
             </a>
+            <ThemeToggle />
           </motion.div>
         </motion.div>
 
